@@ -1,46 +1,58 @@
-import * as React from 'react'
+import React from "react"
+import JSONData from "../data/MyCourses.json"
 import Layout from '../components/layout'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
-// Step 2: Define your component
-const CoursesPage = () => {
-    return (
-      <Layout pageTitle="Courses Page">
-        <h1>Here are some courses I've taken</h1>
+const CourseTimeLine = () => (
 
-        <VerticalTimeline>
-            <VerticalTimelineElement
-            className="vertical-timeline-element--course"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="Winter 2019"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+
+    <Layout pageTitle="My Course Timeline">
+      <VerticalTimeline>
+
+      {JSONData.courses.map((data, i) => {
+
+        return (
+          <VerticalTimelineElement
+            className="vertical-timeline-element-date"
+            date={data.date}
+            iconStyle={{
+              background: "grey",
+              color: "#fff",
+              textAlign: "center",
+            }}
+            contentStyle={{ background: 'grey', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  grey' }}
+            icon={<i className="fab fa-angular experience-icon"></i>}
+            key={i}
+          >
+            <div style={{ textAlign: "left", marginBottom: "4px" }}>
+              <a href={data.course_link}>{data.course_code}</a>
+            </div>
+
+            <h3
+              className="vertical-timeline-element-title"
+              style={{ textAlign: "left" }}
             >
-            <h3 className="vertical-timeline-element-title">Course 1</h3>
-            <h4 className="vertical-timeline-element-subtitle">name of course</h4>
-            <p>
-                Description of course
-            </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-            className="vertical-timeline-element--course"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="Fall 2020"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+              {data.course_title}
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              style={{ textAlign: "left" }}
             >
-            <h3 className="vertical-timeline-element-title">Course 2</h3>
-            <h4 className="vertical-timeline-element-subtitle">name of course 2</h4>
-            <p>
-                description of course 2
-            </p>
-            </VerticalTimelineElement>
-        </VerticalTimeline>
-  
-      </Layout>
-    )
-  }
-  
-  // Step 3: Export your component
-  export default CoursesPage
+              <p></p> 
+              
+            </h4>
+
+          </VerticalTimelineElement>
+
+        )
+      }
+      )}
+      </VerticalTimeline>
+
+    </Layout>
+  )
+
+
+export default CourseTimeLine
