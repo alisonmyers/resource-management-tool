@@ -3,5 +3,8 @@ module.exports = {
     siteUrl: "https://alisonmyers.gatsbyjs.io/",
     title: "Alisons Portfolio",
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 };
