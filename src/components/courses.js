@@ -24,7 +24,7 @@ const CourseTimeLine = () => (
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px"}}>
-              <a href ={data.course_link}>{data.course_code}</a>
+              <a href ={data.course_link} target="_blank" rel="noopener noreferrer">{data.course_code}</a>
             </div>
 
             <h3
