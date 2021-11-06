@@ -1,5 +1,5 @@
 import React from "react"
-import JSONData from "../data/MyCourses.json"
+import CourseData from "../data/MyCourses.json"
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -7,7 +7,7 @@ import 'react-vertical-timeline-component/style.min.css';
 const CourseTimeLine = () => (
       <VerticalTimeline>
 
-      {JSONData.courses.map((data, i) => {
+      {CourseData.courses.map((data, i) => {
 
         return (
           <VerticalTimelineElement

@@ -2,7 +2,7 @@ import React from "react"
 import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { Link, graphql } from "gatsby"
-import Layout from "./layout.js"
+import Layout from "./Layout.js"
 
 const shortcodes = { Link } // Provide common components here
 
