@@ -3,6 +3,8 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
 
+import CourseTimeLine from '../components/courses.js'
+
 // Step 2: Define your component
 const IndexPage = () => {
   return (
@@ -12,7 +14,9 @@ const IndexPage = () => {
         alt="A picture of Vancouver"
         src="../images/vancouver_city.jpg"
       />
-
+      <h2>My Courses</h2>
+      <CourseTimeLine></CourseTimeLine>
+          
     </Layout>
   )
 }

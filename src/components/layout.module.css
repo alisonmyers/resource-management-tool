@@ -5,7 +5,7 @@
   }
   
 .heading {
-  color: darkgreen;
+  color: #737374;
 }
 .nav-links {
   display: flex;
@@ -18,12 +18,17 @@
 }
 
 .nav-link-text {
-  color: black;
+  color: #737373;
 }
 
 .site-title {
   font-size: 5rem;
-  color: grey;
+  color: #CFB7BF;
   font-weight: 700;
   margin: 3rem 0;
+}
+
+.date-item {
+  font-size: 10rem;
+  color: black;
 }

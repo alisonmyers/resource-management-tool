@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://alisonmyers.gatsbyjs.io/",
     title: "Alison's Portfolio",
+    description: "much more like an eportfolio than an eportfolio"
   },
   plugins: [
     "gatsby-plugin-image",
