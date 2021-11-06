@@ -3,18 +3,27 @@ import Layout from '../components/layout'
 import { Link, graphql } from 'gatsby'
 
 const ProjectsPage = ({ data }) => {
+
+  const posts = data.allMdx.nodes
   return (
     <Layout pageTitle="My Projects">
       {
-        data.allMdx.nodes.map(node => (
-          <article key={node.id}>
-            <h2>
-              <Link to={`/projects/${node.slug}`}>
-                {node.frontmatter.title}
-              </Link>
-            </h2>
-            <p>Posted: {node.frontmatter.date}</p>
-            <p>{node.frontmatter.quickdetail}</p>
+        posts.map(post => (
+          <article 
+            className="post-list-item"
+            key={post.id}>
+              <header>
+                <h2>
+                <Link to={`/projects/${post.slug}`} itemProp="url">
+                  <span itemProp="headline">{post.frontmatter.title}</span>
+                </Link>
+              </h2>
+                <small>{post.frontmatter.date}</small>
+              </header> 
+              <section>
+                <p> {post.frontmatter.quickdetail} </p>
+              </section> 
+            
           </article>
         ))
       }
