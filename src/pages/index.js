@@ -1,6 +1,6 @@
 // Step 1: Import React and Link
 import * as React from 'react'
-import Layout from '../components/Layout'
+import Layout from '../components/MyLayout'
 import { StaticImage } from 'gatsby-plugin-image'
 
 import CourseTimeLine from '../components/courses.js'

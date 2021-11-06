@@ -2,7 +2,7 @@ import React from "react"
 import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { Link, graphql } from "gatsby"
-import Layout from "./Layout.js"
+import Layout from "./MyLayout"
 
 const shortcodes = { Link } // Provide common components here
 
@@ -17,7 +17,7 @@ export default function PageTemplate({ data: { mdx } }) {
 }
 
 export const pageQuery = graphql`
-  query BlogPostQuery($id: String) {
+  query BlogprojectQuery($id: String) {
     mdx(id: { eq: $id }) {
       id
       body
