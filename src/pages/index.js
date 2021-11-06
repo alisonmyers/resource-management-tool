@@ -1,9 +1,9 @@
 // Step 1: Import React and Link
 import * as React from 'react'
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import { StaticImage } from 'gatsby-plugin-image'
 
-import CourseTimeLine from '../components/courses.js'
+import CourseTimeLine from '../components/Courses.js'
 
 // Step 2: Define your component
 const IndexPage = () => {
