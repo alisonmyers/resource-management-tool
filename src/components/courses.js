@@ -2,7 +2,21 @@ import React from "react"
 import CourseData from "../data/MyCourses.json"
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+
 import { GiGraduateCap } from "@react-icons/all-files/gi/GiGraduateCap";
+import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
+import { FaPencilAlt } from "@react-icons/all-files/fa/FaPencilAlt";
+
+const icons = {
+  gradcap: GiGraduateCap,
+  beer: FaBeer,
+  pencil: FaPencilAlt,
+}
+
+const PostIcon = ({iconName}) => {
+  const Icon = icons[iconName];
+  return <Icon />
+}
 
 const CourseTimeLine = () => (
       <VerticalTimeline>
@@ -20,7 +34,7 @@ const CourseTimeLine = () => (
             }}
             contentStyle={{ background: '#C4CED9', color: '#737373' }}
             contentArrowStyle={{ borderRight: '7px solid  #C4CED9' }}
-            icon={<GiGraduateCap />}
+            icon={<PostIcon iconName={data.icon}/>}
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px"}}>
