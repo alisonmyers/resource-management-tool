@@ -2,7 +2,7 @@ import React from "react"
 import CourseData from "../data/MyCourses.json"
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-
+import { GiGraduateCap } from "@react-icons/all-files/gi/GiGraduateCap";
 
 const CourseTimeLine = () => (
       <VerticalTimeline>
@@ -15,12 +15,12 @@ const CourseTimeLine = () => (
             date={data.date}
             iconStyle={{
               background: "#C4CED9",
-              color: "purple",
+              color: "black",
               textAlign: "center",
             }}
             contentStyle={{ background: '#C4CED9', color: '#737373' }}
             contentArrowStyle={{ borderRight: '7px solid  #C4CED9' }}
-            icon={<i className="fab fa-angular experience-icon"></i>}
+            icon={<GiGraduateCap />}
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px"}}>

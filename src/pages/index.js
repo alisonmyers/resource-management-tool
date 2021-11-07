@@ -6,6 +6,7 @@ import CourseTimeLine from '../components/courses'
 import GoalsHtml from '../components/goals'
 
 
+
 // Step 2: Define your component
 const IndexPage = () => {
   return (
