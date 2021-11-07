@@ -1,5 +1,5 @@
 import * as React from 'react'
-import Layout from '../components/MyLayout'
+import Layout from '../components/my-layout'
 
 const AboutPage = () => {
   return (
