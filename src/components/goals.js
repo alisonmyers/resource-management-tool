@@ -1,30 +1,41 @@
 import React from "react"
 import GoalData from "../data/MyGoals.json"
 
-import { GiGraduateCap } from "@react-icons/all-files/gi/GiGraduateCap";
-import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
-import { FaPencilAlt } from "@react-icons/all-files/fa/FaPencilAlt";
+import { FaMicroscope } from "@react-icons/all-files/fa/FaMicroscope";
+import { AiFillCheckCircle } from "@react-icons/all-files/ai/AiFillCheckCircle";
+import { ImBubbles2 } from "@react-icons/all-files/im/ImBubbles2";
 
-const icons = {
-  a: GiGraduateCap,
-  b: FaBeer,
-  c: FaPencilAlt,
+const goals = {
+    1: ImBubbles2,
+    2: FaMicroscope,
+    3: AiFillCheckCircle,
 }
 
-const PostIcon = ({iconName}) => {
-  const Icon = icons[iconName];
-  return <Icon />
-}
+const GoalIcon = ({iconName}) => {
+    const Icon = goals[iconName];
+    return <Icon />
+  }
 
 const GoalsHtml = () => (
     GoalData.goals.map((data, i) => {
         return (
             <div key={i}>
-                <h2 className="blog-post">#{data.goal_num} {data.goal_title}</h2>
-                <p className="blog-post">{data.goal_description}</p>
-                <ul class="icons"> 
-                    {data.goal_artifacts.map((x, i) => <li><PostIcon iconName={x}/></li>)}
+                <div style={{display: "flex", justifyContent: "left"}}>
+                <h2>
+                    <GoalIcon iconName={data.goal_num} size={20}/> <span> Goal  {data.goal_num} </span>
+                </h2>
+                </div>
+                
+                
+                <p>{data.goal_description}</p>
+                
+                <div style={{display: "flex", justifyContent: "left"}}>
+                    <span> Artifacts</span> 
+                    <ul class="icons"> 
+                    {data.goal_artifacts.map((x, i) => <li>{x}</li>)}
                 </ul>
+                    </div>
+                
             </div>
         )
     }

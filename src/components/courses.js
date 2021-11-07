@@ -6,11 +6,14 @@ import 'react-vertical-timeline-component/style.min.css';
 import { GiGraduateCap } from "@react-icons/all-files/gi/GiGraduateCap";
 import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
 import { FaPencilAlt } from "@react-icons/all-files/fa/FaPencilAlt";
+import { BiBookBookmark } from "@react-icons/all-files/bi/BiBookBookmark";
+
 
 const icons = {
   gradcap: GiGraduateCap,
   beer: FaBeer,
   pencil: FaPencilAlt,
+  book: BiBookBookmark
 }
 
 const PostIcon = ({iconName}) => {

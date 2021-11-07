@@ -84,7 +84,7 @@
   
   body {
     font-family: var(--font-body);
-    font-size: var(--fontSize-1);
+    font-size: var(--fontSize-3);
     color: var(--color-text);
   }
   
@@ -358,12 +358,14 @@
 
 .nav-link-item {
   padding-right: 5rem;
-      font-size: var(--fontSize-2);
-    font-family: var(--font-heading);
+  font-size: var(--fontSize-2);
+  
 }
 
 .nav-link-text {
   color: #737373;
+  font-family: var(--font-heading);
+  font-weight: var(--fontWeight-medium);
 }
 
 .site-title {
@@ -383,4 +385,5 @@ ul.icons {
 ul.icons > li {
   display: inline-block;
   padding: 10px 20px;
+  font-size: var(--fontSize-6)
 }

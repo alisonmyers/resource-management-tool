@@ -7,7 +7,7 @@
         "course_description": "Some course description",
         "date": "2018W2",
         "course_link": "https://met.ubc.ca/courses/etec-510/",
-        "icon": "pencil"
+        "icon": "book"
       },
 
       {
@@ -16,7 +16,7 @@
         "course_description": "Some course description",
         "date": "2018W2",
         "course_link": "https://met.ubc.ca/courses/etec-500/",
-        "icon": "gradcap"
+        "icon": "book"
       },
 
       {
@@ -25,7 +25,7 @@
         "course_description": "Some course description",
         "date": "2019S",
         "course_link": "https://met.ubc.ca/courses/etec-520/",
-        "icon": "gradcap"
+        "icon": "book"
       },
 
       {
@@ -34,7 +34,7 @@
         "course_description": "Some course description",
         "date": "2019W1",
         "course_link": "https://met.ubc.ca/courses/etec-543/",
-        "icon": "gradcap"
+        "icon": "book"
       },
 
       {
@@ -43,7 +43,7 @@
         "course_description": "Some course description",
         "date": "2020W1",
         "course_link": "https://met.ubc.ca/courses/etec-512/",
-        "icon": "gradcap"
+        "icon": "book"
       }, 
 
       {
@@ -52,7 +52,7 @@
         "course_description": "Some course description",
         "date": "2020W2",
         "course_link": "https://met.ubc.ca/courses/etec-530/",
-        "icon": "gradcap"
+        "icon": "book"
       },
 
       {
@@ -61,7 +61,7 @@
         "course_description": "Some course description",
         "date": "2021S",
         "course_link": "https://met.ubc.ca/courses/etec-524/",
-        "icon": "gradcap"
+        "icon": "book"
       },
 
       {
@@ -88,7 +88,7 @@
         "course_description": "Some course description",
         "date": "2021W2 (planned)",
         "course_link": "https://met.ubc.ca/courses/etec-511/",
-        "icon": "beer"
+        "icon": "book"
       }
     ]
 }
