@@ -14,7 +14,7 @@ const IndexPage = () => {
         src="../images/vancouver_city.jpg"
       />
       <div>
-        <h1>My Courses</h1>
+        <h1 className="main-heading">My Courses</h1>
         <CourseTimeLine></CourseTimeLine>
       </div>
     </Layout>
