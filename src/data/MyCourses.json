@@ -7,7 +7,7 @@
         "course_description": "Some course description",
         "date": "2018W2",
         "course_link": "https://met.ubc.ca/courses/etec-510/",
-        "icon": "GiGraduateCap"
+        "icon": "pencil"
       },
 
       {
@@ -16,7 +16,7 @@
         "course_description": "Some course description",
         "date": "2018W2",
         "course_link": "https://met.ubc.ca/courses/etec-500/",
-        "icon": "GiGraduateCap"
+        "icon": "gradcap"
       },
 
       {
@@ -25,7 +25,7 @@
         "course_description": "Some course description",
         "date": "2019S",
         "course_link": "https://met.ubc.ca/courses/etec-520/",
-        "icon": "GiGraduateCap"
+        "icon": "gradcap"
       },
 
       {
@@ -34,7 +34,7 @@
         "course_description": "Some course description",
         "date": "2019W1",
         "course_link": "https://met.ubc.ca/courses/etec-543/",
-        "icon": "GiGraduateCap"
+        "icon": "gradcap"
       },
 
       {
@@ -43,7 +43,7 @@
         "course_description": "Some course description",
         "date": "2020W1",
         "course_link": "https://met.ubc.ca/courses/etec-512/",
-        "icon": "GiGraduateCap"
+        "icon": "gradcap"
       }, 
 
       {
@@ -52,7 +52,7 @@
         "course_description": "Some course description",
         "date": "2020W2",
         "course_link": "https://met.ubc.ca/courses/etec-530/",
-        "icon": "GiGraduateCap"
+        "icon": "gradcap"
       },
 
       {
@@ -61,7 +61,7 @@
         "course_description": "Some course description",
         "date": "2021S",
         "course_link": "https://met.ubc.ca/courses/etec-524/",
-        "icon": "GiGraduateCap"
+        "icon": "gradcap"
       },
 
       {
@@ -70,7 +70,7 @@
         "course_description": "https://met.ubc.ca/courses/etec-580/",
         "date": "2021S",
         "course_link": "https://met.ubc.ca/courses/etec-580/",
-        "icon": "GiGraduateCap"
+        "icon": "gradcap"
       }, 
 
       {
@@ -79,7 +79,7 @@
         "course_description": "Some course description",
         "date": "2021W1 (current)",
         "course_link": "https://met.ubc.ca/courses/etec-590/",
-        "icon": "GiGraduateCap"
+        "icon": "gradcap"
       },
 
       {
@@ -88,7 +88,7 @@
         "course_description": "Some course description",
         "date": "2021W2 (planned)",
         "course_link": "https://met.ubc.ca/courses/etec-511/",
-        "icon": "GiGraduateCap"
+        "icon": "beer"
       }
     ]
 }
