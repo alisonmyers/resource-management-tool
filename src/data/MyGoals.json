@@ -1,0 +1,25 @@
+{
+    "title": "My Goals",
+    "goals": [
+        {
+            "goal_num": "1",
+            "goal_title": "Goal Summary",
+            "goal_description": "to understand and critically examine educational/learning theories in order to: make connections between theories and the use or adoption of educational technologies; to “speak the language” when consulting with educators, instructional designers, or administrators ",
+            "goal_artifacts": ["a", "b", "c"]
+        },
+
+        {
+            "goal_num": "2",
+            "goal_title": "Goal Summary",
+            "goal_description": "to be able to evaluate/analyze the adoption of educational technologies from the context of multiple stakeholders (individual, course, and/or institution). In addition, to effectively communicate the evaluation/analysis to the given stakeholder.",
+            "goal_artifacts": ["a", "b", "c"]
+        },
+        
+        {
+            "goal_num": "3",
+            "goal_title": "Goal Summary",
+            "goal_description": "to demonstrate competency in the development of materials and use of varied technologies that could be adopted in a classroom or by an institution.",
+            "goal_artifacts": ["a", "b", "c"]
+        }
+    ]
+}
