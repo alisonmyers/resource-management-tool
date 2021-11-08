@@ -27,17 +27,17 @@ const Layout = ({ pageTitle, children }) => {
         <ul className="nav-links">
           <li className="nav-link-item">
             <Link to="/" className="nav-link-text">
-              Home
+              <p class="hover:text-white">Home</p>
             </Link>
           </li>
           <li className="nav-link-item">
             <Link to="/about" className="nav-link-text">
-              About
+              <p class="hover:text-white">About</p>
             </Link>
           </li>
           <li className="nav-link-item">
             <Link to="/projects" className="nav-link-text">
-              Projects
+            <p class="hover:text-white">Projects</p>
             </Link>
           </li>
         </ul>

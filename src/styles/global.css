@@ -368,12 +368,14 @@
   padding-right: 5rem;
   font-size: var(--fontSize-2);
   
+  
 }
 
 .nav-link-text {
   color: #737373;
   font-family: var(--font-heading);
   font-weight: var(--fontWeight-medium);
+
 }
 
 .site-title {

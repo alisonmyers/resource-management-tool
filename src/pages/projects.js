@@ -31,7 +31,7 @@ const ProjectsPage = ({ data }) => {
             className="project-list-item"
             key={project.id}>
               <header>
-                <h2>
+                <h2 class="hover:text-purple-800 ">
                 <Link to={`/projects/${project.slug}`} itemProp="url">
                   <span itemProp="headline">{project.frontmatter.title}</span>
                 </Link>
