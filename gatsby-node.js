@@ -33,6 +33,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       allMdx {
         edges {
           node {
+            id
             fields {
               slug
             }
@@ -40,7 +41,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         }
       }
     }
-  `
+  `)
 
   if (result.errors) {
     reporter.panicOnBuild('🚨  ERROR: Loading "createPages" query')
