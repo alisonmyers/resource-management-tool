@@ -32,7 +32,7 @@ const GoalsHtml = () => (
                 <p>{data.goal_description}</p>
                 
                 <div style={{display: "flex", justifyContent: "left"}}>
-                    <span> Artifacts</span> 
+                    <span>Artifacts</span> 
                     <ul class="icons"> 
                     {data.goal_artifacts.map((x, i) => 
                     <li>
