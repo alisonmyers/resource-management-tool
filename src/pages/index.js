@@ -3,7 +3,7 @@ import * as React from 'react'
 import Layout from '../components/my-layout'
 import CourseTimeLine from '../components/courses'
 import GoalsHtml from '../components/goals'
-
+import { StaticImage } from 'gatsby-plugin-image'
 
 
 // Step 2: Define your component
@@ -11,10 +11,6 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="This Portfolio">
 
-      <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-        Button
-      </button>
-      
       <div className="main-heading">
         <h3>Hello, and welcome to my ePortfolio! </h3>
       </div>
