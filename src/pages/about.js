@@ -8,7 +8,7 @@ const AboutPage = () => {
     <Layout pageTitle="About Me">
       <p>About Me Section.</p>
         <div class="pdf-container"> 
-        <PDFViewer backend={PDFJSBackend} src={"../../pdf.pdf"}/>
+        <PDFViewer backend={PDFJSBackend} src={"../../static/pdf.pdf"}/>
         </div>
     </Layout>
   )
