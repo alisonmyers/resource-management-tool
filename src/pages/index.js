@@ -3,8 +3,7 @@ import * as React from 'react';
 import Layout from '../components/my-layout';
 import CourseTimeLine from '../components/courses';
 import GoalsHtml from '../components/goals';
-import PDFViewer from '../components/pdf-viewer';
-import PDFJSBackend from '../backends/pdfjs';
+
 
 
 // Step 2: Define your component
