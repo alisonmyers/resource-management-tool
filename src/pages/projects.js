@@ -42,7 +42,7 @@ const ProjectsPage = ({ data }) => {
 
                 <p> {project.frontmatter.quickdetail} </p>
 
-                <p> Preview: {project.excerpt} </p>
+                <p> {project.excerpt} </p>
                 <span>Goals: </span>
                 <ul class="icons">
                 {project.frontmatter.goals.map((goal, i) =>
