@@ -26,6 +26,7 @@ const ProjectsPage = ({ data }) => {
     <Layout pageTitle="My Projects">
       {
         projects.map(project => (
+          <div class="project-post-card"> 
           <article 
             className="project-list-item"
             key={project.id}>
@@ -53,6 +54,7 @@ const ProjectsPage = ({ data }) => {
               </section> 
             
           </article>
+          </div>
         ))
       }
     </Layout>
@@ -71,7 +73,7 @@ export const query = graphql`
         }
         id
         slug
-        excerpt
+        excerpt(pruneLength: 200)
       }
     }
   }
