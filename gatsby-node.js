@@ -33,7 +33,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       allMdx {
         edges {
           node {
-            id
             fields {
               slug
             }
@@ -60,7 +59,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       component: path.resolve(`./src/components/project-posts.js`),
       // You can use the values in this context in
       // our page layout component
-      context: { id: node.id },
+      context: { id: node.id }
     })
   })
 }
