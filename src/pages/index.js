@@ -1,7 +1,6 @@
 // Step 1: Import React and Link
 import * as React from 'react';
 import Layout from '../components/my-layout';
-import CourseTimeLine from '../components/courses';
 import GoalsHtml from '../components/goals';
 
 
@@ -36,16 +35,13 @@ const IndexPage = () => {
           <li>3. Add portfolio projects! (i.e. artifacts). I have been designing the portfolio so that I can dynamically add projects into a folder, and the summary and unique pages will be created. I need to add a "template" for this to work so that I can also add reflections and artifacts.</li>
         </ul>
       </div>
-     
+    
 
       <div> 
         <h1 className="main-heading">My Goals</h1>
         <GoalsHtml></GoalsHtml>
       </div>
-      <div>
-        <h1 className="main-heading">My Courses</h1>
-        <CourseTimeLine></CourseTimeLine>
-      </div>
+
     </Layout>
   )
 }

@@ -40,6 +40,11 @@ const Layout = ({ pageTitle, children }) => {
             <p class="hover:text-white">Projects</p>
             </Link>
           </li>
+          <li className="nav-link-item">
+            <Link to="/courses" className="nav-link-text">
+            <p class="hover:text-white">Courses</p>
+            </Link>
+          </li>
         </ul>
       </nav>
 
