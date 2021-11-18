@@ -1,0 +1,22 @@
+{
+    "title": "My Projects",
+    "projects": [
+        {
+            "id": "",
+            "title": "",
+            "date": "",
+            "course": "",
+            "goals": ["1", "2"],
+            "type": ""
+        }, 
+        {
+            "id": "",
+            "title": "",
+            "date": "",
+            "course": "",
+            "goals": "",
+            "type": ""
+        }, 
+    ]
+
+}
