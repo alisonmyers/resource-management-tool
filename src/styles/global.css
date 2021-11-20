@@ -441,3 +441,8 @@ ul.icons > li {
   height: 500px;
   width: 70%;
 }
+
+.my-modal {
+  width: 90;
+  max-width: 90vw;
+}
