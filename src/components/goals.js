@@ -1,6 +1,7 @@
 import React from "react"
 import GoalData from "../data/MyGoals.json"
 
+
 import { FaMicroscope } from "@react-icons/all-files/fa/FaMicroscope";
 import { AiFillCheckCircle } from "@react-icons/all-files/ai/AiFillCheckCircle";
 import { ImBubbles2 } from "@react-icons/all-files/im/ImBubbles2";
