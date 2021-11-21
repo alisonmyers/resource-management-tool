@@ -29,9 +29,12 @@ const ProjectCards = () => {
                             <AwesomeSlider>
                                 <div>
                                     <h1>Description</h1>
-                                    <p>{data.description}</p>
+                                    <p class="text-white">{data.description}</p>
                                 </div>
-                                <div>{data.connections}</div>
+                                <div>
+                                    <h1>Connections</h1>
+                                    <p class="text-white">{data.connections}</p>
+                                </div>
                             </AwesomeSlider>
                         </Modal.Body>
                         <Modal.Footer>
