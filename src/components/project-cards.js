@@ -19,7 +19,7 @@ const ProjectCards = () => {
                         size="lg"
                         aria-labelledby="contained-modal-title-vcentre"
                         centered
-                        className="modal-inside"
+                        dialogClassName="my-modal"
                         >
                         <Modal.Header closeButton>
                             <Modal.Title>{data.title}</Modal.Title>
@@ -27,7 +27,10 @@ const ProjectCards = () => {
                         
                         <Modal.Body>
                             <AwesomeSlider>
-                                <div>{data.description}</div>
+                                <div>
+                                    <h1>Description</h1>
+                                    <p>{data.description}</p>
+                                </div>
                                 <div>{data.connections}</div>
                             </AwesomeSlider>
                         </Modal.Body>

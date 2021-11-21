@@ -445,4 +445,5 @@ ul.icons > li {
 .my-modal {
   width: 90;
   max-width: 90vw;
+  background-color: "white";
 }
