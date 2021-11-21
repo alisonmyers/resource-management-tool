@@ -1,17 +1,16 @@
 import * as React from 'react'
 import Layout from '../components/my-layout'
-import ProjectDetailModal from '../components/project-detail-modal'
-import ProjectCards from '../components/project-cards'
-
+import Projects from '../components/project-cards'
+import ProjectData from '../data/MyProjects.json'
 
 const AboutPage = () => {
+
+
   return (
     <Layout pageTitle="About Me">
       <p>About Me Section.</p>
 
-      <ProjectCards></ProjectCards>
-
-      <ProjectDetailModal></ProjectDetailModal>
+      <Projects projectData={ProjectData.projects}/>
     
     </Layout>
   )

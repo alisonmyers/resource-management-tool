@@ -1,48 +1,46 @@
-import React, {useState} from "react";
-import {Modal, Button} from "react-bootstrap";
+import React, { Component } from "react";
+import { Modal } from "react-bootstrap";
 import AwesomeSlider from "react-awesome-slider";
 
-
-const ProjectDetailModal = () => {
-
-    const [show, setShow] = useState(false);
-
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-
-    return(
-        <>
-        <Button variant="primary" onClick={handleShow}>
-          Launch demo modal
-        </Button>
-  
-        <Modal show={show} onHide={handleClose}
+class ProjectDetailsModal extends Component {
+  render() {
+    if (this.props.data) {
+      var title = this.props.data.title;
+      var description = this.props.data.description;
+     
+    }
+    return (
+      <Modal
+        {...this.props}
         size="lg"
-        aria-labelledby="contained-modal-title-vcentre"
+        aria-labelledby="contained-modal-title-vcenter"
         centered
-        className="modal-inside"
-        >
-          <Modal.Header closeButton>
-            <Modal.Title>Modal heading</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
+        dialogClassName="my-modal"
+      >
+        <Modal.Header closeButton>
+          <Modal.Title>{title}</Modal.Title>
+        </Modal.Header>
+        
+        <span onClick={this.props.onHide} className="modal-close">
+          <i className="fas fa-times fa-3x close-icon"></i>
+        </span>
+        <div className="col-md-12">
+          <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
             <AwesomeSlider>
-                <div>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"</div>
-                <div>
-                    <h1>Text 2</h1>
-                    <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"</p>
-
-                    </div>
-                <div>Text 3</div>
-                <div>Text 4</div>
+                    <div className="col-md-10 mx-auto">
+                    <h3 style={{ padding: "5px 5px 0 5px" }}>
+                      {title}
+                    </h3>
+                    <p>{description}</p>
+                  </div>
+             
             </AwesomeSlider>
-          </Modal.Body>
-          <Modal.Footer>
-              <p>Here is the footer</p>
-          </Modal.Footer>
-        </Modal>
-      </>
-    )
+          </div>
+
+        </div>
+      </Modal>
+    );
+  }
 }
 
-export default ProjectDetailModal
+export default ProjectDetailsModal;
