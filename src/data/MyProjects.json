@@ -8,9 +8,9 @@
             "course": "ETEC 512",
             "goals": ["1"],
             "type": "paper",
-            "description": "describe the project",
+            "description": "'How do we learn?' Learning theories describe how ",
             "connections": "what connections can I make",
-            "goals_text": "how does this relate to my goals",
+            "goals_text": "Learning the language of educators was an important reason for my interest in the MET program. In order to make connections between technology, students, and instructors it is important to have a good understanding of the context of the three.",
             "reflection": "reflection on project",
             "image": "vancouver_city.jpg"
 
@@ -20,13 +20,85 @@
             "title": "Neuroscience and Learning Introductory Course",
             "date": "2019-10-01",
             "course": "ETEC 512",
-            "goals": ["1", "3"],
+            "goals": ["1", "3", "4"],
             "type": "website",
-            "description": "Another description",
+            "description": "In addition to ",
+            "connections": "what connections can I make",
+            "goals_text": "Some text <br> more text",
+            "reflection": "reflection on project",
+            "image": "vancouver_city.jpg"
+        },
+
+        {
+            "id": "ETEC520-1",
+            "title": "Rationales for eLearning",
+            "date": "2019-06-02",
+            "course": "ETEC 520",
+            "goals": ["1"],
+            "type": "paper",
+            "description": "Educational technology can be adopted at multiple levels: in a classroom, a program, or an entire institution. This evaluation guaged institutional preparedness eLearning by examining institutional culture, preparedness, and infrastructure.",
             "connections": "what connections can I make",
             "goals_text": "how does this relate to my goals",
             "reflection": "reflection on project",
             "image": "vancouver_city.jpg"
+        }, 
+
+        {
+            "id": "ETEC530-1",
+            "title": "Design Thinking Workshop",
+            "date": "2021-04-28",
+            "course": "ETEC 530",
+            "goals": ["1", "2"],
+            "type": "workshop",
+            "description": "In this paper and accompanying workshop, I propose that Design Thinking is an appropriate model to connect constructivist theory with practical application. The workshop will have participants use an adapted Design Thinking process to plan a constructivist lesson.",
+            "connections": "what connections can I make",
+            "goals_text": "how does this relate to my goals",
+            "reflection": "reflection on project",
+            "image": "vancouver_city.jpg"
+        },
+
+        {
+            "id": "ETEC543-1",
+            "title": "Learning Analytics Dashboard",
+            "date": "2019-11-01",
+            "course": "ETEC 543",
+            "goals": ["1", "3"],
+            "type": "dashboard",
+            "description": "This dashboard was developed for ETEC 543 as my 'Learning Analytics Adventure'. This was one of two Tableau projects developed over the course of my MET experience. ",
+            "connections": "what connections can I make",
+            "goals_text": "how does this relate to my goals",
+            "reflection": "reflection on project",
+            "image": "ETEC543-1.png"
+        },
+
+        {
+            "id": "ETEC512-1",
+            "title": "A Course Companion Website",
+            "date": "2019-09-01",
+            "course": "ETEC 512",
+            "goals": ["1", "4"],
+            "type": "website",
+            "description": "'How do we learn?' Learning theories describe how ",
+            "connections": "what connections can I make",
+            "goals_text": "how does this relate to my goals",
+            "reflection": "reflection on project",
+            "image": "vancouver_city.jpg"
+
+        }, 
+
+        {
+            "id": "ETEC90-1",
+            "title": "This ePortfolio",
+            "date": "2019-09-01",
+            "course": "ETEC 512",
+            "goals": ["4"],
+            "type": "website",
+            "description": "'How do we learn?' Learning theories describe how ",
+            "connections": "what connections can I make",
+            "goals_text": "how does this relate to my goals",
+            "reflection": "reflection on project",
+            "image": "vancouver_city.jpg"
+
         }
     ]
 

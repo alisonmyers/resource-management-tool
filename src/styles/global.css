@@ -388,14 +388,16 @@
 
 ul.icons {
   padding-left: 0px;
-  text-align: left;
+  text-align: centre;
 
 }
 
 ul.icons > li {
   display: inline-block;
-  padding: 10px 20px;
-  font-size: var(--fontSize-6);
+  padding: 10px 10px;
+  font-size: var(--fontSize-4);
+  justify-content: center;
+  align-items: center;
 }
 
 /* Cards */
@@ -420,7 +422,46 @@ ul.icons > li {
   border-radius: 5px; /* 5px rounded corners */
   background-color: var(--color-accent);
   padding: var(--spacing-4);
-  margin: var(--spacing-4);
+  margin: var(--spacing-20);
+}
+
+.goal-card-icon {
+  grid-area: sidebar;
+  justify-self: center;
+  font-size: 4em
+}
+
+.goal-card-title {
+  grid-area: header;
+  justify-self: left;
+}
+
+.goal-card-content {
+  grid-area: content;
+}
+
+.goal-card-artifacts {
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.goal-card-container {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    ". header"
+    "sidebar content"
+    ". footer";
+  box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  background-color: var(--color-accent);
+  padding: var(--spacing-4);
+  margin: var(--spacing-8);  
 }
 
 .project-post-card {
@@ -438,8 +479,9 @@ ul.icons > li {
   border-radius: 5px; /* 5px rounded corners */
   padding: var(--spacing-4);
   margin: var(--spacing-4);
-  height: 500px;
-  width: 70%;
+  height: 700px;
+  width: 90%;
+  background-color: white; 
 }
 
 .my-modal {

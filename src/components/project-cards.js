@@ -1,7 +1,24 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./project-detail-modal";
 import { Button } from "react-bootstrap";
+import { graphql } from 'gatsby'
 
+import { FaMicroscope } from "@react-icons/all-files/fa/FaMicroscope";
+import { AiFillCheckCircle } from "@react-icons/all-files/ai/AiFillCheckCircle";
+import { ImBubbles2 } from "@react-icons/all-files/im/ImBubbles2";
+import { BiCool } from "@react-icons/all-files/bi/BiCool";
+
+const goals = {
+    1: ImBubbles2,
+    2: FaMicroscope,
+    3: AiFillCheckCircle,
+    4: BiCool,
+}
+
+const GoalIcon = ({iconName}) => {
+    const Icon = goals[iconName];
+    return <Icon />
+  }
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -24,7 +41,15 @@ class Projects extends Component {
           <div
             className="col-sm-12 col-md-6 col-lg-4"
             key={projects.id}>
-              <Button onClick={() => detailsModalShow(projects)}>{projects.title}</Button>
+              <div className="project-post-card" onClick={() => detailsModalShow(projects)}>{projects.title}
+                  <ul class="icons">
+                  {projects.goals.map((goal, i) =>
+                    <li key={i}><GoalIcon iconName={goal} size={10}/></li>
+                  
+                  )}
+                  </ul>
+              </div>
+
           </div>
         );
       });
@@ -46,5 +71,6 @@ class Projects extends Component {
     );
   }
 }
+
 
 export default Projects;
