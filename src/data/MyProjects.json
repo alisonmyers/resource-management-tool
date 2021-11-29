@@ -11,7 +11,7 @@
             "description": "'How do we learn?' Learning theories describe how ",
             "connections": "what connections can I make",
             "goals_text": "Learning the language of educators was an important reason for my interest in the MET program. In order to make connections between technology, students, and instructors it is important to have a good understanding of the context of the three.",
-            "reflection": "reflection on project",
+            "reflection": "While this concept map is a simple one, it helped me to establish some foundational knowledge about learning theories, their histories, and their relationships to each oth",
             "image": "vancouver_city.jpg"
 
         }, 
@@ -36,9 +36,9 @@
             "course": "ETEC 520",
             "goals": ["1"],
             "type": "paper",
-            "description": "Educational technology can be adopted at multiple levels: in a classroom, a program, or an entire institution. This evaluation guaged institutional preparedness eLearning by examining institutional culture, preparedness, and infrastructure.",
+            "description": "Educational technology can be adopted at multiple levels: in a classroom, a program, or an entire institution. This evaluation guaged institutional preparedness for eLearning by examining institutional culture, preparedness, and infrastructure.",
             "connections": "what connections can I make",
-            "goals_text": "how does this relate to my goals",
+            "goals_text": "Educational technologies can be adopted at a classroom level, but are more often adopted at institutional levels. For example, learning management systems are now common-place at large Canadian institutions. Adoption of technologies at a high level require investments in people and infrastructure that needs to outlast the individual technologies. ",
             "reflection": "reflection on project",
             "image": "vancouver_city.jpg"
         }, 
@@ -53,7 +53,7 @@
             "description": "In this paper and accompanying workshop, I propose that Design Thinking is an appropriate model to connect constructivist theory with practical application. The workshop will have participants use an adapted Design Thinking process to plan a constructivist lesson.",
             "connections": "what connections can I make",
             "goals_text": "how does this relate to my goals",
-            "reflection": "reflection on project",
+            "reflection": "This project was my first deep-dive into Constructivism, and I admittedly struggled to reconcile constructivism as a philosophy and as a learning theory.",
             "image": "vancouver_city.jpg"
         },
 
@@ -72,10 +72,10 @@
         },
 
         {
-            "id": "ETEC512-1",
+            "id": "ETEC524-1",
             "title": "A Course Companion Website",
             "date": "2019-09-01",
-            "course": "ETEC 512",
+            "course": "ETEC 524",
             "goals": ["1", "4"],
             "type": "website",
             "description": "'How do we learn?' Learning theories describe how ",

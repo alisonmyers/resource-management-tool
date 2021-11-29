@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./project-detail-modal";
-import { Button } from "react-bootstrap";
-import { graphql } from 'gatsby'
 
 import { FaMicroscope } from "@react-icons/all-files/fa/FaMicroscope";
 import { AiFillCheckCircle } from "@react-icons/all-files/ai/AiFillCheckCircle";

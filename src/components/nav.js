@@ -11,8 +11,18 @@ const NavBar = () => {
             </Link>
         </li>
         <li className="nav-link-item">
-            <Link to="/about" className="nav-link-text">
-            <p class="hover:text-white">About</p>
+            <Link to="/sketching" className="nav-link-text">
+            <p class="hover:text-white">Sketching</p>
+            </Link>
+        </li>
+        <li className="nav-link-item">
+            <Link to="/outlining" className="nav-link-text">
+            <p class="hover:text-white">Outlining</p>
+            </Link>
+        </li>
+        <li className="nav-link-item">
+            <Link to="/adding-colour" className="nav-link-text">
+            <p class="hover:text-white">Adding Colour</p>
             </Link>
         </li>
         <li className="nav-link-item">
