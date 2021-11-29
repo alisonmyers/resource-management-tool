@@ -5,8 +5,17 @@ module.exports = {
     description: "much more like an eportfolio than an eportfolio"
   },
   plugins: [
+    "gatsby-transformer-sharp",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    {
+
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      }
+    },
     "gatsby-transformer-json",
     {
       resolve: "gatsby-source-filesystem",
@@ -20,6 +29,7 @@ module.exports = {
         name: `projects`,
         path: `${__dirname}/src/projects`,
       }
+
     },
     "gatsby-plugin-mdx",
   ],
