@@ -7,12 +7,12 @@
             "date": "2019-09-01",
             "course": "ETEC 512",
             "goals": ["1"],
-            "type": "paper",
+            "type": "image",
             "description": "'How do we learn?' Learning theories describe how ",
             "connections": "what connections can I make",
             "goals_text": "Learning the language of educators was an important reason for my interest in the MET program. In order to make connections between technology, students, and instructors it is important to have a good understanding of the context of the three.",
-            "reflection": "reflection on project",
-            "image": "vancouver_city.jpg"
+            "reflection": "Learning the language of educators was an important reason for my interest in the MET program. In order to make connections between technology, students, and instructors it is important to have a good understanding of the context of the three.",
+            "image": "ETEC512-1.jpg"
 
         }, 
         {
@@ -72,17 +72,17 @@
         },
 
         {
-            "id": "ETEC24-1",
+            "id": "ETEC524-1",
             "title": "A Course Companion Website",
             "date": "2019-09-01",
-            "course": "ETEC 24",
+            "course": "ETEC 524",
             "goals": ["1", "4"],
             "type": "website",
-            "description": "'How do we learn?' Learning theories describe how ",
+            "description": "In ETEC 524 course we developed the structure of a course, as well as the structure of a module of that course. I used Moodle as my course shell, but determined it was important to have content that 'lived on' past the end of a course. So, I developed the majority of my content in this course companion website.",
             "connections": "what connections can I make",
             "goals_text": "how does this relate to my goals",
             "reflection": "reflection on project",
-            "image": "vancouver_city.jpg"
+            "image": "ETEC524-1.png"
 
         }, 
 
