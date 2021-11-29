@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
-import AwesomeSlider from "react-awesome-slider";
+
+import Slider from "react-slick";
+
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 
 class ProjectDetailsModal extends Component {
   render() {
@@ -12,6 +16,15 @@ class ProjectDetailsModal extends Component {
       var id = this.props.data.id;
      
     }
+
+    var settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    };
+
     return (
       <Modal
         {...this.props}
@@ -28,7 +41,7 @@ class ProjectDetailsModal extends Component {
           <i className="fas fa-times fa-3x close-icon"></i>
         </span>
         <div className="col-md-12">
-            <AwesomeSlider>
+            <Slider {...settings}>
                   <div className="pdf-container" data-src="./images/vancouver_city.png"> 
                       <h3>Description</h3>
                       <p>{description}</p>
@@ -44,7 +57,7 @@ class ProjectDetailsModal extends Component {
                       <p>{connections}</p>
                   </div>
              
-            </AwesomeSlider>
+            </Slider>
         </div>
       </Modal>
     );
