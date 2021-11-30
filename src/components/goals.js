@@ -35,17 +35,6 @@ const GoalsHtml = () => (
                 <div className="goal-card-content">
                     <p>{data.goal_description}</p>
                 </div>
- 
-                <div className= "goal-card-artifacts" style={{display: "flex", justifyContent: "left"}}>
-                    <ul class="icons"> 
-                    {data.goal_artifacts.map((x, i) => 
-                    <li>
-                        <button class="rounded-full h-16 w-16 flex items-center justify-center bg-transparent hover:bg-darkgrey-500 text-grey-700 font-semibold hover:text-white py-2 px-4 border border-grey-00 hover:border-transparent">
-                            {x}
-                        </button>
-                    </li>)}
-                </ul>
-                    </div>
                 
             </div>
         )
