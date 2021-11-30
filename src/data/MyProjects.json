@@ -1,51 +1,78 @@
 {
     "title": "My Projects",
-    "projects": [
-        {
-            "id": "ETEC512-1",
-            "title": "Learning Theories Concept Map",
-            "date": "2019-09-01",
-            "course": "ETEC 512",
-            "goals": ["1"],
-            "type": "image",
-            "description": "'How do we learn?' Learning theories describe how ",
-            "connections": "what connections can I make",
-            "goals_text": "Learning the language of educators was an important reason for my interest in the MET program. In order to make connections between technology, students, and instructors it is important to have a good understanding of the context of the three.",
-            "reflection": "Learning the language of educators was an important reason for my interest in the MET program. In order to make connections between technology, students, and instructors it is important to have a good understanding of the context of the three.",
-            "image": "../images/ETEC512-1.png"
+    "sketch": [
 
-        }, 
-        {
-            "id": "ETEC512-2",
-            "title": "Neuroscience and Learning Introductory Course",
-            "date": "2019-10-01",
-            "course": "ETEC 512",
-            "goals": ["1", "3", "4"],
-            "type": "website",
-            "description": "This introductory course was developed to introduce our peers to the neuroscience of learning. My background is in psychology, so the development of the content and the course itself was also an opportunity to review some of these concepts myself, but to think about them from the perspective of course design, or in relation to other learning theories.",
-            "connections": "what connections can I make",
-            "goals_text": "Some text <br> more text",
-            "reflection": "reflection on project",
-            "image": "../images/ETEC512-2.png"
-        },
+            {
+                "id": "ETEC510-1",
+                "title": "Exploring VR",
+                "category": "sketch",
+                "date": "2019-09-01",
+                "course": "ETEC 510",
+                "goals": ["1"],
+                "type": "website",
+                "description": " ",
+                "connections": "",
+                "goals_text": "",
+                "reflection": "",
+                "image": "../images/ETEC510-1b.png",
+                "links": ["https://edu.cospaces.io/GLQ-BMB", "https://www.reddit.com/r/VReducationProduction"]
+    
+    
+            }, 
+            {
+                "id": "ETEC512-1",
+                "title": "Learning Theories Concept Map",
+                "category": "sketch",
+                "date": "2019-09-01",
+                "course": "ETEC 512",
+                "goals": ["1"],
+                "type": "image",
+                "description": "'How do we learn?' Learning theories describe how ",
+                "connections": "",
+                "goals_text": "Learning the language of educators was an important reason for my interest in the MET program. In order to make connections between technology, students, and instructors it is important to have a good understanding of the context of the three.",
+                "reflection": "Learning the language of educators was an important reason for my interest in the MET program. In order to make connections between technology, students, and instructors it is important to have a good understanding of the context of the three.",
+                "image": "../images/ETEC512-1.png",
+                "links": ["https://lucid.app/documents/embeddedchart/5cbf4c24-0cac-4c11-acba-bb4c5a0baa9e"]
+    
+            }, 
+            {
+                "id": "ETEC512-2",
+                "title": "Neuroscience and Learning Introductory Course",
+                "category": "sketch",
+                "date": "2019-10-01",
+                "course": "ETEC 512",
+                "goals": ["1", "3", "4"],
+                "type": "website",
+                "description": "This introductory course was developed to introduce our peers to the neuroscience of learning. My background is in psychology, so the development of the content and the course itself was also an opportunity to review some of these concepts myself, but to think about them from the perspective of course design, or in relation to other learning theories.",
+                "connections": "",
+                "goals_text": "",
+                "reflection": "",
+                "image": "../images/ETEC512-2.png",
+                "links": ["https://rise.articulate.com/share/kAPXNTL2603967LvhLp7PRUNXFe7UJm3#/"]
+            }
 
+    ],
+    "outline": [
         {
             "id": "ETEC520-1",
             "title": "Rationales for eLearning",
+            "category": "outline",
             "date": "2019-06-02",
             "course": "ETEC 520",
             "goals": ["1"],
             "type": "paper",
             "description": "Educational technology can be adopted at multiple levels: in a classroom, a program, or an entire institution. This evaluation guaged institutional preparedness eLearning by examining institutional culture, preparedness, and infrastructure.",
-            "connections": "what connections can I make",
-            "goals_text": "how does this relate to my goals",
+            "connections": "",
+            "goals_text": "",
             "reflection": "reflection on project",
-            "image": "../images/ETEC520-1.png"
+            "image": "../images/ETEC520-1.png",
+            "links": ["https://docs.google.com/document/d/e/2PACX-1vRHePyEQu57inJzdvaPAI6unH5vfIvPWmtJmrUFnFXqhbQTdsP3e5TLQZZxK2STj5Hce0k4TBjn07k-/pub"]
         }, 
 
         {
             "id": "ETEC530-1",
             "title": "Design Thinking Workshop",
+            "category": "outline",
             "date": "2021-04-28",
             "course": "ETEC 530",
             "goals": ["1", "2"],
@@ -54,26 +81,13 @@
             "connections": "what connections can I make",
             "goals_text": "how does this relate to my goals",
             "reflection": "reflection on project",
-            "image": "../images/vancouver_city.jpg"
+            "image": "../images/ETEC530-1.png",
+            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"]
         },
-
-        {
-            "id": "ETEC543-1",
-            "title": "Learning Analytics Dashboard",
-            "date": "2019-11-01",
-            "course": "ETEC 543",
-            "goals": ["1", "3"],
-            "type": "dashboard",
-            "description": "Learning Analytics  ",
-            "connections": "what connections can I make",
-            "goals_text": "how does this relate to my goals",
-            "reflection": "reflection on project",
-            "image": "../images/ETEC543-1.png"
-        },
-
         {
             "id": "ETEC524-1",
             "title": "A Course Companion Website",
+            "category": "outline",
             "date": "2019-09-01",
             "course": "ETEC 524",
             "goals": ["1", "4"],
@@ -82,22 +96,44 @@
             "connections": "what connections can I make",
             "goals_text": "how does this relate to my goals",
             "reflection": "reflection on project",
-            "image": "../images/ETEC524-1.png"
+            "image": "../images/ETEC524-1.png",
+            "links": ["https://intro-to-data-and-viz.github.io/introduction"]
 
-        }, 
+        }
+    ],
 
+    "colour": [
+
+        {
+            "id": "ETEC543-1",
+            "title": "Learning Analytics Dashboard",
+            "category": "colour",
+            "date": "2019-11-01",
+            "course": "ETEC 543",
+            "goals": ["1", "3"],
+            "type": "dashboard",
+            "description": "Learning Analytics  ",
+            "connections": "",
+            "goals_text": "",
+            "reflection": "",
+            "image": "../images/ETEC543-1.png",
+            "links": ["https://public.tableau.com/views/LAAdventure-FinalProject/Acknowledgements?:language=en-US&:display_count=n&:origin=viz_share_link"]
+        },
+      
         {
             "id": "ETEC590-1",
             "title": "This ePortfolio",
+            "category": "colour",
             "date": "2019-09-01",
             "course": "ETEC 590",
             "goals": ["4"],
             "type": "website",
             "description": "Throughout the MET program, I have most enjoyed being able to build tools. This ePortfolio is no exception, and the biggest challenge. This ePortfolio dynamically creates its content, including what you are reading now.",
-            "connections": "what connections can I make",
+            "connections": "I have built two Wordpress blogs, one Moodle course with a custom companion website, and a Rise (Articulate) course. The development of the content for these websites made me curious about the 'behind the scenes'. There were some components of those websites that I have tried to build here (for example, the 'sliders' of more detail), but for the most part I was trying to build componenets that I thought would work to expand my idea of what an ePortfolio could be.",
             "goals_text": "how does this relate to my goals",
-            "reflection": "reflection on project",
-            "image": "../images/ETEC590-1.png"
+            "reflection": "I had hoped to do more writing and research throughout my courses - as this is not something I noramlly have much time for in my day-to-day. However, when the option was available to create something, that was the path I generally took.",
+            "image": "../images/ETEC590-1.png",
+            "links": []
 
         }
     ]

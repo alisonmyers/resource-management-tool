@@ -2,20 +2,20 @@ import * as React from 'react'
 import Layout from '../components/my-layout'
 import Projects from '../components/project-cards'
 import { useStaticQuery, graphql } from "gatsby"
-import getObjects from '../api/get-object'
 
 
 const AboutPage = () => {
 
   const data = useStaticQuery(
     graphql`
-      query ProjectImages {
+      query SketchProjects {
         allDataJson(filter: {title: {eq: "My Projects"}}) {
           nodes {
             title
-            projects {
+            sketch {
               id
               title
+              category
               course
               date
               goals
@@ -23,6 +23,7 @@ const AboutPage = () => {
               connections
               goals_text
               reflection
+              links
               image {
                 childImageSharp {
                   gatsbyImageData(
@@ -38,18 +39,16 @@ const AboutPage = () => {
     `
   );
 
-  const projects = data.allDataJson.nodes[0].projects;
+  const projects = data.allDataJson.nodes[0].sketch;
 
   return (
-    <Layout pageTitle="Sketching">
+    <Layout pageTitle="Sketching and Doodling">
 
-      <p>Some text here </p>
-      <Projects projectData={getObjects(projects, "id", "ETEC512-1")}/>
+      <p>I began the MET program with a loose idea of what I wanted to learn, and what there was to learn about educational technology. While my technology skills are strong, I knew that I needed some foundational knowledge about education and learning. The selected artifacts that represent my "sketchy(ing)" and "doodling" phase were either projects where I was introduced to a technology for the first time (i.e. VR), or was gaining some knowledge that I knew I was lacking.</p>
 
-      <p>Some text here </p>
 
-      <Projects projectData={getObjects(projects, "id", "ETEC512-2")}/>
-
+      <Projects projectData={projects}/>
+     
       
     </Layout>
   )

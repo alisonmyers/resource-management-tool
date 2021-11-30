@@ -6,6 +6,7 @@ import { FaMicroscope } from "@react-icons/all-files/fa/FaMicroscope";
 import { AiFillCheckCircle } from "@react-icons/all-files/ai/AiFillCheckCircle";
 import { ImBubbles2 } from "@react-icons/all-files/im/ImBubbles2";
 import { BiCool } from "@react-icons/all-files/bi/BiCool";
+import { FiExternalLink } from  "@react-icons/all-files/fi/FiExternalLink";
 
 const goals = {
     1: ImBubbles2,
@@ -38,25 +39,38 @@ class Projects extends Component {
       
       var projects = this.props.projectData.map(function (projects) {
         return (
-          <div
-            className="col-sm-12 col-md-6 col-lg-4"
-            key={projects.id}>
-              <div className="project-post-card" onClick={() => detailsModalShow(projects)}>{projects.title}
+          <React.Fragment>
+              <div className="col-sm-12 col-md-6 col-lg-4">
+                <div className="project-post-container" key={projects.id} >
+                  <div className="project-post-header">
+                      {projects.title}
+                  </div>
+                  <div className="project-post-image" onClick={() => detailsModalShow(projects)}>
+                    <GatsbyImage image={getImage(projects.image)}/>
+                  </div>
+                  <div className="project-post-goals">
+                    <ul class="icons">
+                    {projects.goals.map((goal, i) =>
+                      <li key={i}><GoalIcon iconName={goal} size={10}/></li>
+                    
+                    )}
+                    </ul>
 
-              <div class="border-solid border-4">
-                <GatsbyImage image={getImage(projects.image)}/>
+                  </div>
+                  <div className="project-post-links">
+                  <ul class="links">
+                    {projects.links.map((link, i) =>
+                      <li key={i}><a href={link} target="_blank" ><FiExternalLink/></a></li>
+                    )}
+                    </ul>
+                    
+                    </div>
+                </div>
               </div>
 
-                  
-                  <ul class="icons">
-                  {projects.goals.map((goal, i) =>
-                    <li key={i}><GoalIcon iconName={goal} size={10}/></li>
-                  
-                  )}
-                  </ul>
-              </div>
+          </React.Fragment>
 
-          </div>
+
         );
       });
     }
