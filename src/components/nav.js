@@ -10,6 +10,11 @@ const NavBar = () => {
             <p class="hover:text-white">Home</p>
             </Link>
         </li>
+        <li className="nav-link-item">
+            <Link to="/blog" className="nav-link-text">
+            <p class="hover:text-white">Blog</p>
+            </Link>
+        </li>
         </ul>
         </nav>
 
