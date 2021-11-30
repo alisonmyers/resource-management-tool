@@ -36,6 +36,7 @@ const IndexPage = () => {
         <ul>
           <li>1. Add highlighters / more information icons (and reduce text, so the user has the option of what they want to learn more about</li>
           <li>2. Make icons "clickable" - right now many icons are static, but they should actually provide more information when interacted with (see 1.)</li>
+          <li>3. Add a vertical navigation. I am experimenting with a single page layout, but it requires better navigation options</li>
         </ul>
       </div>
     
