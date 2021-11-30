@@ -10,11 +10,6 @@ const NavBar = () => {
             <p class="hover:text-white">Home</p>
             </Link>
         </li>
-        <li className="nav-link-item">
-            <Link to="/adding-colour" className="nav-link-text">
-            <p class="hover:text-white">Adding Colour</p>
-            </Link>
-        </li>
         </ul>
         </nav>
 

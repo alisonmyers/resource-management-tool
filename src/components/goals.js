@@ -25,7 +25,7 @@ const GoalsHtml = () => (
             <div key={i} className="goal-card-container">
 
                 <div className="goal-card-title">
-                    <h2>Goal  {data.goal_num} </h2>
+                    <h2>Goal  {data.goal_num}: {data.goal_title} </h2>
                 </div>
 
                 <div className="goal-card-icon">

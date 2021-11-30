@@ -43,7 +43,9 @@ const IndexPage = () => {
 
       <div> 
         <h1 className="main-heading">My Goals</h1>
+        <div className="grid grid-cols-2 gap-3">
         <GoalsHtml></GoalsHtml>
+        </div>
       </div>
 
 
