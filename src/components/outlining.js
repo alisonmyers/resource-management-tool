@@ -40,7 +40,7 @@ const OutlineSection = () => {
     return (
       <React.Fragment>
 
-        <h2>Adding Some Outlines</h2>
+        <h2>Outline and Detail</h2>
 
         <p>In my "outlining" phase, I began to understand what areas really interested me, and could start applying some of the concepts I was learning. I was adding some permanence to the sketches and doodles that I started with. I had a better understanding of my own style, and some practice under my belt creating sketches that I would want to turn into something more.</p>
 

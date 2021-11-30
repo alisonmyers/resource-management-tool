@@ -50,6 +50,25 @@ const IndexPage = () => {
 
       <section> 
         <h1 className="main-heading">My MET Journey</h1> 
+
+        <div>
+          <p>
+          The metaphor that I have chosen is the process of creating a piece of art: from a sketchbook to the final art piece. The metaphor is appropriate for my MET journey as I haven’t felt like it has been a linear path, and I wanted a metaphor that could reflect the iteration and understanding that has occurred through different courses. Important concepts might have started as a doodle or sketch, but through different courses the ideas became more clear. I picked up various “techniques” (technologies, methods of learning) throughout the program that I am now more comfortable using. 
+          </p>
+          <p>
+          <p>The phases of my MET journey include</p>
+          <ul class="flex gap-4 space-x-4 ...">
+            <li class="flex-1 ...">
+              <span class="font-bold ...">Sketch and Doodle: </span> Starts with just getting started - putting pencil to paper and doodling. The doodling can help form more concrete thoughts for sketches that might start to take shape - and leads to a more thoughtful sketch of an idea. Sketching can also be a chance to test out new techniques that have been learned. </li>
+            <li class="flex-1 ...">
+            <span class="font-bold ...">Outline and Detail: </span> Once an idea has formed and been sketched / changed, it is time to outline the sketch in a more permanent way. </li>
+            <li class="flex-1 ...">
+            <span class="font-bold ...">Adding Colour: </span>Adding colour, detail, and all of the interesting detail to what used to be just a sketch or a doodle. </li>
+            </ul>
+        
+          
+          </p>
+        </div>
         <SketchSection></SketchSection>
         <OutlineSection></OutlineSection>
         <ColourSection></ColourSection>
