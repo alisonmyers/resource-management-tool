@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 import Slider from "react-slick";
 
@@ -13,8 +14,7 @@ class ProjectDetailsModal extends Component {
       var description = this.props.data.description;
       var connections = this.props.data.connections;
       var reflection = this.props.data.reflection;
-      var id = this.props.data.id;
-     
+      var image = this.props.data.image
     }
 
     var settings = {
@@ -28,7 +28,7 @@ class ProjectDetailsModal extends Component {
     return (
       <Modal
         {...this.props}
-        size="lg"
+        size="md"
         aria-labelledby="contained-modal-title-vcenter"
         centered
         dialogClassName="my-modal"
@@ -40,9 +40,13 @@ class ProjectDetailsModal extends Component {
         <span onClick={this.props.onHide} className="modal-close">
           <i className="fas fa-times fa-3x close-icon"></i>
         </span>
+        <div class="p-12 m-12 border-solid border-4">
+        <GatsbyImage image={getImage(image)}/> 
+        </div>
         <div className="col-md-12">
             <Slider {...settings}>
-                  <div className="pdf-container" data-src="./images/vancouver_city.png"> 
+                  <div className="pdf-container">
+
                       <h3>Description</h3>
                       <p>{description}</p>
                   </div>

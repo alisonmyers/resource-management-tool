@@ -1,5 +1,5 @@
 import React from "react"
-import GoalData from "../data/MyGoals.json"
+import GoalData from "../data/mygoals.json"
 
 
 import { FaMicroscope } from "@react-icons/all-files/fa/FaMicroscope";

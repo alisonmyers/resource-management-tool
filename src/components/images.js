@@ -16,6 +16,7 @@ const ImageSlider = () => {
         slidesToScroll: 1
       };
 
+
     const data = useStaticQuery(
         graphql`
         query ReturnImagesQuery {

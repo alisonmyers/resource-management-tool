@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./project-detail-modal";
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 import { FaMicroscope } from "@react-icons/all-files/fa/FaMicroscope";
 import { AiFillCheckCircle } from "@react-icons/all-files/ai/AiFillCheckCircle";
@@ -34,12 +35,19 @@ class Projects extends Component {
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
     
     if (this.props.projectData) {
+      
       var projects = this.props.projectData.map(function (projects) {
         return (
           <div
             className="col-sm-12 col-md-6 col-lg-4"
             key={projects.id}>
               <div className="project-post-card" onClick={() => detailsModalShow(projects)}>{projects.title}
+
+              <div class="border-solid border-4">
+                <GatsbyImage image={getImage(projects.image)}/>
+              </div>
+
+                  
                   <ul class="icons">
                   {projects.goals.map((goal, i) =>
                     <li key={i}><GoalIcon iconName={goal} size={10}/></li>

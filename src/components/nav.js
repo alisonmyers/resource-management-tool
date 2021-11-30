@@ -25,16 +25,6 @@ const NavBar = () => {
             <p class="hover:text-white">Adding Colour</p>
             </Link>
         </li>
-        <li className="nav-link-item">
-            <Link to="/projects" className="nav-link-text">
-            <p class="hover:text-white">Projects</p>
-            </Link>
-        </li>
-        <li className="nav-link-item">
-            <Link to="/courses" className="nav-link-text">
-            <p class="hover:text-white">Courses</p>
-            </Link>
-        </li>
         </ul>
         </nav>
 

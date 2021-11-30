@@ -12,7 +12,7 @@
             "connections": "what connections can I make",
             "goals_text": "Learning the language of educators was an important reason for my interest in the MET program. In order to make connections between technology, students, and instructors it is important to have a good understanding of the context of the three.",
             "reflection": "Learning the language of educators was an important reason for my interest in the MET program. In order to make connections between technology, students, and instructors it is important to have a good understanding of the context of the three.",
-            "image": "ETEC512-1.jpg"
+            "image": "../images/ETEC512-1.png"
 
         }, 
         {
@@ -26,7 +26,7 @@
             "connections": "what connections can I make",
             "goals_text": "Some text <br> more text",
             "reflection": "reflection on project",
-            "image": "ETEC512-2.png"
+            "image": "../images/ETEC512-2.png"
         },
 
         {
@@ -40,7 +40,7 @@
             "connections": "what connections can I make",
             "goals_text": "how does this relate to my goals",
             "reflection": "reflection on project",
-            "image": "vancouver_city.jpg"
+            "image": "../images/ETEC520-1.png"
         }, 
 
         {
@@ -54,7 +54,7 @@
             "connections": "what connections can I make",
             "goals_text": "how does this relate to my goals",
             "reflection": "reflection on project",
-            "image": "vancouver_city.jpg"
+            "image": "../images/vancouver_city.jpg"
         },
 
         {
@@ -68,7 +68,7 @@
             "connections": "what connections can I make",
             "goals_text": "how does this relate to my goals",
             "reflection": "reflection on project",
-            "image": "ETEC543-1.png"
+            "image": "../images/ETEC543-1.png"
         },
 
         {
@@ -82,12 +82,12 @@
             "connections": "what connections can I make",
             "goals_text": "how does this relate to my goals",
             "reflection": "reflection on project",
-            "image": "ETEC524-1.png"
+            "image": "../images/ETEC524-1.png"
 
         }, 
 
         {
-            "id": "ETEC90-1",
+            "id": "ETEC590-1",
             "title": "This ePortfolio",
             "date": "2019-09-01",
             "course": "ETEC 590",
@@ -97,7 +97,7 @@
             "connections": "what connections can I make",
             "goals_text": "how does this relate to my goals",
             "reflection": "reflection on project",
-            "image": "vancouver_city.jpg"
+            "image": "../images/ETEC590-1.png"
 
         }
     ]

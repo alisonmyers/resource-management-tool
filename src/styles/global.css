@@ -389,6 +389,7 @@
 ul.icons {
   padding-left: 0px;
   text-align: centre;
+  margin: 0px;
 
 }
 
@@ -479,7 +480,7 @@ ul.icons > li {
   border-radius: 5px; /* 5px rounded corners */
   padding: var(--spacing-4);
   margin: var(--spacing-4);
-  height: 700px;
+  height: 400px;
   width: 90%;
   background-color: white; 
 }
@@ -487,5 +488,6 @@ ul.icons > li {
 .my-modal {
   width: 90;
   max-width: 90vw;
+  max-height: 70;
   background-color: "white";
 }
