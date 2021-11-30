@@ -22,21 +22,21 @@ const GoalIcon = ({iconName}) => {
 const GoalsHtml = () => (
     GoalData.goals.map((data, i) => {
         return (
-            <div key={i} class="goal-card-container">
+            <div key={i} className="goal-card-container">
 
-                <div class="goal-card-title">
+                <div className="goal-card-title">
                     <h2>Goal  {data.goal_num} </h2>
                 </div>
 
-                <div class="goal-card-icon">
+                <div className="goal-card-icon">
                     <GoalIcon iconName={data.goal_num}/>
                 </div>
                 
-                <div class="goal-card-content">
+                <div className="goal-card-content">
                     <p>{data.goal_description}</p>
                 </div>
  
-                <div class= "goal-card-artifacts" style={{display: "flex", justifyContent: "left"}}>
+                <div className= "goal-card-artifacts" style={{display: "flex", justifyContent: "left"}}>
                     <ul class="icons"> 
                     {data.goal_artifacts.map((x, i) => 
                     <li>

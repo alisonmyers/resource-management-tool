@@ -1,10 +1,9 @@
 import * as React from 'react'
-import Layout from '../components/my-layout'
-import Projects from '../components/project-cards'
+import Projects from './project-cards'
 import { useStaticQuery, graphql } from "gatsby"
 
 
-const AboutPage = () => {
+const SketchSection = () => {
 
   const data = useStaticQuery(
     graphql`
@@ -42,16 +41,17 @@ const AboutPage = () => {
   const projects = data.allDataJson.nodes[0].sketch;
 
   return (
-    <Layout pageTitle="Sketching and Doodling">
+    <React.Fragment>
 
+    <h2>Sketches and Doodles</h2>
       <p>I began the MET program with a loose idea of what I wanted to learn, and what there was to learn about educational technology. While my technology skills are strong, I knew that I needed some foundational knowledge about education and learning. The selected artifacts that represent my "sketchy(ing)" and "doodling" phase were either projects where I was introduced to a technology for the first time (i.e. VR), or was gaining some knowledge that I knew I was lacking.</p>
 
 
       <Projects projectData={projects}/>
      
       
-    </Layout>
+    </React.Fragment>
   )
 }
 
-export default AboutPage
+export default SketchSection

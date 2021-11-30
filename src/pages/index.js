@@ -3,6 +3,10 @@ import * as React from 'react';
 import Layout from '../components/my-layout';
 import GoalsHtml from '../components/goals';
 
+import SketchSection from '../components/sketching'
+import OutlineSection from '../components/outlining'
+import ColourSection from '../components/adding-colour'
+
 
 
 // Step 2: Define your component
@@ -36,9 +40,18 @@ const IndexPage = () => {
       </div>
     
 
+
       <div> 
         <h1 className="main-heading">My Goals</h1>
         <GoalsHtml></GoalsHtml>
+      </div>
+
+
+      <div> 
+        <h1 className="main-heading">My MET Journey</h1> 
+        <SketchSection></SketchSection>
+        <OutlineSection></OutlineSection>
+        <ColourSection></ColourSection>
       </div>
 
     </Layout>

@@ -1,16 +1,15 @@
 import * as React from 'react'
-import Layout from '../components/my-layout'
-import Projects from '../components/project-cards'
+import Projects from './project-cards'
 import { useStaticQuery, graphql } from "gatsby"
 
-const AddingColour = () => {
+const OutlineSection = () => {
     const data = useStaticQuery(
       graphql`
-        query MoreImages {
+        query OutlineImages {
           allDataJson(filter: {title: {eq: "My Projects"}}) {
             nodes {
               title
-              colour {
+              outline {
                 id
                 title
                 course
@@ -36,17 +35,20 @@ const AddingColour = () => {
       `
     );
 
-    const projects = data.allDataJson.nodes[0].colour;
+    const projects = data.allDataJson.nodes[0].outline;
     
     return (
-      <Layout pageTitle="Adding Colour">
+      <React.Fragment>
 
-        <p>Adding colour to an outlined sketch can be scary - there's no more erasing, and going back is going to take more time. However, at this stage in an art project, you should have experimented with techniques and tools, and have an idea of where you want the piece to end up.</p>
+        <h2>Adding Some Outlines</h2>
+
+        <p>In my "outlining" phase, I began to understand what areas really interested me, and could start applying some of the concepts I was learning. I was adding some permanence to the sketches and doodles that I started with. I had a better understanding of my own style, and some practice under my belt creating sketches that I would want to turn into something more.</p>
 
         <Projects projectData={projects}/>
-        
-      </Layout>
+      
+      </React.Fragment>
+ 
     )
   }
   
-export default AddingColour
+export default OutlineSection
