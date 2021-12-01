@@ -40,12 +40,12 @@ const ColourSection = () => {
     return (
       <React.Fragment>
 
-    <div className="bg-white">
+    <div className="bg-white p-5">
 
 
-      <h2 className="bg-white">Adding Colour</h2>
+      <h2>Adding Colour</h2>
 
-        <p className="bg-white">Adding colour to an outlined sketch can be scary - there's no more erasing, and going back is going to take more time. However, at this stage in an art project, you should have experimented with techniques and tools, and have an idea of where you want the piece to end up.</p>
+        <p>Adding colour to an outlined sketch can be scary - there's no more erasing, and going back is going to take more time. However, at this stage in an art project, you should have experimented with techniques and tools, and have an idea of where you want the piece to end up.</p>
 
     </div>
         <Projects projectData={projects}/>
