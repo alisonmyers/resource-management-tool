@@ -40,7 +40,7 @@ const SketchSection = () => {
 
   const projects = data.allDataJson.nodes[0].sketch;
 
-  return (
+  return ( 
     <React.Fragment>
 
       <div className="bg-white p-5">
