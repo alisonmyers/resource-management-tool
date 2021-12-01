@@ -7,6 +7,9 @@ import SketchSection from '../components/sketching'
 import OutlineSection from '../components/outlining'
 import ColourSection from '../components/adding-colour'
 
+import bookshelfSketch from "../images/bookshelf_sketch.png"
+import bookshelfOutline from "../images/bookshelf_outline.png"
+import bookshelfColour from "../images/bookshelf_colour.png"
 
 
 // Step 2: Define your component
@@ -69,9 +72,18 @@ const IndexPage = () => {
           
           </p>
         </div>
+
+        <div className="bg-fixed md:bg-fixed bg-cover ..." style={{ backgroundImage: `url(${bookshelfSketch})` }}>
         <SketchSection></SketchSection>
+        </div>
+
+        <div className="bg-fixed md:bg-fixed bg-cover ..." style={{ backgroundImage: `url(${bookshelfOutline})` }}>
         <OutlineSection></OutlineSection>
+        </div>
+
+        <div className="bg-fixed md:bg-fixed bg-cover ..." style={{ backgroundImage: `url(${bookshelfColour})` }}>
         <ColourSection></ColourSection>
+        </div>
       </section>
 
     </Layout>

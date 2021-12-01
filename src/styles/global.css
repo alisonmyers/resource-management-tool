@@ -238,6 +238,10 @@
   }
   
   /* Link */
+  p {
+    padding-left: var(--spacing-8);
+    padding-right: var(--spacing-8);
+  }
   
   a {
     color: var(--color-primary);
@@ -530,6 +534,7 @@ ul.links > li {
 }
 
 .project-post-container {
+  background-color: white;
   max-height: 500px;
   max-width: 500px;
   box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
