@@ -43,8 +43,15 @@ const SketchSection = () => {
   return (
     <React.Fragment>
 
-    <h2>Sketches and Doodles</h2>
-      <p>I began the MET program with a loose idea of what I wanted to learn, and what there was to learn about educational technology. While my technology skills are strong, I knew that I needed some foundational knowledge about education and learning. The selected artifacts that represent my "sketchy(ing)" and "doodling" phase were either projects where I was introduced to a technology for the first time (i.e. VR), or was gaining some knowledge that I knew I was lacking.</p>
+      <div className="bg-white">
+
+        <h2 className="bg-white">Sketches and Doodles</h2>
+
+
+        <p className="bg-white">I began the MET program with a loose idea of what I wanted to learn, and what there was to learn about educational technology. While my technology skills are strong, I knew that I needed some foundational knowledge about education and learning. The selected artifacts that represent my "sketchy(ing)" and "doodling" phase were either projects where I was introduced to a technology for the first time (i.e. VR), or was gaining some knowledge that I knew I was lacking.</p>
+
+
+        </div>
 
 
       <Projects projectData={projects}/>

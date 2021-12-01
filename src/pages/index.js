@@ -61,7 +61,7 @@ const IndexPage = () => {
           <p>
           <p>The phases of my MET journey include</p>
           <ul class="flex gap-4 space-x-4 ...">
-            <li class="flex-1 ...">
+            <li class="flex-1 ..." >
               <span class="font-bold ...">Sketch and Doodle: </span> Starts with just getting started - putting pencil to paper and doodling. The doodling can help form more concrete thoughts for sketches that might start to take shape - and leads to a more thoughtful sketch of an idea. Sketching can also be a chance to test out new techniques that have been learned. </li>
             <li class="flex-1 ...">
             <span class="font-bold ...">Outline and Detail: </span> Once an idea has formed and been sketched / changed, it is time to outline the sketch in a more permanent way. </li>

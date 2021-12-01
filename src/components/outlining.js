@@ -40,9 +40,13 @@ const OutlineSection = () => {
     return (
       <React.Fragment>
 
-        <h2>Outline and Detail</h2>
+      <div className="bg-white">
 
-        <p>In my "outlining" phase, I began to understand what areas really interested me, and could start applying some of the concepts I was learning. I was adding some permanence to the sketches and doodles that I started with. I had a better understanding of my own style, and some practice under my belt creating sketches that I would want to turn into something more.</p>
+
+        <h2 className="bg-white">Outline and Detail</h2>
+
+        <p className="bg-white">In my "outlining" phase, I began to understand what areas really interested me, and could start applying some of the concepts I was learning. I was adding some permanence to the sketches and doodles that I started with. I had a better understanding of my own style, and some practice under my belt creating sketches that I would want to turn into something more.</p>
+      </div>
 
         <Projects projectData={projects}/>
       
