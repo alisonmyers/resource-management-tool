@@ -11,6 +11,11 @@ const NavBar = () => {
             </Link>
         </li>
         <li className="nav-link-item">
+            <Link to="/sketchbook" className="nav-link-text">
+            <p class="hover:text-white">Sketchbook</p>
+            </Link>
+        </li>
+        <li className="nav-link-item">
             <Link to="/blog" className="nav-link-text">
             <p class="hover:text-white">Blog</p>
             </Link>

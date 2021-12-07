@@ -13,9 +13,9 @@
                 "description": "For ETEC 510 we developed a reddit community for educators interested in virtual reality (VR) production. We suggested post types, flairs, and the opportunity to review work or provide feedback to members of the community. As part of the development, we each created some of our own VR work. I used a tool called edu.cospaces to program my first VR game! Included in this project are two links: first to the game, second to the reddit group.",
                 "connections": "",
                 "goals_text": "",
-                "reflection": "",
+                "reflection": "https://www.reddit.com/r/VReducationProduction",
                 "image": "../images/ETEC510-1b.png",
-                "links": ["https://edu.cospaces.io/GLQ-BMB", "https://www.reddit.com/r/VReducationProduction"]
+                "links": ["https://edu.cospaces.io/GLQ-BMB"]
     
     
             }, 
@@ -118,6 +118,23 @@
             "reflection": "",
             "image": "../images/ETEC543-1.png",
             "links": ["https://public.tableau.com/views/LAAdventure-FinalProject/Acknowledgements?:language=en-US&:display_count=n&:origin=viz_share_link"]
+        },
+
+        {
+            "id": "ETEC590-1",
+            "title": "Another LA Dashboard",
+            "category": "colour",
+            "date": "2021-08-20",
+            "course": "ETEC 580",
+            "goals": ["3"],
+            "type": "website",
+            "description": "",
+            "connections": "",
+            "goals_text": "",
+            "reflection": "",
+            "image": "../images/ETEC580-1.png",
+            "links": ["https://github.com/saud-learning-services/course-details"]
+
         },
       
         {

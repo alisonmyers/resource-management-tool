@@ -37,7 +37,7 @@
       "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
       Times, serif;
-    --font-body: var(--fontFamily-serif);
+    --font-body: "Helvetica Neue";
     --font-heading: var(--fontFamily-sans);
     --fontWeight-normal: 400;
     --fontWeight-medium: 500;
@@ -45,7 +45,7 @@
     --fontWeight-bold: 700;
     --fontWeight-extrabold: 800;
     --fontWeight-black: 900;
-    --fontSize-root: 12px;
+    --fontSize-root: 13.5px;
     --lineHeight-none: 1;
     --lineHeight-tight: 1.1;
     --lineHeight-normal: 1.5;
@@ -205,18 +205,16 @@
   }
 
   section {
-    margin-top: var(--spacing-24);
+    margin-top: var(--spacing-16);
   }
   
   blockquote {
-    color: var(--color-text-light);
     margin-left: calc(-1 * var(--spacing-6));
     margin-right: var(--spacing-8);
     padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-6);
-    border-left: var(--spacing-1) solid var(--color-primary);
-    font-size: var(--fontSize-2);
-    font-style: italic;
+    border-left: 200px solid var(--color-primary);
     margin-bottom: var(--spacing-8);
+    font-weight: var(--fontWeight-medium);
   }
   
   blockquote > :last-child {
@@ -240,7 +238,7 @@
   }
   
   /* Link */
-  p {
+  p  {
     padding-left: var(--spacing-8);
     padding-right: var(--spacing-8);
   }
@@ -544,7 +542,7 @@ ul.links > li {
   box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
-  padding: var(--spacing-4);
+  padding: var(--spacing-16) var(--spacing-16) var(--spacing-16) var(--spacing-16);
   margin: var(--spacing-4);
   display: grid;
   grid-template-columns: 50% 50%;
@@ -568,8 +566,8 @@ ul.links > li {
 }
 
 .my-modal {
-  width: 90;
+  width: 80%;
   max-width: 90vw;
-  max-height: 70;
+  max-height: 70%;
   background-color: "white";
 }
