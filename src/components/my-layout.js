@@ -18,13 +18,15 @@ const Layout = ({ pageTitle, children }) => {
     
     <React.Fragment>
 
-      <div className ="global-header">      
+      <div className ="global-header">   
+        <div className="global-header-div">    
         <title>{pageTitle} | {data.site.siteMetadata.title}</title>
       
         <h2 className="site-title">{data.site.siteMetadata.title}</h2>
         <h3 className="site-description">{data.site.siteMetadata.description}</h3>
-        
+       
         <NavBar></NavBar>
+        </div>
       
       </div>
       

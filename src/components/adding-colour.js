@@ -40,7 +40,7 @@ const ColourSection = () => {
     return (
       <React.Fragment>
 
-    <div className="bg-white">
+    <div className="bg-white py-8">
 
 
       <h2>Adding Colour</h2>

@@ -44,9 +44,9 @@ const SketchSection = () => {
     <React.Fragment>
 
       <div className>       
-        <div className="bg-white">
+        <div className="bg-white py-8">
 
-        <h2 className="bg-white">Sketches and Doodles</h2>
+        <h2 className="bg-white py-8">Sketches and Doodles</h2>
 
         <p>Just get started - put pencil to paper and doodle. The doodling can help form more concrete thoughts for sketches that might start to take shape - and leads to a more thoughtful sketch of an idea. Sketching can also be a chance to test out new techniques that have been learned.</p>
 

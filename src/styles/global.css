@@ -15,7 +15,7 @@
     --maxWidth-2xl: 42rem;
     --maxWidth-3xl: 48rem;
     --maxWidth-4xl: 56rem;
-    --maxWidth-full: "100%";
+    --maxWidth-full: "90%";
     --maxWidth-wrapper: var(--maxWidth-full); /* was --maxWidth-2xl*/
     --spacing-px: "1px";
     --spacing-0: 0;
@@ -255,9 +255,9 @@
   /* Custom classes */
   
   .global-wrapper {
-    margin: var(--spacing-12) auto;
+    margin: var(--spacing-24) var(--spacing-32) var(--spacing-4);
     max-width: var(--maxWidth-wrapper);
-    padding: var(--spacing-16) var(--spacing-16);
+    padding: var(--spacing-2) var(--spacing-32);
   }
   
   .global-wrapper[data-is-root-path="true"] .bio {
@@ -265,9 +265,12 @@
   }
   
   .global-header {
-    padding: var(--spacing-12);
-    padding-bottom: var(--spacing-0);
+    padding:  var(--spacing-2) var(--spacing-32) var(--spacing-0);
     background-color: var(--color-heading-black);
+  }
+
+  .global-header-div {
+    margin: var(--spacing-24);
   }
   
   .main-heading {
