@@ -1,7 +1,6 @@
 import React from "react"
 import GoalData from "../data/MyGoals.json"
 
-
 import { FaMicroscope } from "@react-icons/all-files/fa/FaMicroscope";
 import { AiFillCheckCircle } from "@react-icons/all-files/ai/AiFillCheckCircle";
 import { ImBubbles2 } from "@react-icons/all-files/im/ImBubbles2";
@@ -25,7 +24,7 @@ const GoalsHtml = () => (
             <div key={i} className="goal-card-container">
 
                 <div className="goal-card-title">
-                    <h2>Goal  {data.goal_num}: {data.goal_title} </h2>
+                    <h2> {data.goal_title} </h2>
                 </div>
 
                 <div className="goal-card-icon">
@@ -35,6 +34,11 @@ const GoalsHtml = () => (
                 <div className="goal-card-content">
                     <p>{data.goal_description}</p>
                 </div>
+
+                <div className="goal-card-footer">
+                </div>
+
+
                 
             </div>
         )

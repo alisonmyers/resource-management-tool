@@ -11,11 +11,15 @@ import bookshelfSketch from "../images/bookshelf-sketch.png"
 import bookshelfOutline from "../images/bookshelf-outline.png"
 import bookshelfColour from "../images/bookshelf-colour.png"
 
+import bookrowSketch from "../images/bookrow-sketch.png"
+
 
 // Step 2: Define your component
 const IndexPage = () => {
   return (
     <Layout pageTitle="this ePortfolio">
+
+      
 
       <section>
       <p>The purpose of my ePortfolio is to make connections between the courses I have taken throughout the MET program in order to ensure and demonstrate my understanding of the concepts that will be valuable for future endeavours. Throughout the development of the ePortfolio I expect to revisit concepts and course work in order to make connections between the work I have completed.</p> 
@@ -34,7 +38,7 @@ const IndexPage = () => {
           <p>You'll notice some incomplete sections so far, but here are my plans:</p>
 
           <ul>
-            <li>1. Add highlighters / more information icons (and reduce text, so the user has the option of what they want to learn more about</li>
+            <li style={{}}>1. Add highlighters / more information icons (and reduce text, so the user has the option of what they want to learn more about</li>
             <li>2. Make icons "clickable" - right now many icons are static, but they should actually provide more information when interacted with (see 1.)</li>
             <li>3. Add a vertical navigation. I am experimenting with a single page layout, but it requires better navigation options</li>
           </ul>
@@ -45,7 +49,7 @@ const IndexPage = () => {
 
       <section> 
         <h1 className="main-heading">My Goals</h1>
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-4">
         <GoalsHtml></GoalsHtml>
         </div>
       </section>

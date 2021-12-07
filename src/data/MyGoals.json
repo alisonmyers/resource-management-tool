@@ -24,8 +24,8 @@
 
         {
             "goal_num": "4",
-            "goal_title": "(sub goal) Build a Portfolio Tool (this website)",
-            "goal_description": "My final goal is to build a dynamic ePortfolio. I want the technology to help me do the job of 'making connections', by building a tool that literally does so in its design. If I intend for this portfolio to grow and evolve, then it needs to be simple to add new content and indicate the connections between pieces of content.",
+            "goal_title": "Build a Portfolio Tool",
+            "goal_description": "My final goal is to build a dynamic ePortfolio. I want the technology to help me do the job of 'making connections', by building a tool that literally does so in its design.",
             "goal_artifacts": ["e"]
         }
     ]
