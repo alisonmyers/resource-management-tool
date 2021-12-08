@@ -40,7 +40,7 @@ const IndexPage = () => {
 
         <p>Demonstrating the ability to develop content and to build technologies is part of my last two goals. The development of the ePortfolio itself will help to demonstrate these competencies. I would like this ePortfolio to be flexible, and useful beyond the MET program. To ensure this, I have built a dynamic ePortfolio in a way that is sustainable (for me) and can act as a professional portfolio of more technical work in the future.</p>
 
-        <div className="grid grid-cols-4">        
+        <div className="goal-card-grid">        
         <GoalsHtml></GoalsHtml>
         </div>
         

@@ -479,6 +479,12 @@ ul.links > li {
 
 }
 
+.goal-card-grid {
+  display: grid;
+  grid-template-columns: repeat( auto-fill, minmax(400px, 1fr) );
+  grid-template-rows: auto;
+}
+
 .goal-card-container {
   display: grid;
   grid-template-columns: 15% 85%;
@@ -494,6 +500,8 @@ ul.links > li {
   background-size: 100% 100%;
   padding: var(--spacing-4);
   margin: var(--spacing-4);  
+  max-width: 800px;
+  min-width: 400px;
 }
 
 .project-post-card {
@@ -543,6 +551,7 @@ ul.links > li {
   background-color: white;
   max-height: 500px;
   max-width: 500px;
+  min-width: 250px;
   box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
