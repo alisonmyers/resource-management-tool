@@ -23,7 +23,7 @@ const IndexPage = () => {
       </p>
 
 
-      <StaticImage src="../images/about-career.png" alt="My Career Diagram" />
+      <StaticImage src="../images/about-career.png" alt="My Career Diagram" className="object-center" />
 
 
       </section>
