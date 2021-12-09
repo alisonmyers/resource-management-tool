@@ -8,7 +8,7 @@
                 "category": "sketch",
                 "date": "2019-09-01",
                 "course": "ETEC 510",
-                "goals": ["1"],
+                "goals": ["1", "5"],
                 "type": "website",
                 "description": "For ETEC 510 we developed a reddit community for educators interested in virtual reality (VR) production. We suggested post types, flairs (like tags), and the opportunity to review work or provide feedback to members of the community. As part of the development, we each created some of our own VR work. I used a tool called edu.cospaces to program my first VR game! Included in this project are two links: first to the game, second to the reddit group.",
                 "connections": "Two themes originated in ETEC 510 that I have noticed again and again in the MET program: community 'outside of the classroom', and 'playing' with technology. We chose Reddit as our platform for engaging with others because it is a popular, open, discussion platform. Developing, and engaging with communities of educators can be incredibly valuable, especially when exploring new or up-and-coming technology. It was important to begin to consider how to continue our experiences and communities once a course has 'ended'.",
@@ -19,6 +19,25 @@
     
     
             }, 
+
+            {
+                "id": "ETEC510-2",
+                "title": "First Wordpress Site",
+                "category": "website",
+                "date": "2019-09-01",
+                "course": "ETEC 510",
+                "goals": ["1", "3", "4", "5"],
+                "type": "website",
+                "description": "For ETEC 510 we developed a reddit community for educators interested in virtual reality (VR) production. We suggested post types, flairs (like tags), and the opportunity to review work or provide feedback to members of the community. As part of the development, we each created some of our own VR work. I used a tool called edu.cospaces to program my first VR game! Included in this project are two links: first to the game, second to the reddit group.",
+                "connections": "Two themes originated in ETEC 510 that I have noticed again and again in the MET program: community 'outside of the classroom', and 'playing' with technology. We chose Reddit as our platform for engaging with others because it is a popular, open, discussion platform. Developing, and engaging with communities of educators can be incredibly valuable, especially when exploring new or up-and-coming technology. It was important to begin to consider how to continue our experiences and communities once a course has 'ended'.",
+                "goals_text": "",
+                "reflection": "Two themes originated in ETEC 510 that I have noticed again and again in the MET program: community 'outside of the classroom', and 'playing' with technology. We chose Reddit as our platform for engaging with others because it is a popular, open, discussion platform. Developing, and engaging with communities of educators can be incredibly valuable, especially when exploring new or up-and-coming technology. It was important to begin to consider how to continue our experiences and communities once a course has 'ended'.",
+                "image": "../images/ETEC510-2.png",
+                "links": ["https://blogs.ubc.ca/alisonmyers/2019/01/22/day-2-so-you-still-have-a-fitbit/"]
+    
+    
+            }, 
+
             {
                 "id": "ETEC512-1",
                 "title": "Learning Theories Concept Map",
