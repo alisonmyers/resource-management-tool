@@ -20,6 +20,11 @@ const NavBar = () => {
             <p class="hover:text-white">Blog</p>
             </Link>
         </li>
+        <li className="nav-link-item">
+            <Link to="/feedback" className="nav-link-text">
+            <p class="hover:text-white">Feedback</p>
+            </Link>
+        </li>
         </ul>
         </nav>
 
