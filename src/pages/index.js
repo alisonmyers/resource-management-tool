@@ -12,7 +12,10 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="This ePortfolio">
 
-      
+      <section>
+        <h2>Welcome: Video Tour</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PUcIGSYCIXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
       <section>
       <h2>Who Am I?</h2>
 

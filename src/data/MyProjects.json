@@ -15,7 +15,8 @@
                 "goals_text": "",
                 "reflection": "https://www.reddit.com/r/VReducationProduction",
                 "image": "../images/ETEC510-1b.png",
-                "links": ["https://edu.cospaces.io/GLQ-BMB"]
+                "links": ["https://edu.cospaces.io/GLQ-BMB"],
+                "iframe": "https://docs.google.com/document/d/e/2PACX-1vTpjA-cra11JXIx8lHMn10beFt-2QfDRmKDGLlzBME5Ksz7Lf1nTYiZ2_7JOKO8aQ/pub?embedded=true"
     
     
             }, 
@@ -33,7 +34,8 @@
                 "goals_text": "",
                 "reflection": "Two themes originated in ETEC 510 that I have noticed again and again in the MET program: community 'outside of the classroom', and 'playing' with technology. We chose Reddit as our platform for engaging with others because it is a popular, open, discussion platform. Developing, and engaging with communities of educators can be incredibly valuable, especially when exploring new or up-and-coming technology. It was important to begin to consider how to continue our experiences and communities once a course has 'ended'.",
                 "image": "../images/ETEC510-2.png",
-                "links": ["https://blogs.ubc.ca/alisonmyers/2019/01/22/day-2-so-you-still-have-a-fitbit/"]
+                "links": ["https://blogs.ubc.ca/alisonmyers/2019/01/22/day-2-so-you-still-have-a-fitbit/"], 
+                "iframe": "https://docs.google.com/document/d/e/2PACX-1vTpjA-cra11JXIx8lHMn10beFt-2QfDRmKDGLlzBME5Ksz7Lf1nTYiZ2_7JOKO8aQ/pub?embedded=true"
     
     
             }, 
@@ -84,6 +86,7 @@
             "connections": "In ETEC 520 we had a series of assignments that asked us to evaluate institutional approaches, preparedness for, and implementation of **e-learning**. This was one of the first courses that introduced concepts about educational technology at an institutional level. ",
             "goals_text": "In the creation of these artifacts, it became apparent that **institutional culture** is a hard-to-define yet important consideration when considering educational technology at scale.",
             "reflection": "reflection on project",
+            "iframe": "",
             "image": "../images/ETEC520-1.png",
             "links": ["https://docs.google.com/document/d/e/2PACX-1vRHePyEQu57inJzdvaPAI6unH5vfIvPWmtJmrUFnFXqhbQTdsP3e5TLQZZxK2STj5Hce0k4TBjn07k-/pub"]
         }, 
@@ -136,6 +139,7 @@
             "goals_text": "",
             "reflection": "",
             "image": "../images/ETEC543-1.png",
+            "iframe": "",
             "links": ["https://public.tableau.com/views/LAAdventure-FinalProject/Acknowledgements?:language=en-US&:display_count=n&:origin=viz_share_link"]
         },
 
