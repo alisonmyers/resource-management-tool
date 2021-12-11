@@ -36,22 +36,42 @@ class Projects extends Component {
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
     
     if (this.props.projectData) {
-      
+ 
+
       var projects = this.props.projectData.map(function (projects) {
+
+        if (projects.tags) {
+          var tags = projects.tags
+          console.log(tags)
+
+          var taglist = projects.tags.map((tag, i) => {
+            return (
+              <li key={i}>
+                  <p className="tag-border">
+                        {tag}
+                    </p>
+              </li>
+            );
+          });
+          console.log(taglist)
+        }
+
+       
         return (
           <React.Fragment>
               <div className="col-sm-12 col-md-6 col-lg-4">
+
                 <div className="project-post-container" key={projects.id} >
                   <div className="project-post-header">
                       {projects.title}
                   </div>
                   <div className="project-post-image" onClick={() => detailsModalShow(projects)}>
-                    <GatsbyImage image={getImage(projects.image)}/>
+                    <GatsbyImage alt="" image={getImage(projects.image)}/>
                   </div>
                   <div className="project-post-goals">
                     <ul class="icons">
                     {projects.goals.map((goal, i) =>
-                      <li key={i}><GoalIcon iconName={goal} size={10}/></li>
+                      <li className="icons" key={i}><GoalIcon iconName={goal} size={10}/></li>
                     
                     )}
                     </ul>
@@ -65,6 +85,12 @@ class Projects extends Component {
                     </ul>
                     
                     </div>
+
+                  <div className="project-post-tags">
+                    <ul className="tags">
+                      {taglist}
+                    </ul>
+                  </div>
                 </div>
               </div>
 

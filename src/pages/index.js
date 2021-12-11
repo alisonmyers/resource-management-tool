@@ -17,9 +17,7 @@ const IndexPage = () => {
         <iframe width="560" height="315" src="https://www.youtube.com/embed/PUcIGSYCIXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
       <section>
-      <h2>Who Am I?</h2>
-
-      <p>A data analyst ... </p>
+      <h2>My MET Beginnings</h2>
 
       <p>
       I consider the MET program as a "backwards step" in my career... I started as a data analyst with an interest in designing informational dashboards, with particular interest in Learning Analytics. However, dashboard design can only come after the understanding and collection of data. I soon recognized the need to develop some programming and data skills - and learned R and Python. This allowed me to build better data pipelines, and make more sophisticated transformations in order to improve the dashboards. Once I had a better understanding of data, I then recognized a need to understand the systems that data came from. I realized the benefit of exploring how interaction with systems generated data - both to understand the data, but to also influence how tools are used in order for useful data to be created. Moving backwards another step, while technology creates data, the decisions that lead to technology selection and how it is used. Educational technology selection may come from individual levels (teachers), or institutional levels (administration). At the core, these decisions should be of benefit to the learner and their educational experience. Understanding teaching and learning through the study of learning theories gives important context from both the instructor and learner. 

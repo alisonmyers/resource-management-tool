@@ -258,6 +258,7 @@
     margin: var(--spacing-24) var(--spacing-32) var(--spacing-4);
     max-width: var(--maxWidth-wrapper);
     padding: var(--spacing-2) var(--spacing-32);
+
   }
   
   .global-wrapper[data-is-root-path="true"] .bio {
@@ -379,7 +380,7 @@
 
 .nav-link-item {
   padding-right: 5rem;
-  font-size: var(--fontSize-2);
+  font-size: var(--fontSize-4);
   
   
 }
@@ -409,6 +410,26 @@ ul.icons > li {
   display: inline-block;
   padding: 10px 10px;
   font-size: var(--fontSize-4);
+  justify-content: center;
+  align-items: center;
+}
+
+li.icons:hover,
+li.icons:focus {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+ul.tags {
+  padding-left: 0px;
+  text-align: centre;
+  margin: 0px;
+
+}
+
+ul.tags > li {
+  display: inline-block;
+  font-size: var(--fontSize-2);
   justify-content: center;
   align-items: center;
 }
@@ -459,6 +480,21 @@ ul.links > li {
   grid-area: sidebar;
   justify-self: center;
   font-size: 1.5em
+}
+
+.icons:hover:after {
+  position: absolute;
+  content: attr(title);
+  display: inline-block;
+  left: 0px;
+  top: 0px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  width: 400px;
+  height: 220px;
+  border-radius: 25px;
+  border: 1px solid #999;
 }
 
 .goal-card-title {
@@ -535,17 +571,38 @@ ul.links > li {
 }
 
 .project-post-goals {
-  grid-area: goals
+  grid-area: goals;
 }
 
 .project-post-links {
   grid-area: links;
   justify-content: right;
-
 }
 
+.project-post-tags {
+  grid-area: tags;
+  justify-content: left;
+}
+
+.tag-border {
+  background-color: var(--color-text);
+  border-radius: 20px;
+  padding: 4px 8px;
+  font-size: 50%;
+  color: white;
+}
+
+.tag-text {
+  background-color: var(--color-text);
+  border-radius: 20px;
+  padding: 2px 4px;
+  font-size: 90%;
+  color: white;
+}
+
+
 .project-post-container {
-  background-color: white;
+  background-color: var(--color-background-main);
   max-height: 500px;
   max-width: 500px;
   min-width: 250px;
@@ -556,10 +613,11 @@ ul.links > li {
   margin: var(--spacing-4);
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 10% 80% 10%;
+  grid-template-rows: auto;
   grid-template-areas: 
     "header header"
-    "image image "
+    "tags tags"
+    "image image"
     "goals links";
 
 }
@@ -570,14 +628,34 @@ ul.links > li {
   border-radius: 5px; /* 5px rounded corners */
   padding: var(--spacing-4);
   margin: var(--spacing-4);
-  height: 400px;
+  height: 100%;
+  width: 100%;
+  background-color: white; 
+}
+
+.small-container {
+  height: 500px;
+  width: 500px;
+  object-fit: fill;
+  padding: 10px;
+  margin: 10px;
+}
+
+.my-modal {
+  max-width: 90vw;
+  max-height: 90vw;
+  background-color: "white";
+}
+
+.modal-slide {
+  padding: var(--spacing-4);
+  margin: var(--spacing-4);
   width: 90%;
   background-color: white; 
 }
 
-.my-modal {
-  width: 80%;
-  max-width: 90vw;
-  max-height: 70%;
-  background-color: "white";
+.slick-prev:before,
+.slick-next:before {
+  color: var(--color-primary)!important;
+  background-color: white!important;
 }
