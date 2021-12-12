@@ -1,36 +1,41 @@
-import React, {useState} from 'react';
 import {FaArrowCircleUp} from '@react-icons/all-files/fa/FaArrowCircleUp';
+import React, { useEffect, useState } from "react";
 
+export default function ScrollToTop() {
+  const [isVisible, setIsVisible] = useState(false);
 
-const ScrollArrow = () => {
+  // Top: 0 takes us all the way back to the top of the page
+  // Behavior: smooth keeps it smooth!
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
 
-    React.useEffect (() => {
-        if (typeof window !== `undefined`){
-            window.location.replace(res.data) // Window call
-          }
-    
-      const [showScroll, setShowScroll] = useState(false)
-    
-      const checkScrollTop = () => {
-        if (!showScroll && window.pageYOffset > 500){
-          setShowScroll(true)
-        } else if (showScroll && window.pageYOffset <= 500){
-          setShowScroll(false)
-        }
-      };
-    
-      const scrollTop = () =>{
-        window.scrollTo({top: 0, behavior: 'smooth'});
-      };
-    
-      window.addEventListener('scroll', checkScrollTop)
+  useEffect(() => {
+    // Button is displayed after scrolling for 500 pixels
+    const toggleVisibility = () => {
+      if (window.pageYOffset > 500) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
 
+    window.addEventListener("scroll", toggleVisibility);
 
-    })
+    return () => window.removeEventListener("scroll", toggleVisibility);
+  }, []);
 
+//scroll-to-top classes: fixed, bottom:0, right:0
   return (
-        <FaArrowCircleUp className="scrollTop" onClick={scrollTop} style={{height: 40, display: showScroll ? 'flex' : 'none'}}/>
+    <div className="scroll-to-top">
+      {isVisible && (
+        <div className="py-8" onClick={scrollToTop}>
+          <h3><FaArrowCircleUp /> To Top</h3>
+        </div>
+      )}
+    </div>
   );
 }
-
-export default ScrollArrow;
