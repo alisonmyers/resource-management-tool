@@ -93,8 +93,9 @@ class ProjectDetailsModal extends Component {
                   
                   {hasIframe &&
                   <div>
+                    <p>You can also view the document below on <a href={iframeSrc}  target="_blank" alt="Open the document below in a new tab.">Google Docs</a></p>
                     <div className="pdf-container">
-                    <iframe src={iframeSrc} height="100%" width="100%">
+                    <iframe src={iframeSrc} height="450px" width="100%">
                   </iframe>
                     </div>
                   </div>}

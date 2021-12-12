@@ -182,7 +182,7 @@
     padding: var(--spacing-0);
     margin-bottom: var(--spacing-8);
     list-style-position: outside;
-    list-style-image: none;
+    list-style-type: none;
   }
   
   ul li,
@@ -193,6 +193,11 @@
   
   li > p {
     margin-bottom: calc(var(--spacing-8) / 2);
+  }
+
+  ul.my-style {
+    list-style-type: "→ ";
+    padding: 10px 20px;
   }
   
   li *:last-child {

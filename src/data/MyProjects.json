@@ -11,10 +11,10 @@
                 "goals": ["1"],
                 "type": "website",
                 "group": "Brogan Pratt, Miguel Strother, Jamie Tooze, Raisa Vecina",
-                "description": "<p>We developed a Reddit community for educators interested in virtual reality (VR) production. We suggested post types, flairs (like tags), and the opportunity to review work or provide feedback to members of the community. These suggestions were meant to provide initial opportunities for engagement in order to promote <span class='tag-text'>digital citizenship</span>, but our hope was that the community would evolve its own practices over time.</p> <p>As part of the development, we each created some of our own VR prototypes. I used a tool called edu.cospaces to program my first VR game.</p>",
-                "connections": "Two themes originated in ETEC 510 that have made an impact: digital citizenship or community 'outside of the classroom', and 'tinkering' or <span class='tag-text'>geeking out</span>. We chose Reddit as our platform for engaging with others because it is a popular, open, discussion platform. Developing, and engaging with communities of educators can be incredibly valuable, especially when exploring new or up-and-coming technology. It was important to begin to consider how to continue our experiences and communities once a course had 'ended'.",
+                "description": "<p>We developed a Reddit community for educators interested in virtual reality (VR) production. We suggested post types, flairs (like tags), and the opportunity to review work or provide feedback to members of the community. These suggestions were meant to provide initial opportunities for engagement in order to promote <span class='tag-text'>digital citizenship</span>, but our hope was that the community would evolve its own practices over time.</p> <p>As part of the development, we each created some of our own VR prototypes. I used a tool called edu.cospaces to program my first VR game.</p> <p>You can visit:<br> <ul class='my-style'><li><a href='https://www.reddit.com/r/VReducationProduction' target='blank'>The Reddit Site</a></li><li><a href='https://edu.cospaces.io/GLQ-BMB' target='blank'>My VR Game</a></li><li><a href='https://docs.google.com/document/d/e/2PACX-1vTpjA-cra11JXIx8lHMn10beFt-2QfDRmKDGLlzBME5Ksz7Lf1nTYiZ2_7JOKO8aQ/pub?embedded=true' target='blank'>Our Curriculum Guide</a></li></ul></p>",
+                "connections": "Two themes originated in ETEC 510 that have made an impact: digital citizenship or community 'outside of the classroom', and 'tinkering' or <span class='tag-text'>geeking out</span>. We chose Reddit as our platform for engaging with others because it is a popular, open, discussion platform. Developing, and engaging with communities of educators can be incredibly valuable, especially when exploring new or up-and-coming technology.",
                 "goals_text": "",
-                "reflection": "https://www.reddit.com/r/VReducationProduction",
+                "reflection": " It was important to begin to consider how to continue our experiences and communities once a course had 'ended'.",
                 "image": "../images/ETEC510-1b.png",
                 "links": ["https://edu.cospaces.io/GLQ-BMB"],
                 "iframe": "https://docs.google.com/document/d/e/2PACX-1vTpjA-cra11JXIx8lHMn10beFt-2QfDRmKDGLlzBME5Ksz7Lf1nTYiZ2_7JOKO8aQ/pub?embedded=true",
@@ -161,7 +161,7 @@
         },
 
         {
-            "id": "ETEC590-1",
+            "id": "ETEC580-1",
             "title": "The IKEA Model: A Learning Analytics Tool",
             "category": "colour",
             "date": "2021-08-20",
@@ -173,7 +173,7 @@
             "connections": "",
             "goals_text": "",
             "reflection": "",
-            "image": "../images/ETEC580-1.png",
+            "image": "../images/ETEC580-1b.png",
             "links": ["https://github.com/saud-learning-services/course-details"],
             "iframe": ""
 
@@ -194,7 +194,7 @@
             "reflection": "I had hoped to do more writing and research throughout my courses - as this is not something I normally have much time for in my day-to-day. However, when the option was available to create something, that was the path I generally took.",
             "image": "../images/ETEC590-1.png",
             "iframe": "",
-            "links": ["https://alisonmyers.gatsby.io/blogs"]
+            "links": ["https://alisonmyers.gatsbyjs.io/blogs"]
 
         }
     ]
