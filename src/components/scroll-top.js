@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {FaArrowCircleUp} from '@react-icons/all-files/fa/FaArrowCircleUp';
 
 
-const ScrollArrow = () =>{
+const ScrollArrow = () => {
 
     React.useEffect (() => {
         if (typeof window !== `undefined`){
