@@ -257,7 +257,7 @@
   .global-wrapper {
     margin: var(--spacing-24) var(--spacing-32) var(--spacing-4);
     max-width: var(--maxWidth-wrapper);
-    padding: var(--spacing-2) var(--spacing-32);
+    padding: var(--spacing-2) var(--spacing-32) var(--spacing-32);
 
   }
   
@@ -658,4 +658,33 @@ ul.links > li {
 .slick-next:before {
   color: var(--color-primary)!important;
   background-color: white!important;
+}
+
+/*Back to Top*/
+
+.scrollTop {
+  position: fixed; 
+  width: 100%;
+  bottom: 20px;
+  align-items: center;
+  height: 20px;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+}
+
+.scrollTop:hover{
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
 }

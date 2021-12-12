@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import NavBar from "./nav.js"
+import ScrollArrow from './scroll-top'
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
@@ -35,6 +36,10 @@ const Layout = ({ pageTitle, children }) => {
           <h1 className="main-heading">{pageTitle}</h1>
           {children}
         </main>
+      </div>
+
+      <div className = "py-8">
+        <ScrollArrow></ScrollArrow>
       </div>
 
     </React.Fragment>
