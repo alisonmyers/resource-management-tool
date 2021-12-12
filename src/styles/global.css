@@ -636,12 +636,13 @@ ul.links > li {
   height: 100%;
   width: 80%;
   background-color: white; 
+  margin: 0 auto;
 }
 
 .small-container {
-  height: 500px;
-  width: 500px;
-  object-fit: fill;
+  max-height: 500px;
+  max-width: 500px;
+  object-fit: contain;
   padding: 10px;
   margin: 10px;
 }
@@ -657,6 +658,11 @@ ul.links > li {
   margin: var(--spacing-4);
   width: 90%;
   background-color: white; 
+}
+
+.modal-box {
+  padding: var(--spacing-4);
+  margin: var(--spacing-4);
 }
 
 .slick-prev:before,

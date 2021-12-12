@@ -58,17 +58,23 @@ class ProjectDetailsModal extends Component {
       >
         <Modal.Header closeButton>
           <Modal.Title><h1>{title}</h1></Modal.Title>
+        
         </Modal.Header>
         
         <span onClick={this.props.onHide} className="modal-close">
           <i className="fas fa-times fa-3x close-icon"></i>
         </span>
-        <Modal.Body> 
-        <div>
-            <Slider {...settings}>
-                  <div className="modal-slide">
+        <Modal.Body style={{
+            maxHeight: 'calc(100vh - 210px)',
+            overflowY: 'auto'
+          }}
+          >
+   
+          <div className="modal-box">
+       
+                  <div>
                   <span> 
-                    <div className="small-container" style={{float: "left"}}>
+                    <div className="small-container" style={{float: "right"}}>
                         <GatsbyImage image={getImage(image)}/> 
                         </div>
                     </span>
@@ -78,16 +84,12 @@ class ProjectDetailsModal extends Component {
                       </p>
                       <h2>Description</h2>
                       <div dangerouslySetInnerHTML={{ __html: description }} />
-                  </div>
 
-                  <div className="modal-slide">
-                      <h2>Reflection</h2>
-                      <div dangerouslySetInnerHTML={{ __html: reflection }} />
-                  </div>
-
-                  <div className="modal-slide">
                       <h2>Connections</h2>
                       <div dangerouslySetInnerHTML={{ __html: connections }} />
+
+                      <h2>Reflection</h2>
+                      <div dangerouslySetInnerHTML={{ __html: reflection }} />
                   </div>
 
                   
@@ -95,15 +97,14 @@ class ProjectDetailsModal extends Component {
                   <div>
                     <p>You can also view the document below on <a href={iframeSrc}  target="_blank" alt="Open the document below in a new tab.">Google Docs</a></p>
                     <div className="pdf-container">
-                    <iframe src={iframeSrc} height="450px" width="100%">
+                    <iframe src={iframeSrc} height="500px" width="100%">
                   </iframe>
                     </div>
                   </div>}
                   
 
                   
-             
-            </Slider>
+  
         </div>
         </Modal.Body>
   
