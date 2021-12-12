@@ -57,7 +57,7 @@
                 "reflection": "Learning the language of educators was an important reason for my interest in the MET program. In order to make connections between technology, students, and instructors it is important to understand context of the three which includes <span class='tag-text'>theory</span>. One struggle that I have with learning theories is shared terminology but different interpretations of the language when moving between philosophy, psychology, and education.",
                 "image": "../images/ETEC512-1.png",
                 "links": ["https://lucid.app/documents/embeddedchart/5cbf4c24-0cac-4c11-acba-bb4c5a0baa9e"],
-                "iframe": "",
+                "iframe": "https://lucid.app/documents/embeddedchart/5cbf4c24-0cac-4c11-acba-bb4c5a0baa9e",
                 "tags": ["theory"]
     
             }, 
@@ -155,7 +155,7 @@
             "goals_text": "",
             "reflection": "",
             "image": "../images/ETEC543-1.png",
-            "iframe": "",
+            "iframe": "https://public.tableau.com/views/LAAdventure-FinalProject/Acknowledgements?:language=en-US&:display_count=n&:origin=viz_share_link",
             "links": ["https://public.tableau.com/views/LAAdventure-FinalProject/Acknowledgements?:language=en-US&:display_count=n&:origin=viz_share_link"],
             "tags": ["dashboard", "design"]
         },
