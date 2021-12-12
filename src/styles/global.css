@@ -657,7 +657,13 @@ ul.links > li {
 .slick-prev:before,
 .slick-next:before {
   color: var(--color-primary)!important;
+  font-size: 30px!important;
+  outline-color: white!important;
   background-color: white!important;
+}
+
+.slick-dots {
+  bottom: 0px!important;
 }
 
 /*Back to Top*/

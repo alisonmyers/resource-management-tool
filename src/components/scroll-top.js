@@ -38,14 +38,6 @@ export default function ScrollToTop() {
    onClick={scrollToTop} 
    style={{height: 40, display: isVisible ? 'flex' : 'none'}}/>
 
-    <div className="scrollTop">
-      {isVisible && (
-        <div onClick={scrollToTop}>
-          <h3 className="p-4"><FaArrowCircleUp /> To Top</h3>
-        </div>
-      )}
-    </div>
-
     </>
   );
 }
