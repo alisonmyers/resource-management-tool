@@ -662,7 +662,7 @@ ul.links > li {
 
 /*Back to Top*/
 
-.scrollTop {
+.scroll-to-top {
   position: fixed; 
   width: 100%;
   bottom: 20px;
@@ -676,7 +676,7 @@ ul.links > li {
   opacity: 0.5;
 }
 
-.scrollTop:hover{
+.scroll-to-top:hover{
   opacity: 1;
 }
 

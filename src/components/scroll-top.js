@@ -16,7 +16,7 @@ export default function ScrollToTop() {
   useEffect(() => {
     // Button is displayed after scrolling for 500 pixels
     const toggleVisibility = () => {
-      if (window.pageYOffset > 500) {
+      if (window.pageYOffset > 300) {
         setIsVisible(true);
       } else {
         setIsVisible(false);
@@ -30,12 +30,22 @@ export default function ScrollToTop() {
 
 //scroll-to-top classes: fixed, bottom:0, right:0
   return (
-    <div className="scroll-to-top">
+
+    <>
+
+    <FaArrowCircleUp 
+   className="scroll-to-top" 
+   onClick={scrollToTop} 
+   style={{height: 40, display: isVisible ? 'flex' : 'none'}}/>
+
+    <div className="scrollTop">
       {isVisible && (
-        <div className="py-8" onClick={scrollToTop}>
-          <h3><FaArrowCircleUp /> To Top</h3>
+        <div onClick={scrollToTop}>
+          <h3 className="p-4"><FaArrowCircleUp /> To Top</h3>
         </div>
       )}
     </div>
+
+    </>
   );
 }
