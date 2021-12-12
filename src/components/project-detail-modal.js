@@ -92,10 +92,11 @@ class ProjectDetailsModal extends Component {
 
                   
                   {hasIframe &&
-                  
-                  <div className="pdf-container">
-                  <iframe src={iframeSrc} height="500px" width="1000px">
+                  <div>
+                    <div className="pdf-container">
+                    <iframe src={iframeSrc} height="100%" width="100%">
                   </iframe>
+                    </div>
                   </div>}
                   
 

@@ -629,7 +629,7 @@ ul.links > li {
   padding: var(--spacing-4);
   margin: var(--spacing-4);
   height: 100%;
-  width: 100%;
+  width: 80%;
   background-color: white; 
 }
 
