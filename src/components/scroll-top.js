@@ -4,6 +4,10 @@ import {FaArrowCircleUp} from '@react-icons/all-files/fa/FaArrowCircleUp';
 
 const ScrollArrow = () =>{
 
+    if (typeof window !== `undefined`){
+        window.location.replace(res.data) // Window call
+      }
+
   const [showScroll, setShowScroll] = useState(false)
 
   const checkScrollTop = () => {
