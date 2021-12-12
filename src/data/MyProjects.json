@@ -32,9 +32,9 @@
                 "group": "",
                 "type": "website",
                 "description": "This wordpress blog was designed as an introduction to fitbits for new users. It was an opportunity to develop content for particular users (i.e. new fitbit owners). This was one of my first uses of Wordpress.",
-                "connections": "While only a few years ago, this artifact shows just how quickly technology is changing. I created this artifact to showcase a new (to me) wearable device. This artifact is included because it shows growth, but it also shows a challenge with web content - it can become outdated quickly! Not only is the content out of date (there are newer fitbits, and more advanced wearable tech), but the site itself is out of date. There are missing gifs, for example.",
+                "connections": "While only a few years ago, this artifact shows just how quickly technology can change. I created this artifact to showcase a new (to me) wearable device. This artifact is included because it shows growth, but it also shows a challenge with web content - it can become outdated quickly! Not only is the content out of date (there are newer fitbits, and more advanced wearable tech), but the site itself is out of date. There are missing gifs, for example.",
                 "goals_text": "",
-                "reflection": "Feedback I received after creating this artifact included considering the limitations of a static website for the development of community. While I agree this is the case, I disagree that there is a need for all technologies to do all things. Community engagement is important, but did not fit with the intention of my design.",
+                "reflection": "Feedback I received after creating this artifact included considering the limitations of a static website for the development of community. While I agree this is the case, I disagree that there is a need for all technologies to do all things. Community engagement is important, but did not fit with the intention of my <span class='tag-text'>design</span>.",
                 "image": "../images/ETEC510-2.png",
                 "links": ["https://blogs.ubc.ca/alisonmyers/2019/01/22/day-2-so-you-still-have-a-fitbit/"], 
                 "iframe": "",
@@ -115,7 +115,7 @@
             "reflection": "",
             "image": "../images/ETEC530-1.png",
             "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
-            "iframe": "",
+            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
             "tags": ["design", "constructivism", "professionaldevelopment"]
         },
         {
