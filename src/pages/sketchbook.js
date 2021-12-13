@@ -1,12 +1,6 @@
 import * as React from 'react'
 import Layout from '../components/my-layout'
 
-import { FiExternalLink } from  "@react-icons/all-files/fi/FiExternalLink";
-import { FaMicroscope } from "@react-icons/all-files/fa/FaMicroscope";
-import { AiFillCheckCircle } from "@react-icons/all-files/ai/AiFillCheckCircle";
-import { ImBubbles2 } from "@react-icons/all-files/im/ImBubbles2";
-import { BiCool } from "@react-icons/all-files/bi/BiCool";
-
 import SketchSection from '../components/sketching'
 import OutlineSection from '../components/outlining'
 import ColourSection from '../components/adding-colour'

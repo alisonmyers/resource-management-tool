@@ -8,11 +8,11 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
+    "develop": "rm -rf .cache/caches/gatsby-plugin-mdx && gatsby clean && gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "rm -rf .cache/caches/gatsby-plugin-mdx && gatsby clean"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
