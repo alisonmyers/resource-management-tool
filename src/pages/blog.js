@@ -1,6 +1,7 @@
 import * as React from 'react'
 import Layout from '../components/my-layout'
 import { Link, graphql } from 'gatsby'
+import { StaticImage } from 'gatsby-plugin-image';
 
 import { FaMicroscope } from "@react-icons/all-files/fa/FaMicroscope";
 import { AiFillCheckCircle } from "@react-icons/all-files/ai/AiFillCheckCircle";
@@ -23,10 +24,19 @@ const ProjectsPage = ({ data }) => {
 
   const projects = data.allMdx.nodes
   return (
-    <Layout pageTitle="My Projects">
+    <Layout pageTitle="Blog Posts">
+
+      <blockquote><p>These blog posts currently act as reflection pieces for the development of this portfolio. They are written in a combination of JSX and markdown (left) instead of html (right) for simplicity. This will hopefully make it easier to add future blog posts without having to worry about html formatting.</p>
+
+      <div class="grid grid-cols-2 gap-2">
+        <StaticImage src="../projects/markdownexample.png" />
+        <StaticImage src="../projects/jsxexample.png" />
+      </div>
+      </blockquote>
       {
         projects.map(project => (
           <div class="project-post-card"> 
+          
           <article 
             className="project-list-item"
             key={project.id}>
