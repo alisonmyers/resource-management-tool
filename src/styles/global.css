@@ -219,7 +219,7 @@
     padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-6);
     border-left: 4px solid var(--color-primary);
     margin-bottom: var(--spacing-8);
-    font-weight: var(--fontWeight-medium);
+    font-weight: var(--fontWeight-normal);
   }
   
   blockquote > :last-child {
@@ -229,6 +229,16 @@
   blockquote > ul,
   blockquote > ol {
     list-style-position: inside;
+  }
+
+  blockquote.self {
+    padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-6);
+    border-left: 4px solid var(--color-primary);
+    margin-bottom: var(--spacing-8);
+    font-weight: var(--fontWeight-normal);
+    font-family: var(--fontFamily-serif);
+    font-style: italic;
+
   }
   
   table {
