@@ -270,9 +270,9 @@
   /* Custom classes */
   
   .global-wrapper {
-    margin: var(--spacing-24) var(--spacing-32) var(--spacing-4);
+    margin: var(--spacing-24) var(--spacing-24) var(--spacing-4);
     max-width: var(--maxWidth-wrapper);
-    padding: var(--spacing-2) var(--spacing-32) var(--spacing-32);
+    padding: var(--spacing-2) var(--spacing-24) var(--spacing-32);
 
   }
   
