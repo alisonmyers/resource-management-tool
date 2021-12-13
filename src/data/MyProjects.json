@@ -91,7 +91,7 @@
             "goals": ["1", "2"],
             "group": "",
             "type": "paper",
-            "description": "Educational technology can be adopted at multiple levels: in a classroom, a program, or an entire institution. This evaluation guaged institutional preparedness eLearning by examining institutional culture, preparedness, and infrastructure.",
+            "description": "<p>Educational technology can be adopted at multiple levels: in a classroom, a program, or an entire institution. This evaluation guaged institutional preparedness eLearning by examining institutional culture, preparedness, and infrastructure.</p>",
             "connections": "In ETEC 520 we had a series of assignments that asked us to evaluate institutional approaches, preparedness for, and implementation of **e-learning**. This was one of the first courses that introduced concepts about educational technology at an institutional level. ",
             "goals_text": "",
             "reflection": "In the creation of these artifacts, it became apparent that **institutional culture** is a hard-to-define yet important consideration when considering educational technology at scale.",
@@ -135,6 +135,26 @@
             "iframe": "",
             "links": ["https://intro-to-data-and-viz.github.io/introduction"],
             "tags": ["design", "tinkering"]
+
+        }, 
+
+        {
+            "id": "ETEC524-2",
+            "title": "A Framework for Institutional LMS Selection",
+            "category": "outline",
+            "date": "2021-06-02",
+            "course": "ETEC 524",
+            "goals": ["1", "4"],
+            "group": "Sean Gallagher, Erica Hill, Noelle Peach, Lyon Tsang, John Wu",
+            "type": "paper",
+            "description": "This rubric was developed to support an institution's evaluation and selection of a learning management system (LMS). In addition to the development of the rubric, we also used the evaluation criteria to investigate whether a large institution should consider adopting a new LMS or keeping their current in light of changes introduced during the covid-19 pandemic.",
+            "connections": "what connections can I make",
+            "goals_text": "",
+            "reflection": "reflection on project",
+            "image": "../images/ETEC524-2.png",
+            "iframe": "https://docs.google.com/document/d/e/2PACX-1vRELguPCI5StShwUvUnhV1lIh7TJO8Rusq8U73fpnJXzJlOCGi2PskXBID8Zth4ZFRCQc7yFtk5Rd4i/pub?embedded=true",
+            "links": ["https://docs.google.com/document/d/e/2PACX-1vRELguPCI5StShwUvUnhV1lIh7TJO8Rusq8U73fpnJXzJlOCGi2PskXBID8Zth4ZFRCQc7yFtk5Rd4i/pub"],
+            "tags": ["evaluation", "institution"]
 
         }
     ],
