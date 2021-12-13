@@ -17,6 +17,7 @@ class ProjectDetailsModal extends Component {
       var reflection = this.props.data.reflection;
       var image = this.props.data.image;
       var group = this.props.data.group;
+      var alternate_links = this.props.data.goals_text;
 
       if (this.props.data.iframe) {
         var hasIframe = true
@@ -30,9 +31,14 @@ class ProjectDetailsModal extends Component {
 
       if (this.props.data.group) {
         var hasGroup = true
-
       } else {
         var hasGroup = false
+      }
+
+      if (this.props.data.goals_text) {
+        var hasAlt = true
+      } else {
+        var hasAlt = false
       }
 
      
@@ -78,10 +84,12 @@ class ProjectDetailsModal extends Component {
                         <GatsbyImage image={getImage(image)}/> 
                         </div>
                     </span>
-                      <p>
+                    <span>
+                      <div>
                         {hasGroup &&  
                          <p>Group Members: {group} </p>}
-                      </p>
+                      </div>
+                      
                       <h2>Description</h2>
                       <div dangerouslySetInnerHTML={{ __html: description }} />
 
@@ -89,18 +97,27 @@ class ProjectDetailsModal extends Component {
                       <div dangerouslySetInnerHTML={{ __html: connections }} />
 
                       <h2>Reflection</h2>
-                      <div dangerouslySetInnerHTML={{ __html: reflection }} />
+                      <p dangerouslySetInnerHTML={{ __html: reflection }} />
+                    </span>
                   </div>
 
                   
                   {hasIframe &&
                   <div>
-                    <p>You can also view the embedded content below on <a href={iframeSrc}  target="_blank" alt="Open the document below in a new tab.">here</a></p>
+                    <p>You can also view the embedded content<a href={iframeSrc}  target="_blank" alt="Open the document below in a new tab.">here</a></p>
                     <div className="pdf-container">
                     <iframe src={iframeSrc} height="500px" width="100%">
                   </iframe>
                     </div>
                   </div>}
+                  
+                  {hasAlt &&
+                  <div>
+                  <h2>More Resources</h2>
+                  <blockquote><ul class='my-style'>
+                  <div dangerouslySetInnerHTML={{ __html: alternate_links }} />
+                  </ul></blockquote></div>}
+
                   
 
                   
