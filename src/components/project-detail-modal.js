@@ -1,10 +1,7 @@
 import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
-import { GatsbyImage, getImage, StaticImage } from "gatsby-plugin-image"
+import { GatsbyImage, getImage} from "gatsby-plugin-image"
 
-import { FiExternalLink } from  "@react-icons/all-files/fi/FiExternalLink";
-
-import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
