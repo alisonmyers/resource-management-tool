@@ -27,7 +27,7 @@ const IndexPage = () => {
       <p>I began my career as a data analyst with an interest in designing informational dashboards, with specific interests in Learning Analytics. However, dashboard design can only come after the understanding and collection of data. I soon recognized the need to develop some programming and data skills. This allowed me to build better data pipelines, and make more sophisticated transformations in order to improve the dashboards. Once I had a better understanding of data, I then realized the benefits of understanding the systems that data came from. I realized the benefit of exploring how interaction with systems generated data - both to understand the data, but to also influence how tools are used in order for useful data to be created. While technology creates data, the decisions that lead to technology selection and how it is used ultimately influence the data that is generated and how that data can be used. Educational technology selection may come from individual (teachers), or institutional levels (administration), among other levels. At the institution level, I gained a perspective of culture and infrastructure that influence technology use and selection. At the individual level I was introduced to pedagogy, learning theories, and instructor comfort with technology. Through engagement with my classmates, many of whom are educated and experienced in education, I also gained valuable perspective of how individuals make technology decisions in their classrooms.</p>
       
 
-      <StaticImage src="../images/about-career.png" alt="My Career Diagram" className="object-center" />
+      <StaticImage src="../images/about-career-2.png" alt="My Career Diagram" className="object-center" />
 
       </section>
 
