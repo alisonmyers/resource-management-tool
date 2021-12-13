@@ -97,14 +97,14 @@ class ProjectDetailsModal extends Component {
                       <div dangerouslySetInnerHTML={{ __html: connections }} />
 
                       <h2>Reflection</h2>
-                      <p dangerouslySetInnerHTML={{ __html: reflection }} />
+                      <div dangerouslySetInnerHTML={{ __html: reflection }} />
                     </span>
                   </div>
 
                   
                   {hasIframe &&
                   <div>
-                    <p>You can also view the embedded content<a href={iframeSrc}  target="_blank" alt="Open the document below in a new tab.">here</a></p>
+                    <p>You can also view the embedded content <a href={iframeSrc}  target="_blank" alt="Open the document below in a new tab.">here</a></p>
                     <div className="pdf-container">
                     <iframe src={iframeSrc} height="500px" width="100%">
                   </iframe>
