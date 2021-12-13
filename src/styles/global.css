@@ -423,6 +423,7 @@ li.icons:hover,
 li.icons:focus {
   text-decoration: none;
   color: var(--color-primary);
+  cursor: pointer;
 }
 
 ul.tags {

@@ -25,7 +25,7 @@ const goals_desc = {
 const GoalIcon = ({iconName}) => {
     const Icon = goals[iconName];
     const Title = goals_desc[iconName]
-    return <Icon title={Title} />
+    return <Icon title={Title}/>
   }
 class Projects extends Component {
   constructor(props) {
