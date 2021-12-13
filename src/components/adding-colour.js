@@ -48,11 +48,10 @@ const ColourSection = () => {
 
       <h2>Adding Colour</h2>
 
+        <blockquote>
         <p>
-        Adding colour, detail, and all of the interesting detail to what used to be just a sketch or a doodle.
-        </p>
-
-        <p>Adding colour to an outlined sketch can be scary - there's no more erasing, and going back is going to take more time. However, at this stage in an art project, you should have experimented with techniques and tools, and have an idea of where you want the piece to end up.</p>
+        Adding colour, detail, and all of the interesting detail to what used to be just a sketch or a doodle. At this stage in an art project, you should have experimented with techniques and tools, and have an idea of where you want the piece to end up.</p>
+        </blockquote>
 
     </div>
         <Projects projectData={projects}/>
