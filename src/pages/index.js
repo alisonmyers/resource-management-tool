@@ -46,7 +46,7 @@ const IndexPage = () => {
 
 
       <section id="home.goals.expanded">
-        <blockquote><ul class='my-style'>
+        <blockquote><ul class='arrow-list-style'>
 
         
       <li>“Speaking the language” of educators is important to be able to communicate with instructors or other curriculum and content designers and experts. Their experiences and decisions toward teaching will influence design and technology decisions. Understanding the pedagogy and learning theories that teachers ascribe to provides important contextual information for the selection and use of technology. In turn, these decisions can affect data generated from learning activities, by tools, and how this data can be useful for making decisions in the future.  

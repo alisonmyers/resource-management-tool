@@ -194,7 +194,7 @@
     margin-bottom: calc(var(--spacing-8) / 2);
   }
 
-  ul.my-style {
+  ul.arrow-list-style {
     list-style-type: "→ ";
     padding: 10px 20px;
   }
@@ -398,9 +398,7 @@
 
 .nav-link-item {
   padding-right: 5rem;
-  font-size: var(--fontSize-4);
-  
-  
+  font-size: var(--fontSize-3); 
 }
 
 .nav-link-text {

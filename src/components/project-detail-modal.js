@@ -112,7 +112,7 @@ class ProjectDetailsModal extends Component {
                   {hasAlt &&
                   <div>
                   <h2>More Resources</h2>
-                  <blockquote><ul class='my-style'>
+                  <blockquote><ul class='arrow-list-style'>
                   <div dangerouslySetInnerHTML={{ __html: alternate_links }} />
                   </ul></blockquote></div>}
 
