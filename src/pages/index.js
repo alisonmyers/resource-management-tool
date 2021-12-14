@@ -51,15 +51,10 @@ const IndexPage = () => {
 
       </section>
 
-
-
-
       <section id="home.goals.expanded">
         <blockquote><ul class='arrow-list-style'>
 
-        
-      <li>“Speaking the language” of educators is important to be able to communicate with educators, curriculum and content designers, and other institutional experts. Their experiences and decisions toward education and learning will influence design and technology decisions. In particular, understanding the pedagogy and learning theories that teachers ascribe to provides important contextual information for the selection and use of educational technologies. 
-        </li>
+        <li>“Speaking the language” of education is important to be able to communicate with educators, curriculum and content designers, and other institutional experts. Their experiences and decisions toward education and learning will influence design and technology decisions. For example, knowing the pedagogy and learning theories that teachers ascribe to is important because they provides important contextual information for the selection and use of educational technologies. Originally, this goal was focused on learning theories specifically. However, through the development of this portfolio I realized the focus was too narrow.</li>
 
         <li>The selection of educational technologies, at any scale, require a critical analysis of the user needs in their relevant context. In order to influence the selection of technologies it is important to demonstrate the ability to use and/or create frameworks for such decisions. The selection of technologies should also build upon the educational context, which can be influenced by learning theories.</li>
 
@@ -67,11 +62,7 @@ const IndexPage = () => {
 
         </ul></blockquote>
 
-
       </section>
-      
-    
-      
 
     </Layout>
   )
