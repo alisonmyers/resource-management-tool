@@ -16,7 +16,7 @@ const goals = {
 }
 
 const goals_desc = {
-  1: "To understand, critically examine, and 'speak the language' of educational learning theories in order to communicate effectively with educators, instructional designers, and institutional administrators.",
+  1: "To understand, critically examine, and 'speak the language' of higher education, including learning theories, in order to communicate effectively with educators, instructional designers, and institutional administrators.",
   2: "To be able to evaluate/analyze the adoption of educational technologies from the context of multiple stakeholders (individual, course, and/or institution). In addition, to effectively communicate the evaluation/analysis to the given stakeholder.",
   3: "To demonstrate competency in the development of materials and use of varied technologies that could be adopted in a classroom or by an institution.",
   4: "My final goal is to build a dynamic ePortfolio. I want the technology to help me do the job of 'making connections', by building a tool that literally does so in its design.",
