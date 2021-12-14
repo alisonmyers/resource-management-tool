@@ -211,6 +211,10 @@
   section {
     margin-top: var(--spacing-16);
   }
+
+  .active-nav {
+    color: var(--color-primary);
+  }
   
   blockquote {
    /* margin-left: calc(-1 * var(--spacing-6)); 
