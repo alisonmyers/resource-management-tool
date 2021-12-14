@@ -26,9 +26,8 @@ const Layout = ({ pageTitle, children }) => {
         <h2 className="site-title">{data.site.siteMetadata.title}</h2>
         <h3 className="site-description">{data.site.siteMetadata.description}</h3>
        
-        <NavBar></NavBar>
         </div>
-      
+        <NavBar></NavBar>
       </div>
       
       <div>

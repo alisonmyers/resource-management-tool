@@ -16,7 +16,10 @@ const IndexPage = () => {
         <p>Welcome! You may be a present, past, or future MET student ... a fellow data analyst ... a passer by? This website has been designed to reflect upon my experience and to showcase artifacts developed throughout the University of British Columbia's Masters of Educational Technology ('the MET') program. On this home page you will discover some of my design decisions, as well as more about me and my goals for this portfolio.Below, you can watch my Video Tour to understand an overview of the website. In the <a href="https://alisonmyers.gatsbyjs.io/sketchbook">Sketchbook</a> you will find a showcase of projects that I have developed throughout my coursework. In the <a href="https://alisonmyers.gatsbyjs.io/blog">Blog</a> you will find reflections on the building of this ePortfolio, as well as my future directions. Finally, any <a href="https://alisonmyers.gatsbyjs.io/feedback">feedback</a> is welcome.</p>
 
         <h2>Video Tour</h2>
-        <iframe width="600" height="400" src="https://www.youtube.com/embed/PUcIGSYCIXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <iframe className="centre-this" width="600" height="400" src="https://www.youtube.com/embed/PUcIGSYCIXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+
         </section>
       
       <section id="home.background">

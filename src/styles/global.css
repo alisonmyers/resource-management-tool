@@ -66,6 +66,7 @@
     --color-accent: #acc2d4;
     --color-second-accent: #f3f1bd;
     --color-background-main: white; 
+    --padding-x: 12rem;
   }
   
   /* HTML elements */
@@ -272,25 +273,63 @@
   
   /* Custom classes  */
   
-  .global-wrapper {
-    margin: var(--spacing-24) var(--spacing-24) var(--spacing-4);
-    max-width: var(--maxWidth-wrapper);
-    padding: var(--spacing-2) var(--spacing-24) var(--spacing-32);
+  /* How Stuff Fits*/
 
-  }
-  
-  .global-wrapper[data-is-root-path="true"] .bio {
-    margin-bottom: var(--spacing-20);
-  }
-  
   .global-header {
-    padding:  var(--spacing-2) var(--spacing-32) var(--spacing-0);
+    padding:  var(--spacing-2) var(--padding-x) var(--spacing-0);
     background-color: var(--color-heading-black);
   }
 
   .global-header-div {
-    margin: var(--spacing-24);
+    height: 150px;
   }
+
+  .site-title {
+    font-size: 5rem;
+    color: #CFB7BF;
+    font-weight: 700;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+  
+  .site-description {
+    color: #b6b6b8;
+    text-align: left;
+    margin: 0;
+    padding-bottom: var(--spacing-2);
+  }  
+
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    padding-bottom: var(--spacing-2);
+  }
+
+  .nav-link-item {
+    padding-right: 5rem;
+    font-size: var(--fontSize-3); 
+  }
+
+  .nav-link-text {
+    color: #737373;
+    font-family: var(--font-heading);
+    font-weight: var(--fontWeight-medium);
+    padding-left: 0!important;
+  }
+
+
+  .global-wrapper {
+    max-width: var(--maxWidth-wrapper);
+    margin: var(--spacing-0) var(--padding-x);
+
+  }
+
+  .global-wrapper[data-is-root-path="true"] .bio {
+    margin-bottom: var(--spacing-20);
+  }
+  
+
   
   .main-heading {
     font-size: var(--fontSize-7);
@@ -386,34 +425,7 @@
   background-color: var(--color-accent);
 }
 
-.site-description {
-  color: #b6b6b8;
-}
 
-.nav-links {
-  display: flex;
-  list-style: none;
-  padding-left: 2px;
-}
-
-.nav-link-item {
-  padding-right: 5rem;
-  font-size: var(--fontSize-3); 
-}
-
-.nav-link-text {
-  color: #737373;
-  font-family: var(--font-heading);
-  font-weight: var(--fontWeight-medium);
-}
-
-.site-title {
-  font-size: 5rem;
-  color: #CFB7BF;
-  font-weight: 700;
-  margin: 0;
-  margin-bottom: 0px;
-}
 
 ul.icons {
   padding-left: 0px;
@@ -637,6 +649,10 @@ ul.links > li {
     "image image"
     "goals links";
 
+}
+
+.centre-this {
+  margin: 0 auto;
 }
 
 .pdf-container {
