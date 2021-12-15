@@ -25,7 +25,7 @@ const IndexPage = () => {
       <section id="home.background">
       <h2>Me & the MET</h2>
 
-      <p>Why a Masters of Educational Technology? The MET program was an opportunity to engage with the education of educational technology, after spending the past five years in the field on the technology side. My current role is embedded within a technology support unit in a higher education faculty.</p>
+      <p>Why a Masters of Educational Technology? The MET program was an opportunity to engage with the education of educational technology, after spending the past five years in the field on the technology side.</p>
       
       <h3>About Me</h3>
     
