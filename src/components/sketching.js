@@ -56,8 +56,7 @@ const SketchSection = () => {
         </blockquote>
 
 
-        <p>I began the MET program with a loose idea of what I wanted to learn, and what there was to learn about educational technology. While my technology skills are strong, I knew that I needed some foundational knowledge about education and learning. The selected artifacts that represent my "sketchy(ing)" and "doodling" phase were either projects where I was introduced to a technology for the first time (i.e. VR), or was gaining some knowledge that I knew I was lacking.</p>
-
+        <p>I began the MET program with a loose idea of what I wanted to learn, and what there was to learn about educational technology. While my technology skills were strong, I knew that I needed some foundational knowledge about education and learning. The selected projects that represent my "sketchy" and "doodling" phase are projects where I was introduced to a technology for the first time (i.e. VR), or to new concepts were later built upon.</p>
 
         </div>
 

@@ -45,13 +45,17 @@ const ColourSection = () => {
 
     <div className="bg-white py-8">
 
-
       <h2>Adding Colour</h2>
 
         <blockquote>
         <p>
-        Adding colour, detail, and all of the interesting detail to what used to be just a sketch or a doodle. At this stage in an art project, you should have experimented with techniques and tools, and have an idea of where you want the piece to end up.</p>
+        Adding colour, detail, and interest to what used to be just a sketch or outline. At this stage in an art project, you should have experimented with techniques and tools, and have an idea of where you want the piece to end up. It's time to get creative and "show off"!
+        </p>
         </blockquote>
+
+        <p>
+          These are my most polished and my most colourful projects to come from the MET program. They are built upon a more solid foundation of theory, and after having experimented with and improved upon various techniques. 
+        </p>
 
     </div>
         <Projects projectData={projects}/>
