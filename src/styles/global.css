@@ -614,15 +614,23 @@ ul.links > li {
 }
 
 .tag-border {
-  background-color: var(--color-text);
+  background-color: var(--color-primary);
   border-radius: 20px;
   padding: 4px 8px;
-  font-size: 50%;
+  font-size: 65%;
   color: white;
 }
 
-.tag-text {
-  background-color: var(--color-text);
+.tag-lang {
+  background-color: var(--color-primary);
+  border-radius: 20px;
+  padding: 2px 4px;
+  font-size: 90%;
+  color: white;
+}
+
+.tag-course {
+  background-color: var(--color-text-light);
   border-radius: 20px;
   padding: 2px 4px;
   font-size: 90%;

@@ -50,7 +50,6 @@ class Projects extends Component {
 
         if (projects.tags) {
           var tags = projects.tags
-          console.log(tags)
 
           var taglist = projects.tags.map((tag, i) => {
             return (
