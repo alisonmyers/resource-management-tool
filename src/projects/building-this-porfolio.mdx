@@ -9,6 +9,7 @@ goals: ["4"]
 import goalexampleicons from './goalexampleicons.png'
 import devexample from './devexample.png'
 import goalhover from './goalhover.png'
+import cards2 from './cardsv2.png'
 
 # Phase 1: Build It
 ## 2021-11-08
@@ -37,10 +38,20 @@ To actually populate the portfolio with projects (like this one!) I need to writ
 
 My hope is that the development time that has gone into phase 1 is going to pay off in the next steps, where I actually start populating project content! 
 
+<span> 
+<div className="small-container" style={{float: "right"}}>
+    <img height="400px" width="400px" src={cards2}/> 
+</div>
+</span>
 
 # Phase 2: Break It
 ## 2021-11-30
 
+In the first phase of development, I relied on tutorials, and pre-generated code to create the infrastructure. I was able to pull together enough information to get something running in a public space, but I wasn't ready to start being creative. In the second phase I began experimenting. I needed to actually learn what the code I was writing was doing in order to create the components I had envisioned. I was no longer relying on others' code, rather, I had to start writing my own for the customization I was looking for. A lot of time was spent experimenting in order to understand. I also spent a lot of time troubleshooting - things were breaking because I didn't have the right level of understanding yet.
+
+Starting to get the look and feel you are going for can be very rewarding. It can also lead you down rabbit holes that never make it to the surface. In some cases I completed what I was looking for, in others I had to abandon my plans. 
+
+It was in this phase that I also started to generate content. My development goal of making connections was coming together in the development and as I reviewed my previous projects. I chose to include some smaller projects to showcase my progression in learning, and to make sure there was a variety - I was happy to recognize that I had quite a few projects that weren't just papers! 
 
 <span> 
 <div className="small-container" style={{float: "left"}}>
@@ -48,20 +59,11 @@ My hope is that the development time that has gone into phase 1 is going to pay 
 </div>
 </span>
 
-
-
-
-
-
 # Phase 3: Bend It
 ## 2021-12-10
 
-I identified three challenges that I wanted to address with the development of this portfolio: navigation, disjointed projects, and customization. I also felt it was important to build something that wouldn't end up as a static and unchanging portfolio. Ultimately, I think I was able to design a tool to help me solve these problems. 
+In the final phase, it was time to start writing! As I did though, there were more and more features that came to mind to represent learning and the connections I was making between my projects. For example, I had an idea from <span class="tag-course">ETEC 524</span> of "tags" that showcase key words, or themes using tags. So, I added <span class="tag-lang">language tags</span> to visually represent what was becoming apparent or important to me. I call this phase "bend it", because while I wanted to dynamically generate these tags, there just wasn't enough time. These tags **could** have been dynamically generated (and the audience shouldn't really know a difference). At this stage, I also took advantage of some tips and tricks for functionality that I had really wanted. For example, hovering over a goal icon. This *works*, but isn't great (and takes time to load). I also would have wanted to add definitions to the language tags that I created. 
 
-<blockquote>
-<ul class='arrow-list-style'>
-    <li>I have designed the portfolio to be interactive without too much navigation. Aside from projects that cannot be embedded, most content does not require leaving the site.</li> 
-    <li>The data backend I developed requires a description, reflection, and connection. While there is always room for improvement - I believe the projects are well connected to my goals and intentions.</li>
-    <li>free website tools all start to look the same, and may not work well for a portfolio that is meant to be continually developed</li>
-</ul>
-</blockquote>
+
+# Concluding Thoughts
+I identified three challenges that I wanted to address with the development of this portfolio: navigation, disjointed projects, and customization. I also felt it was important to build something that wouldn't end up as a static and unchanging portfolio. Ultimately, I think I was able to design a tool to help me solve these problems. 
