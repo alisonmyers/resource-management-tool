@@ -29,7 +29,7 @@ const IndexPage = () => {
       
       <h3>About Me</h3>
     
-          <div style={{ minWidth: 300, maxWidth: 600, float: "right"}}>
+          <div style={{ minWidth: 250, maxWidth: 500, float: "right"}}>
             <StaticImage src="../images/about-career-2.png" alt="My Career Diagram"/>
           </div>
         
