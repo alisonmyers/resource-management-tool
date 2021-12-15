@@ -69,8 +69,8 @@ class Projects extends Component {
               <div className="col-sm-12 col-md-6 col-lg-4">
 
                 <div className="project-post-container" key={projects.id} >
-                  <div className="project-post-header">
-                      {projects.title}
+                  <div className="project-post-header cursor-pointer" onClick={() => detailsModalShow(projects)}>
+                      <p className="text-center font-semibold">{projects.title}</p>
                   </div>
                   <div className="project-post-image" onClick={() => detailsModalShow(projects)}>
                     <GatsbyImage alt="" image={getImage(projects.image)}/>

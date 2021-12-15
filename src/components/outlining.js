@@ -45,7 +45,6 @@ const OutlineSection = () => {
 
       <div className="bg-white py-8">
 
-
         <h2>Outline and Detail</h2>
 
         <blockquote>
@@ -58,7 +57,7 @@ const OutlineSection = () => {
       </div>
 
         <Projects projectData={projects}/>
-      
+
       </React.Fragment>
  
     )

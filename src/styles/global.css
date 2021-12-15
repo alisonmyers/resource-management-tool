@@ -322,6 +322,7 @@
   .global-wrapper {
     max-width: var(--maxWidth-wrapper);
     margin: var(--spacing-0) var(--padding-x);
+    padding-bottom: var(--spacing-32);
 
   }
 
@@ -446,7 +447,7 @@ li.icons:hover,
 li.icons:focus {
   text-decoration: none;
   color: var(--color-primary);
-  cursor: pointer;
+  cursor: wait;
 }
 
 ul.tags {
