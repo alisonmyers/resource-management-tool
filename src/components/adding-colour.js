@@ -48,9 +48,7 @@ const ColourSection = () => {
       <h2>Adding Colour</h2>
 
         <blockquote>
-        <p>
         Adding colour, detail, and interest to what used to be just a sketch or outline. At this stage in an art project, you should have experimented with techniques and tools, and have an idea of where you want the piece to end up. It's time to get creative and "show off"!
-        </p>
         </blockquote>
 
         <p>
