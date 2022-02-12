@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://alisonmyers.gatsbyjs.io/",
-    title: "Alison's Portfolio",
-    description: "much more like an eportfolio than an eportfolio"
+    siteUrl: "https://resourcemanagementtoolmain.gatsbyjs.io/",
+    title: "ETEC511 - Resource Management Tool",
+    description: "Better Resource Management for Your Courses"
   },
   plugins: [
     "gatsby-plugin-sharp",
