@@ -12,16 +12,11 @@ const NavBar = () => {
     return (
         <nav>
         <ul className="nav-links">
-        <li className="nav-link-item">
-            <Link to="/" activeStyle={activeStyle}  className="nav-link-text">
-            <p class="hover:text-white">Home</p>
-            </Link>
-        </li>
-        <li className="nav-link-item">
-            <Link to="/sketchbook" activeStyle={activeStyle} className="nav-link-text">
-            <p class="hover:text-white">Sketchbook</p>
-            </Link>
-        </li>
+            <li className="nav-link-item">
+                <Link to="/" activeStyle={activeStyle}  className="nav-link-text">
+                <p class="hover:text-white">Home</p>
+                </Link>
+            </li>
         </ul>
         </nav>
 
