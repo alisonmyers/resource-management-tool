@@ -22,16 +22,6 @@ const NavBar = () => {
             <p class="hover:text-white">Sketchbook</p>
             </Link>
         </li>
-        <li className="nav-link-item">
-            <Link to="/blog" activeStyle={activeStyle} className="nav-link-text">
-            <p class="hover:text-white">Blog</p>
-            </Link>
-        </li>
-        <li className="nav-link-item">
-            <Link to="/feedback" activeStyle={activeStyle} className="nav-link-text">
-            <p class="hover:text-white">Feedback</p>
-            </Link>
-        </li>
         </ul>
         </nav>
 
