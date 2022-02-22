@@ -15,7 +15,7 @@
             "goals_text": "",
             "reflection": "",
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vRHePyEQu57inJzdvaPAI6unH5vfIvPWmtJmrUFnFXqhbQTdsP3e5TLQZZxK2STj5Hce0k4TBjn07k-/pub?embedded=true",
-            "image": "../images/ETEC520-1.png",
+            "image": "../images/bookrow-colour.png",
             "links": ["https://docs.google.com/document/d/e/2PACX-1vRHePyEQu57inJzdvaPAI6unH5vfIvPWmtJmrUFnFXqhbQTdsP3e5TLQZZxK2STj5Hce0k4TBjn07k-/pub"],
             "tags": ["reading", "sharingiscaring"]
         }, 
@@ -33,14 +33,14 @@
             "connections": "",
             "goals_text": "",
             "reflection": "",
-            "image": "../images/ETEC530-1.png",
+            "image": "../images/bookrow-colour.png",
             "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
             "tags": ["usability"]
         },
         {
             "id": "ETEC524-1",
-            "title": "A Course Companion Website",
+            "title": "I Love Textbooks",
             "category": "outline",
             "date": "2019-09-01",
             "course": "ETEC 524",
@@ -51,7 +51,7 @@
             "connections": "",
             "goals_text": "",
             "reflection": "<",
-            "image": "../images/ETEC524-1b.png",
+            "image": "../images/bookrow-colour.png",
             "iframe": "",
             "links": ["https://intro-to-data-and-viz.github.io/introduction"],
             "tags": ["learn", "read", "blah"]
@@ -60,7 +60,7 @@
 
         {
             "id": "ETEC524-2",
-            "title": "A Framework for Institutional LMS Selection",
+            "title": "Reading is Fun",
             "category": "outline",
             "date": "2021-06-02",
             "course": "ETEC 524",
@@ -71,7 +71,7 @@
             "connections": "",
             "goals_text": "",
             "reflection": "",
-            "image": "../images/ETEC524-2.png",
+            "image": "../images/bookrow-colour.png",
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vRELguPCI5StShwUvUnhV1lIh7TJO8Rusq8U73fpnJXzJlOCGi2PskXBID8Zth4ZFRCQc7yFtk5Rd4i/pub?embedded=true",
             "links": ["https://docs.google.com/document/d/e/2PACX-1vRELguPCI5StShwUvUnhV1lIh7TJO8Rusq8U73fpnJXzJlOCGi2PskXBID8Zth4ZFRCQc7yFtk5Rd4i/pub"],
             "tags": ["read"]
