@@ -16,12 +16,12 @@ const resourcetypes_desc = {
   2: "This is a video"
 }
 
-const GoalIcon = ({iconName}) => {
+const ResourceIcon = ({iconName}) => {
     const Icon = resourcetypes[iconName];
     const Title = resourcetypes_desc[iconName]
     return <Icon title={Title}/>
   }
-class Projects extends Component {
+class Resources extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -72,7 +72,7 @@ class Projects extends Component {
                   <div className="project-post-resourcetypes">
                     <ul class="icons">
                     {projects.resourcetypes.map((goal, i) =>
-                      <li className="icons" key={i}><GoalIcon iconName={goal} size={10}/></li>
+                      <li className="icons" key={i}><ResourceIcon iconName={goal} size={10}/></li>
                     
                     )}
                     </ul>
@@ -120,4 +120,4 @@ class Projects extends Component {
 }
 
 
-export default Projects;
+export default Resources;

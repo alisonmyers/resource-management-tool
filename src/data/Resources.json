@@ -2,7 +2,7 @@
     "title": "Resource List",
     "outline": [
         {
-            "id": "ETEC520-1",
+            "id": "1",
             "title": "A Video",
             "category": "outline",
             "date": "2019-06-02",
@@ -20,7 +20,7 @@
         }, 
 
         {
-            "id": "ETEC530-1",
+            "id": "2",
             "title": "A Book",
             "category": "outline",
             "date": "2021-04-28",
@@ -37,7 +37,7 @@
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         },
         {
-            "id": "ETEC524-1",
+            "id": "3",
             "title": "I Love Textbooks",
             "category": "outline",
             "date": "2019-09-01",
@@ -56,7 +56,7 @@
         }, 
 
         {
-            "id": "ETEC524-2",
+            "id": "4",
             "title": "Reading is Fun",
             "category": "outline",
             "date": "2021-06-02",
@@ -75,7 +75,7 @@
         }, 
 
         {
-            "id": "ETEC524-2",
+            "id": "5",
             "title": "Reading is Fun 2",
             "category": "outline",
             "date": "2021-06-02",
