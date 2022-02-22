@@ -10,10 +10,10 @@
             "resourcetypes": ["2"],
             "readby": "2022-01-02",
             "type": "paper",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "Never gonna give you up, Never gonna let you down, Never gonna run around and desert you, Never gonna make you cry, Never gonna say goodbye, Never gonna tell a lie and hurt you.🎺",
             "alt_resource": "<li><a href='' target='blank'>A Related Resource</a></li><li><a href='' target='blank'>Another Related Resource</a></li>",
             "iframe": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-            "image": "../images/bookrow-colour.png",
+            "image": "../images/rick.png",
             "links": ["https://www.youtube.com/watch?v=dQw4w9WgXcQ"],
             "tags": ["watching", "rickrolling"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
