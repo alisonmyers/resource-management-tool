@@ -21,7 +21,7 @@ const ResourceSection = () => {
                 reflection
                 links
                 tags
-                group
+                readby
                 iframe
                 image {
                   childImageSharp {

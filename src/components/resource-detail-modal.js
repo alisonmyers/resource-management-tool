@@ -14,7 +14,7 @@ class ProjectDetailsModal extends Component {
       var connections = this.props.data.connections;
       var reflection = this.props.data.reflection;
       var image = this.props.data.image;
-      var group = this.props.data.group;
+      var readby = this.props.data.readby;
       var alternate_links = this.props.data.goals_text;
 
       if (this.props.data.iframe) {
@@ -27,10 +27,10 @@ class ProjectDetailsModal extends Component {
 
 
 
-      if (this.props.data.group) {
-        var hasGroup = true
+      if (this.props.data.readby) {
+        var hasreadby = true
       } else {
-        var hasGroup = false
+        var hasreadby = false
       }
 
       if (this.props.data.goals_text) {
@@ -84,8 +84,8 @@ class ProjectDetailsModal extends Component {
                     </span>
                     <span>
                       <div>
-                        {hasGroup &&  
-                         <p>Group Members: {group} </p>}
+                        {hasreadby &&  
+                         <p>Review by: {readby} </p>}
                       </div>
                       
                       <h2>Description</h2>
