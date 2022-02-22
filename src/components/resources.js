@@ -16,9 +16,6 @@ const ResourceSection = () => {
                 date
                 goals
                 description
-                connections
-                goals_text
-                reflection
                 links
                 tags
                 readby

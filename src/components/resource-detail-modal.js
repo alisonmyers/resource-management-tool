@@ -11,8 +11,6 @@ class ProjectDetailsModal extends Component {
     if (this.props.data) {
       var title = this.props.data.title;
       var description = this.props.data.description;
-      var connections = this.props.data.connections;
-      var reflection = this.props.data.reflection;
       var image = this.props.data.image;
       var readby = this.props.data.readby;
       var alternate_links = this.props.data.goals_text;
@@ -90,12 +88,6 @@ class ProjectDetailsModal extends Component {
                       
                       <h2>Description</h2>
                       <div dangerouslySetInnerHTML={{ __html: description }} />
-
-                      <h2>Connections</h2>
-                      <div dangerouslySetInnerHTML={{ __html: connections }} />
-
-                      <h2>Reflection</h2>
-                      <div dangerouslySetInnerHTML={{ __html: reflection }} />
                     </span>
                   </div>
 
