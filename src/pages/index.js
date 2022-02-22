@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Layout from '../components/my-layout'
 
-import OutlineSection from '../components/outlining'
+import OutlineSection from '../components/resources'
 
 
 const IndexPage = () => {

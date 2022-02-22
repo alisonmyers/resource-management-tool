@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ProjectDetailsModal from "./project-detail-modal";
+import ProjectDetailsModal from "./resource-detail-modal";
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 import { FaMicroscope } from "@react-icons/all-files/fa/FaMicroscope";

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import Projects from './project-cards'
+import Projects from './resource-cards'
 import { useStaticQuery, graphql } from "gatsby"
 
 const OutlineSection = () => {
