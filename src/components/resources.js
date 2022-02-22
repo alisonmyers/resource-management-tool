@@ -6,7 +6,7 @@ const OutlineSection = () => {
     const data = useStaticQuery(
       graphql`
         query OutlineImages {
-          allDataJson(filter: {title: {eq: "My Projects"}}) {
+          allDataJson(filter: {title: {eq: "Resource List"}}) {
             nodes {
               title
               outline {
