@@ -2,7 +2,7 @@ import * as React from 'react'
 import Projects from './resource-cards'
 import { useStaticQuery, graphql } from "gatsby"
 
-const OutlineSection = () => {
+const ResourceSection = () => {
     const data = useStaticQuery(
       graphql`
         query OutlineImages {
@@ -56,4 +56,4 @@ const OutlineSection = () => {
     )
   }
   
-export default OutlineSection
+export default ResourceSection

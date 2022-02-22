@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Layout from '../components/my-layout'
 
-import OutlineSection from '../components/resources'
+import ResourceSection from '../components/resources'
 
 
 const IndexPage = () => {
@@ -11,7 +11,7 @@ const IndexPage = () => {
         <section> 
 
         <div className="bg-fixed md:bg-fixed bg-contain ...">
-        <OutlineSection></OutlineSection>
+        <ResourceSection></ResourceSection>
         </div>
 
       </section>
