@@ -13,7 +13,7 @@ class ProjectDetailsModal extends Component {
       var description = this.props.data.description;
       var image = this.props.data.image;
       var readby = this.props.data.readby;
-      var alternate_links = this.props.data.goals_text;
+      var alt_resource = this.props.data.alt_resource;
 
       if (this.props.data.iframe) {
         var hasIframe = true
@@ -107,9 +107,9 @@ class ProjectDetailsModal extends Component {
                   
                   {hasAlt &&
                   <div>
-                  <h2>More Resources</h2>
+                  <h2>Related Resources</h2>
                   <blockquote><ul class='arrow-list-style'>
-                  <div dangerouslySetInnerHTML={{ __html: alternate_links }} />
+                  <div dangerouslySetInnerHTML={{ __html: alt_resource }} />
                   </ul></blockquote></div>}
 
                   

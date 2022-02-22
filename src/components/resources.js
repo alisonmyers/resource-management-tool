@@ -20,6 +20,7 @@ const ResourceSection = () => {
                 tags
                 readby
                 iframe
+                alt_resource
                 image {
                   childImageSharp {
                     gatsbyImageData(
@@ -40,10 +41,8 @@ const ResourceSection = () => {
     return (
       <React.Fragment>
 
-      <div className="bg-white py-8">
-
+      <div className="bg-white py-2">
         <h2>ETEC 511</h2>
-
       </div>
 
         <Projects projectData={projects}/>
