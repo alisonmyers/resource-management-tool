@@ -31,7 +31,7 @@ class ProjectDetailsModal extends Component {
         var hasreadby = false
       }
 
-      if (this.props.data.goals_text) {
+      if (this.props.data.alt_resource) {
         var hasAlt = true
       } else {
         var hasAlt = false
@@ -93,7 +93,7 @@ class ProjectDetailsModal extends Component {
 
                   
                   {hasIframe &&
-                  <div>
+                  <div className="py-8">
                     
                     <div className="pdf-container">
                     <iframe src={iframeSrc} height="500px" width="100%">
