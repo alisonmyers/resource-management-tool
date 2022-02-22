@@ -603,8 +603,8 @@ ul.links > li {
   cursor: pointer;
 }
 
-.project-post-goals {
-  grid-area: goals;
+.project-post-resourcetypes {
+  grid-area: resourcetypes;
 }
 
 .project-post-links {
@@ -659,7 +659,7 @@ ul.links > li {
     "header header"
     "tags tags"
     "image image"
-    "goals links";
+    "resourcetypes links";
 
 }
 

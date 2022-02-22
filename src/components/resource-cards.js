@@ -6,19 +6,19 @@ import { FaBook } from "@react-icons/all-files/fa/FaBook";
 import { FaVideo } from "@react-icons/all-files/fa/FaVideo";
 import { FiExternalLink } from  "@react-icons/all-files/fi/FiExternalLink";
 
-const goals = {
+const resourcetypes = {
     1: FaBook,
     2: FaVideo,
 }
 
-const goals_desc = {
+const resourcetypes_desc = {
   1: "This is a book",
   2: "This is a video"
 }
 
 const GoalIcon = ({iconName}) => {
-    const Icon = goals[iconName];
-    const Title = goals_desc[iconName]
+    const Icon = resourcetypes[iconName];
+    const Title = resourcetypes_desc[iconName]
     return <Icon title={Title}/>
   }
 class Projects extends Component {
@@ -69,9 +69,9 @@ class Projects extends Component {
                   <div className="project-post-image" onClick={() => detailsModalShow(projects)}>
                     <GatsbyImage alt="" image={getImage(projects.image)}/>
                   </div>
-                  <div className="project-post-goals">
+                  <div className="project-post-resourcetypes">
                     <ul class="icons">
-                    {projects.goals.map((goal, i) =>
+                    {projects.resourcetypes.map((goal, i) =>
                       <li className="icons" key={i}><GoalIcon iconName={goal} size={10}/></li>
                     
                     )}

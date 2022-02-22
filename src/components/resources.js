@@ -14,13 +14,14 @@ const ResourceSection = () => {
                 title
                 course
                 date
-                goals
+                resourcetypes
                 description
                 links
                 tags
                 readby
                 iframe
                 alt_resource
+                apa_reference
                 image {
                   childImageSharp {
                     gatsbyImageData(

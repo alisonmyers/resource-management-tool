@@ -14,6 +14,7 @@ class ProjectDetailsModal extends Component {
       var image = this.props.data.image;
       var readby = this.props.data.readby;
       var alt_resource = this.props.data.alt_resource;
+      var apa_reference = this.props.data.apa_reference;
 
       if (this.props.data.iframe) {
         var hasIframe = true
@@ -111,6 +112,12 @@ class ProjectDetailsModal extends Component {
                   <blockquote><ul class='arrow-list-style'>
                   <div dangerouslySetInnerHTML={{ __html: alt_resource }} />
                   </ul></blockquote></div>}
+
+                  <div>
+                    <h2>Reference</h2>
+                    <div dangerouslySetInnerHTML={{ __html: apa_reference }} />
+
+                  </div>
 
                   
 
