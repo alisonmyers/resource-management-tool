@@ -76,6 +76,26 @@
             "links": ["https://docs.google.com/document/d/e/2PACX-1vRELguPCI5StShwUvUnhV1lIh7TJO8Rusq8U73fpnJXzJlOCGi2PskXBID8Zth4ZFRCQc7yFtk5Rd4i/pub"],
             "tags": ["read"]
 
+        }, 
+
+        {
+            "id": "ETEC524-2",
+            "title": "Reading is Fun 2",
+            "category": "outline",
+            "date": "2021-06-02",
+            "course": "ETEC 524",
+            "goals": ["2", "1", "4"],
+            "group": "Sean Gallagher, Erica Hill, Noelle Peach, Lyon Tsang, John Wu",
+            "type": "paper",
+            "description": "",
+            "connections": "",
+            "goals_text": "",
+            "reflection": "",
+            "image": "../images/bookrow-colour.png",
+            "iframe": "https://docs.google.com/document/d/e/2PACX-1vRELguPCI5StShwUvUnhV1lIh7TJO8Rusq8U73fpnJXzJlOCGi2PskXBID8Zth4ZFRCQc7yFtk5Rd4i/pub?embedded=true",
+            "links": ["https://docs.google.com/document/d/e/2PACX-1vRELguPCI5StShwUvUnhV1lIh7TJO8Rusq8U73fpnJXzJlOCGi2PskXBID8Zth4ZFRCQc7yFtk5Rd4i/pub"],
+            "tags": ["read"]
+
         }
     ]
 

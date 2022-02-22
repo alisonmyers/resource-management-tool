@@ -58,7 +58,7 @@
     --fontSize-5: 2.074rem;
     --fontSize-6: 2.488rem;
     --fontSize-7: 2.986rem;
-    --color-primary: #9e7e9d;
+    --color-primary: #424f88;
     --color-text: #2e353f;
     --color-text-light: #4f5969;
     --color-heading: #1a202c;
@@ -288,7 +288,7 @@
 
   .site-title {
     font-size: 5rem;
-    color: #CFB7BF;
+    color: #424f88;
     font-weight: 700;
     margin-bottom: 0px;
     text-align: left;
