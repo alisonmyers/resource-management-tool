@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://resourcemanagementtoolmain.gatsbyjs.io/",
+    siteUrl: "https://resourcemanagementtool.gatsbyjs.io/",
     title: "ETEC511 - Resource Management Tool",
     description: "Better Resource Management for Your Courses"
   },
