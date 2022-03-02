@@ -9,7 +9,7 @@ const ResourceSection = () => {
           allDataJson(filter: {title: {eq: "Resource List"}}) {
             nodes {
               title
-              outline {
+              resources {
                 id
                 title
                 course
@@ -36,7 +36,7 @@ const ResourceSection = () => {
       `
     );
 
-    const projects = data.allDataJson.nodes[0].outline;
+    const projects = data.allDataJson.nodes[0].resources;
     
     return (
       <React.Fragment>
