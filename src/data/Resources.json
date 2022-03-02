@@ -5,8 +5,7 @@
             "id": "1",
             "title": "A Video",
             "category": "outline",
-            "date": "2019-06-02",
-            "course": "ETEC 520",
+            "course": "ETEC 511",
             "resourcetypes": ["2"],
             "readby": "2022-01-02",
             "type": "paper",
@@ -23,8 +22,7 @@
             "id": "2",
             "title": "A Book",
             "category": "outline",
-            "date": "2021-04-28",
-            "course": "ETEC 530",
+            "course": "ETEC 511",
             "resourcetypes": ["1"],
             "readby": "2022-01-02",
             "type": "workshop",
@@ -35,63 +33,25 @@
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
             "tags": ["usability"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
-        },
+        }, 
+
         {
             "id": "3",
-            "title": "I Love Textbooks",
+            "title": "(Not) getting paid to do what you love: gender, social media, and aspirational work",
             "category": "outline",
-            "date": "2019-09-01",
-            "course": "ETEC 524",
+            "course": "ETEC 511",
             "resourcetypes": ["1"],
-            "readby": "2022-01-02",
-            "type": "website",
+            "readby": "2022-06-03",
+            "type": "workshop",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
             "image": "../images/bookrow-colour.png",
-            "iframe": "",
-            "links": ["https://intro-to-data-and-viz.github.io/introduction"],
-            "tags": ["learn", "read", "blah"],
+            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
+            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
+            "tags": ["usability"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
-
-        }, 
-
-        {
-            "id": "4",
-            "title": "Reading is Fun",
-            "category": "outline",
-            "date": "2021-06-02",
-            "course": "ETEC 524",
-            "resourcetypes": ["1"],
-            "readby": "2022-01-02",
-            "type": "paper",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "alt_resource": "",
-            "image": "../images/bookrow-colour.png",
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vRELguPCI5StShwUvUnhV1lIh7TJO8Rusq8U73fpnJXzJlOCGi2PskXBID8Zth4ZFRCQc7yFtk5Rd4i/pub?embedded=true",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vRELguPCI5StShwUvUnhV1lIh7TJO8Rusq8U73fpnJXzJlOCGi2PskXBID8Zth4ZFRCQc7yFtk5Rd4i/pub"],
-            "tags": ["read"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
-
-        }, 
-
-        {
-            "id": "5",
-            "title": "Reading is Fun 2",
-            "category": "outline",
-            "date": "2021-06-02",
-            "course": "ETEC 524",
-            "resourcetypes": ["1"],
-            "readby": "2022-01-02",
-            "type": "paper",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "alt_resource": "<li><a href='' target='blank'>A Related Resource</a></li><li><a href='' target='blank'>Another Related Resource</a></li>",
-            "image": "../images/bookrow-colour.png",
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vRELguPCI5StShwUvUnhV1lIh7TJO8Rusq8U73fpnJXzJlOCGi2PskXBID8Zth4ZFRCQc7yFtk5Rd4i/pub?embedded=true",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vRELguPCI5StShwUvUnhV1lIh7TJO8Rusq8U73fpnJXzJlOCGi2PskXBID8Zth4ZFRCQc7yFtk5Rd4i/pub"],
-            "tags": ["read"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
-
         }
+
     ]
 
 }

@@ -13,7 +13,6 @@ const ResourceSection = () => {
                 id
                 title
                 course
-                date
                 resourcetypes
                 description
                 links
