@@ -3,17 +3,26 @@ import ProjectDetailsModal from "./resource-detail-modal";
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 import { FaBook } from "@react-icons/all-files/fa/FaBook";
+import { RiArticleLine } from "@react-icons/all-files/ri/RiArticleLine";
+import { GiSlicedBread } from "@react-icons/all-files/gi/GiSlicedBread";
 import { FaVideo } from "@react-icons/all-files/fa/FaVideo";
+
 import { FiExternalLink } from  "@react-icons/all-files/fi/FiExternalLink";
 
 const resourcetypes = {
     1: FaBook,
     2: FaVideo,
+    3: FaBook,
+    4: FaBook,
+    5: FaBook,
 }
 
 const resourcetypes_desc = {
-  1: "This is a book",
-  2: "This is a video"
+  1: "This is an ebook_general",
+  2: "This is an electronic_article",
+  3: "This is a web_general",
+  4: "This is an ebook_chapter",
+  5: "this is a video",
 }
 
 const ResourceIcon = ({iconName}) => {
