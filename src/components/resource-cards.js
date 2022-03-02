@@ -5,16 +5,19 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { FaBook } from "@react-icons/all-files/fa/FaBook";
 import { RiArticleLine } from "@react-icons/all-files/ri/RiArticleLine";
 import { GiSlicedBread } from "@react-icons/all-files/gi/GiSlicedBread";
+import { FiCoffee } from "@react-icons/all-files/fi/FiCoffee";
 import { FaVideo } from "@react-icons/all-files/fa/FaVideo";
+import { GoBug } from "@react-icons/all-files/go/GoBug";
 
 import { FiExternalLink } from  "@react-icons/all-files/fi/FiExternalLink";
 
 const resourcetypes = {
     1: FaBook,
-    2: FaVideo,
-    3: FaBook,
-    4: FaBook,
-    5: FaBook,
+    2: RiArticleLine,
+    3: GiSlicedBread,
+    4: FiCoffee,
+    5: FaVideo,
+    6: GoBug
 }
 
 const resourcetypes_desc = {
@@ -23,6 +26,7 @@ const resourcetypes_desc = {
   3: "This is a web_general",
   4: "This is an ebook_chapter",
   5: "this is a video",
+  6: "this is a book_general"
 }
 
 const ResourceIcon = ({iconName}) => {

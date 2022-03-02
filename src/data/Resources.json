@@ -5,7 +5,7 @@
             "id": "1",
             "title": "A Video",
             "course": "ETEC 511",
-            "resourcetypes": ["2"],
+            "resourcetypes": ["5"],
             "readby": "2022-01-02",
             "description": "Never gonna give you up, Never gonna let you down, Never gonna run around and desert you, Never gonna make you cry, Never gonna say goodbye, Never gonna tell a lie and hurt you.🎺",
             "alt_resource": "<li><a href='' target='blank'>A Related Resource</a></li><li><a href='' target='blank'>Another Related Resource</a></li>",
@@ -69,7 +69,7 @@
             "title": "Cloud Computing Is Not the Energy Hog That Had Been Feared",
             "course": "ETEC 511",
             "author": "Lohr, Steve / The New York Times",
-            "resourcetypes": ["1"],
+            "resourcetypes": ["3"],
             "readby": "2022-06-03",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
@@ -103,7 +103,7 @@
             "title": "Oversold and underused: computers in the classroom",
             "course": "ETEC 511",
             "author": "Cuban, Larry",
-            "resourcetypes": ["1"],
+            "resourcetypes": ["6"],
             "readby": "2022-06-03",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
@@ -120,7 +120,7 @@
             "title": "Teachers and machines: the classroom use of technology since 1920  N/A",
             "course": "ETEC 511",
             "author": "Cuban, Larry",
-            "resourcetypes": ["1"],
+            "resourcetypes": ["6"],
             "readby": "2022-06-03",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
@@ -185,10 +185,10 @@
 
         {
             "id": "12",
-            "title": "",
+            "title": "Digital labour: an empty signifier?  Media, culture & society  Volume: 43  Issue: 2`",
             "course": "ETEC 511",
             "author": "",
-            "resourcetypes": ["1"],
+            "resourcetypes": ["2"],
             "readby": "2022-06-03",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
@@ -202,9 +202,9 @@
 
         {
             "id": "13",
-            "title": "",
+            "title": "Algorithms of oppression: how search engines reinforce racism  N/A",
             "course": "ETEC 511",
-            "author": "",
+            "author": "Noble, Safiya Umoja",
             "resourcetypes": ["1"],
             "readby": "2022-06-03",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -219,10 +219,10 @@
 
         {
             "id": "14",
-            "title": "",
+            "title": "Conflict Minerals and Sexual Violence in Central Africa: Troubling Research  Social politics  Volume: 25  Issue: 4",
             "course": "ETEC 511",
-            "author": "",
-            "resourcetypes": ["1"],
+            "author": "Buss, Doris",
+            "resourcetypes": ["2"],
             "readby": "2022-06-03",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
@@ -236,10 +236,10 @@
 
         {
             "id": "15",
-            "title": "",
+            "title": "Exploring Inequalities in the Social, Spatial and Material Practices of Teaching and Learning in Pandemic Times  Postdigital Science and Education",
             "course": "ETEC 511",
-            "author": "",
-            "resourcetypes": ["1"],
+            "author": "Boys, Jos",
+            "resourcetypes": ["2"],
             "readby": "2022-06-03",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
@@ -253,10 +253,10 @@
 
         {
             "id": "16",
-            "title": "",
+            "title": "Towards a common definition of global health  The Lancet (British edition)  Volume: 373  Issue: 9679",
             "course": "ETEC 511",
-            "author": "",
-            "resourcetypes": ["1"],
+            "author": "Bond, T Christopher, PhD;Wasserheit, Judith N, Prof;Reddy, K Srinath, Prof;Rodriguez, Mario Henry, Prof;Koplan, Jeffrey P, Prof;Merson, Michael H, Prof;Sewankambo, Nelson K, Prof",
+            "resourcetypes": ["2"],
             "readby": "2022-06-03",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
@@ -270,9 +270,9 @@
 
         {
             "id": "17",
-            "title": "",
+            "title": "Convergence culture: where old and new media collide  N/A",
             "course": "ETEC 511",
-            "author": "",
+            "author": "Jenkins, Henry",
             "resourcetypes": ["1"],
             "readby": "2022-06-03",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -287,10 +287,10 @@
 
         {
             "id": "18",
-            "title": "",
+            "title": "From Utterance to Text: The Bias of Language in Speech and Writing  Harvard educational review  Volume: 47  Issue: 3",
             "course": "ETEC 511",
-            "author": "",
-            "resourcetypes": ["1"],
+            "author": "Olson, David",
+            "resourcetypes": ["2"],
             "readby": "2022-06-03",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
@@ -304,10 +304,10 @@
 
         {
             "id": "19",
-            "title": "",
+            "title": "On the Measure of Intelligence",
             "course": "ETEC 511",
-            "author": "",
-            "resourcetypes": ["1"],
+            "author": "Chollet, Francois / Cornell University",
+            "resourcetypes": ["3"],
             "readby": "2022-06-03",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
@@ -321,9 +321,9 @@
 
         {
             "id": "20",
-            "title": "",
+            "title": "The Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence  N/A",
             "course": "ETEC 511",
-            "author": "",
+            "author": "Crawford, Kate",
             "resourcetypes": ["1"],
             "readby": "2022-06-03",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -338,10 +338,10 @@
 
         {
             "id": "21",
-            "title": "",
+            "title": "Ch. 1. The rise of the Pragmatic Web: Implications for rethinking meaning and interaction  Message And Medium: English Language Practices Across Old and New Media  N/A",
             "course": "ETEC 511",
-            "author": "",
-            "resourcetypes": ["1"],
+            "author": "Jones, Rodney H.",
+            "resourcetypes": ["4"],
             "readby": "2022-06-03",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
@@ -355,10 +355,27 @@
 
         {
             "id": "22",
-            "title": "",
+            "title": "Ch. 2. Usability and Human Computer Interaction (HCI)  Sustainable Design HCI, Usability and Environmental Concerns  1st ed.",
             "course": "ETEC 511",
-            "author": "",
-            "resourcetypes": ["1"],
+            "author": "Issa, Tomayess;Isaias, Pedro",
+            "resourcetypes": ["4"],
+            "readby": "2022-06-03",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "alt_resource": "",
+            "image": "../images/bookrow-colour.png",
+            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
+            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
+            "tags": ["usability"],
+            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
+        },
+
+
+        {
+            "id": "23",
+            "title": "Configuring the User: The Case of Usability Trials  The Sociological review (Keele)  Volume: 38  Issue: 1_suppl",
+            "course": "ETEC 511",
+            "author": "Woolgar, Steve",
+            "resourcetypes": ["2"],
             "readby": "2022-06-03",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
