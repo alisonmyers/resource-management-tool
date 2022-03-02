@@ -25,25 +25,25 @@
             "readby": "2022-01-02",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
-            "image": "../images/bookrow-colour.png",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
+            "image": "../images/resource2.jpeg",
+            "links": ["https://www.jstor.org/stable/j.ctt1q31skt"],
+            "iframe": "https://www.jstor.org/stable/j.ctt1q31skt",
             "tags": ["usability"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
+            "apa_reference": "Duffy, B. E. (2017). <em>(Not) Getting Paid to Do What You Love: Gender, Social Media, and Aspirational Work.</em> Yale University Press. http://www.jstor.org/stable/j.ctt1q31skt"
         }, 
 
         {
             "id": "3",
-            "title": "Conclusion The Ecology of Attention",
+            "title": "Conclusion, The Ecology of Attention",
             "course": "ETEC 511",
             "author": "Citton, Yves",
             "resourcetypes": ["4"],
             "readby": "2022-06-03",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
-            "image": "../images/bookrow-colour.png",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
+            "image": "../images/resource3.jpeg",
+            "links": ["https://web.s.ebscohost.com/ehost/detail/detail?vid=0&sid=adc7c926-5c96-47a9-baff-e17417178530%40redis&bdata=JkF1dGhUeXBlPXNoaWImc2l0ZT1laG9zdC1saXZlJnNjb3BlPXNpdGU%3d#AN=1453389&db=nlebk"],
+            "iframe": "https://web.s.ebscohost.com/ehost/detail/detail?vid=0&sid=adc7c926-5c96-47a9-baff-e17417178530%40redis&bdata=JkF1dGhUeXBlPXNoaWImc2l0ZT1laG9zdC1saXZlJnNjb3BlPXNpdGU%3d#AN=1453389&db=nlebk",
             "tags": ["usability"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         }, 
