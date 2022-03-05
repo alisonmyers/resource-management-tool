@@ -24,14 +24,13 @@ module.exports = {
         path: `${__dirname}/src/data`,
       }
     },
-    'gatsby-source-google-spreadsheets',
     {
-      resolve: 'gatsby-source-google-spreadsheets',
+      resolve: "gatsby-source-google-spreadsheets",
       options: {
-          spreadsheetId: '1_zu-FzBg8sFzhHELd7bABVjAFPstDNGEhYnfgYJZUGA',
-          worksheetTitle: 'resources',
-          credentials: require('./client_secret.json'),
-          typePrefix: "GoogleSpreadsheet"
+          spreadsheetId: `1_zu-FzBg8sFzhHELd7bABVjAFPstDNGEhYnfgYJZUGA`,
+          worksheetTitle: `resources`,
+          credentials: require(`./client_secret.json`),
+          typePrefix: `GoogleSpreadsheet`
       }
     },
   ],
