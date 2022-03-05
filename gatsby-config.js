@@ -32,6 +32,6 @@ module.exports = {
           credentials: require('./client_secret.json'),
           typePrefix: "GoogleSpreadsheet"
       }
-  },
+    },
   ],
 };
