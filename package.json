@@ -12,10 +12,9 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "rm -rf .cache/caches/gatsby-plugin-mdx && gatsby clean"
+    "clean": "rm -rf .cache/caches && gatsby clean"
   },
   "dependencies": {
-    "@cezarcarvalhaes/gatsby-source-google-sheets": "^2.0.1",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "@react-icons/all-files": "^4.1.0",
