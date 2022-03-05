@@ -80,7 +80,7 @@ class Resources extends Component {
                       <p className="text-center font-semibold">{projects.title}</p>
                   </div>
                   <div className="project-post-image" onClick={() => detailsModalShow(projects)}>
-                    <GatsbyImage alt="" image={getImage(projects.image)}/>
+                    <GatsbyImage alt="" image={getImage("../images/rick.png")}/>
                   </div>
                   <div className="project-post-resourcetypes">
                     <ul class="icons">

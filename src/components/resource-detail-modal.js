@@ -12,9 +12,9 @@ class ProjectDetailsModal extends Component {
       var title = this.props.data.title;
       var description = this.props.data.description;
       var image = this.props.data.image;
-      var readby = this.props.data.readby;
-      var alt_resource = this.props.data.alt_resource;
-      var apa_reference = this.props.data.apa_reference;
+      var readby = this.props.data.readBy;
+      var alt_resource = this.props.data.altResource;
+      var apa_reference = this.props.data.apaReference;
 
       if (this.props.data.iframe) {
         var hasIframe = true
@@ -78,7 +78,7 @@ class ProjectDetailsModal extends Component {
                   <div>
                   <span> 
                     <div className="small-container" style={{float: "right"}}>
-                        <GatsbyImage image={getImage(image)}/> 
+                        <GatsbyImage image={getImage("../images/rick.png")}/> 
                         </div>
                     </span>
                     <span>
