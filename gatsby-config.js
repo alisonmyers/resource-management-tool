@@ -24,6 +24,7 @@ module.exports = {
         path: `${__dirname}/src/data`,
       }
     },
+    'gatsby-source-google-spreadsheets',
     {
       resolve: 'gatsby-source-google-spreadsheets',
       options: {
