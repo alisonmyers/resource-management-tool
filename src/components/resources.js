@@ -1,44 +1,39 @@
 import * as React from 'react'
-import Projects from './resource-cards'
+import Resources from './resource-cards'
 import { useStaticQuery, graphql } from "gatsby"
 
 const ResourceSection = () => {
     const data = useStaticQuery(
       graphql`
-        query OutlineImages {
-          allDataJson(filter: {title: {eq: "Resource List"}}) {
+        query MyQuery {
+          allGoogleResourcesSheet {
             nodes {
-              title
-              resources {
                 id
                 title
                 author
                 course
-                resourcetypes
+                resourceTypes
                 description
                 links
                 tags
-                readby
+                readBy
                 iframe
-                alt_resource
-                apa_reference
-                image {
-                  childImageSharp {
-                    gatsbyImageData(
-                      placeholder:BLURRED
-                    )
-                  }
+                altResource
+                apaReference
+                image
                 }
               }
             }
-          }
-        }
 
       `
     );
 
-    const projects = data.allDataJson.nodes[0].resources;
+    console.log("data:")
     
+    const projects = data.allGoogleResourcesSheet.nodes;
+    
+    console.log(projects)
+
     return (
       <React.Fragment>
 
@@ -46,7 +41,7 @@ const ResourceSection = () => {
         <h2>ETEC 511</h2>
       </div>
 
-        <Projects projectData={projects}/>
+        <Resources projectData={projects}/>
 
       </React.Fragment>
  

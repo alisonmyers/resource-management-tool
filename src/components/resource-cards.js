@@ -57,17 +57,6 @@ class Resources extends Component {
 
         if (projects.tags) {
           var tags = projects.tags
-
-          var taglist = projects.tags.map((tag, i) => {
-            return (
-              <li key={i}>
-                  <p className="tag-border">
-                        {tag}
-                    </p>
-              </li>
-            );
-          });
-          console.log(taglist)
         }
 
        
@@ -80,29 +69,24 @@ class Resources extends Component {
                       <p className="text-center font-semibold">{projects.title}</p>
                   </div>
                   <div className="project-post-image" onClick={() => detailsModalShow(projects)}>
-                    <GatsbyImage alt="" image={getImage(projects.image)}/>
+                    <GatsbyImage alt="" image={getImage("../images/rick.png")}/>
                   </div>
                   <div className="project-post-resourcetypes">
                     <ul class="icons">
-                    {projects.resourcetypes.map((goal, i) =>
-                      <li className="icons" key={i}><ResourceIcon iconName={goal} size={10}/></li>
-                    
-                    )}
+                      <li className="icons"><ResourceIcon iconName={projects.resourceTypes} size={10}/></li>
                     </ul>
 
                   </div>
                   <div className="project-post-links">
                   <ul class="links">
-                    {projects.links.map((link, i) =>
-                      <li key={i}><a href={link} target="_blank" ><FiExternalLink/></a></li>
-                    )}
+                      <li><a href={projects.link} target="_blank" ><FiExternalLink/></a></li>
                     </ul>
                     
                     </div>
 
                   <div className="project-post-tags">
                     <ul className="tags">
-                      {taglist}
+                     <p>{tags}</p>
                     </ul>
                   </div>
                 </div>
