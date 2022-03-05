@@ -13,8 +13,8 @@ class ProjectDetailsModal extends Component {
       var description = this.props.data.description;
       var image = this.props.data.image;
       var readby = this.props.data.readBy;
-      var alt_resource = this.props.data.altResource;
-      var apa_reference = this.props.data.apaReference;
+      var altResource = this.props.data.altResource;
+      var apaReference = this.props.data.apaReference;
 
       if (this.props.data.iframe) {
         var hasIframe = true
@@ -32,7 +32,7 @@ class ProjectDetailsModal extends Component {
         var hasreadby = false
       }
 
-      if (this.props.data.alt_resource) {
+      if (this.props.data.altResource) {
         var hasAlt = true
       } else {
         var hasAlt = false
@@ -110,12 +110,12 @@ class ProjectDetailsModal extends Component {
                   <div>
                   <h2>Related Resources</h2>
                   <blockquote><ul class='arrow-list-style'>
-                  <div dangerouslySetInnerHTML={{ __html: alt_resource }} />
+                  <div dangerouslySetInnerHTML={{ __html: altResource }} />
                   </ul></blockquote></div>}
 
                   <div>
                     <h2>Reference</h2>
-                    <div dangerouslySetInnerHTML={{ __html: apa_reference }} />
+                    <div dangerouslySetInnerHTML={{ __html: apaReference }} />
 
                   </div>
 
