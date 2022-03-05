@@ -25,7 +25,7 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-source-google-sheets',
+      resolve: 'gatsby-source-google-spreadsheets',
       options: {
           spreadsheetId: '1_zu-FzBg8sFzhHELd7bABVjAFPstDNGEhYnfgYJZUGA',
           worksheetTitle: 'resources',
