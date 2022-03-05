@@ -29,7 +29,8 @@ module.exports = {
       options: {
           spreadsheetId: '1_zu-FzBg8sFzhHELd7bABVjAFPstDNGEhYnfgYJZUGA',
           worksheetTitle: 'resources',
-          credentials: require('./client_secret.json')
+          credentials: require('./client_secret.json'),
+          typePrefix: "GoogleSpreadsheet"
       }
   },
   ],
