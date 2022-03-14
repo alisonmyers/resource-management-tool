@@ -76,11 +76,6 @@ class ProjectDetailsModal extends Component {
           <div className="modal-box">
        
                   <div>
-                  <span> 
-                    <div className="small-container" style={{float: "right"}}>
-                        <GatsbyImage image={getImage(image)}/> 
-                        </div>
-                    </span>
                     <span>
                       <div>
                         {hasreadby &&  
