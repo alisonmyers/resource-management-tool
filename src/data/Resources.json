@@ -17,6 +17,39 @@
         }, 
 
         {
+            "id": "6",
+            "title": "Our love of the cloud is making a green energy future impossible",
+            "course": "ETEC 511",
+            "author": "Mills, Mark / Tech Crunch",
+            "resourcetypes": ["3"],
+            "readby": "2022-06-03",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "alt_resource": "<li><a href=“https://www.emerald.com/insight/content/doi/10.1108/JICES-11-2021-0106/full/pdf?title=artificial-intelligence-and-climate-change-ethical-issues”>Artificial intelligence and climate change: ethical issues <b>(Journal Article)</b></a></li><li><a href=“https://www.youtube.com/watch?v=G435ENcpEEs”>Achieving a Sustainable Future through Technology | COP26 | Accenture <b>(Video)</b></a></li>",
+            "image": "../images/our-love-cover.png",
+            "links": ["https://techcrunch.com/2020/04/25/our-love-of-the-cloud-is-making-a-green-energy-future-impossible/"],
+            "iframe": "https://techcrunch.com/2020/04/25/our-love-of-the-cloud-is-making-a-green-energy-future-impossible/",
+            "tags": ["cloud", "technology", "environment"],
+            "apa_reference": "Mills, M. (2020, April 25). <em>Our love of the cloud is making a green energy future impossible.</em> TechCrunch. https://tcrn.ch/3eKG2oF "
+        },
+
+        {
+            "id": "13",
+            "title": "Algorithms of oppression: how search engines reinforce racism  N/A",
+            "course": "ETEC 511",
+            "author": "Noble, Safiya Umoja",
+            "resourcetypes": ["1"],
+            "readby": "2022-06-03",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "alt_resource": "",
+            "image": "../images/algorithms-of-oppression-cover.png",
+            "links": ["https://docs.google.com/document/d/18SG2ZjVpfZg3KQf4IpCXdD4yaen85QnD0rQfIbwphks/"],
+            "iframe": "https://docs.google.com/document/d/18SG2ZjVpfZg3KQf4IpCXdD4yaen85QnD0rQfIbwphks/",
+            "tags": ["algorithms", "technology"],
+            "apa_reference": "Noble, S.U. (2018). <em>Algorithms of Oppression : How Search Engines Reinforce Racism.</em> NYU Press"
+        }, 
+
+
+        {
             "id": "2",
             "title": "(Not) getting paid to do what you love: gender, social media, and aspirational work",
             "course": "ETEC 511",
@@ -78,24 +111,7 @@
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
             "tags": ["usability"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
-        }, 
-
-
-        {
-            "id": "6",
-            "title": "Our love of the cloud is making a green energy future impossible",
-            "course": "ETEC 511",
-            "author": "Mills, Mark / Tech Crunch",
-            "resourcetypes": ["3"],
-            "readby": "2022-06-03",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "alt_resource": "",
-            "image": "../images/bookrow-colour.png",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
-            "tags": ["usability"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
-        }, 
+        },  
 
 
         {
@@ -198,24 +214,6 @@
             "tags": ["usability"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         }, 
-
-
-        {
-            "id": "13",
-            "title": "Algorithms of oppression: how search engines reinforce racism  N/A",
-            "course": "ETEC 511",
-            "author": "Noble, Safiya Umoja",
-            "resourcetypes": ["1"],
-            "readby": "2022-06-03",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "alt_resource": "",
-            "image": "../images/bookrow-colour.png",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
-            "tags": ["usability"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
-        }, 
-
 
         {
             "id": "14",
