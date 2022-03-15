@@ -45,23 +45,6 @@ const ResourceSectionCard = () => {
     return (
       <React.Fragment>
 
-      <div className="grid grid-cols-2">
-
-        <div>
-            <StaticImage src="../images/search.png" alt="SearchBar"/>
-         </div>
-
-         <div>
-            <StaticImage src="../images/sort_by.png" alt="SortBy"/>
-         </div>
-
-      </div>
-      
-
-      <div className="bg-white py-4">
-        <h2>ETEC 511</h2>
-      </div>
-
         <ResourceCards projectData={projects}/>
 
       </React.Fragment>

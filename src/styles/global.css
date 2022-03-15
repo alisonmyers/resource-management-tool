@@ -276,7 +276,7 @@
   /* How Stuff Fits*/
 
   .global-header {
-    padding:  var(--spacing-2) var(--padding-x) var(--spacing-0);
+    padding:  var(--spacing-2) var(--padding-x) var(--spacing-4);
     background-color: var(--color-heading-black);
     margin: 0 var(--spacing-2);
   }
@@ -311,6 +311,8 @@
   .nav-link-item {
     padding-right: 5rem;
     font-size: var(--fontSize-3); 
+    border-radius: 25px;
+    background-color: black;
   }
 
   .nav-link-text {
