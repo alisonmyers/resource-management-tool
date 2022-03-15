@@ -5,21 +5,21 @@ const NavBar = () => {
 
     const colorPrimary="blue"
     const activeStyle = {
-        color: "#9e7e9d", 
+        color: "#424f88", 
         fontWeight: "bold"
     };
 
     return (
         <nav>
         <ul className="nav-links">
-            <li className="nav-link-item">
+            <li className="nav-link-item" role="button">
                 <Link to="/" activeStyle={activeStyle}  className="nav-link-text">
-                <p class="hover:text-white">Grid</p>
+                <p>Grid</p>
                 </Link>
             </li>
             <li className="nav-link-item">
                 <Link to="/listview" activeStyle={activeStyle}  className="nav-link-text">
-                <p class="hover:text-white">List</p>
+                <p>List</p>
                 </Link>
             </li>
         </ul>
