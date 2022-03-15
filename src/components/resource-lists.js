@@ -34,7 +34,7 @@ const ResourceIcon = ({iconName}) => {
     const Title = resourcetypes_desc[iconName]
     return <Icon title={Title}/>
   }
-class ResourceCards extends Component {
+class ResourceLists extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -74,14 +74,11 @@ class ResourceCards extends Component {
         return (
           <React.Fragment>
 
-              <div className="col-sm-12 col-md-6 col-lg-4">
+              <div>
 
-                <div className="project-post-container" key={projects.id} >
+                <div className="project-list-container" key={projects.id} >
                   <div className="project-post-header cursor-pointer" onClick={() => detailsModalShow(projects)}>
                       <p className="text-center font-semibold">{projects.title}</p>
-                  </div>
-                  <div className="project-post-image" onClick={() => detailsModalShow(projects)}>
-                    <GatsbyImage alt="" image={getImage(projects.image)}/>
                   </div>
                   <div className="project-post-resourcetypes">
                     <ul class="icons">
@@ -92,14 +89,6 @@ class ResourceCards extends Component {
                     </ul>
 
                   </div>
-                  <div className="project-post-links">
-                  <ul class="links">
-                    {projects.links.map((link, i) =>
-                      <li key={i}><a href={link} target="_blank" ><FiExternalLink/></a></li>
-                    )}
-                    </ul>
-                    
-                    </div>
 
                   <div className="project-post-tags">
                     <ul className="tags">
@@ -134,4 +123,4 @@ class ResourceCards extends Component {
 }
 
 
-export default ResourceCards;
+export default ResourceLists;

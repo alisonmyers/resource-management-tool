@@ -1,5 +1,6 @@
 import * as React from 'react'
-import Projects from './resource-cards'
+import ResourceCards from './resource-cards'
+import ResourceLists from './resource-lists'
 import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
@@ -61,7 +62,8 @@ const ResourceSection = () => {
         <h2>ETEC 511</h2>
       </div>
 
-        <Projects projectData={projects}/>
+        <ResourceCards projectData={projects}/>
+        <ResourceLists projectData={projects}/>
 
       </React.Fragment>
  
