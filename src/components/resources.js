@@ -26,7 +26,8 @@ const ResourceSection = () => {
                 image {
                   childImageSharp {
                     gatsbyImageData(
-                      placeholder:BLURRED
+                      placeholder:BLURRED 
+                      height: 150
                     )
                   }
                 }
