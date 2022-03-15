@@ -61,7 +61,7 @@
             "image": "../images/resource2.jpeg",
             "links": ["https://www.jstor.org/stable/j.ctt1q31skt"],
             "iframe": "https://www.jstor.org/stable/j.ctt1q31skt",
-            "tags": ["usability"],
+            "tags": ["gender", "media"],
             "apa_reference": "Duffy, B. E. (2017). <em>(Not) Getting Paid to Do What You Love: Gender, Social Media, and Aspirational Work.</em> Yale University Press. http://www.jstor.org/stable/j.ctt1q31skt"
         }, 
 
@@ -77,13 +77,13 @@
             "image": "../images/resource3.jpeg",
             "links": ["https://web.s.ebscohost.com/ehost/detail/detail?vid=0&sid=adc7c926-5c96-47a9-baff-e17417178530%40redis&bdata=JkF1dGhUeXBlPXNoaWImc2l0ZT1laG9zdC1saXZlJnNjb3BlPXNpdGU%3d#AN=1453389&db=nlebk"],
             "iframe": "https://web.s.ebscohost.com/ehost/detail/detail?vid=0&sid=adc7c926-5c96-47a9-baff-e17417178530%40redis&bdata=JkF1dGhUeXBlPXNoaWImc2l0ZT1laG9zdC1saXZlJnNjb3BlPXNpdGU%3d#AN=1453389&db=nlebk",
-            "tags": ["usability"],
+            "tags": ["ecology", "technology"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         }, 
 
         {
             "id": "4",
-            "title": "Learning, Attentional Control, and Action Video Games  Current biology  Volume: 22  Issue: 6",
+            "title": "Learning, Attentional Control, and Action Video Games  Current biology, Volume: 22  Issue: 6",
             "course": "ETEC 511",
             "author": "Green, C.S;Bavelier, D",
             "resourcetypes": ["2"],
@@ -93,7 +93,7 @@
             "image": "../images/bookrow-colour.png",
             "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
-            "tags": ["usability"],
+            "tags": ["learning", "biology"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         }, 
 
@@ -109,7 +109,7 @@
             "image": "../images/bookrow-colour.png",
             "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
-            "tags": ["usability"],
+            "tags": ["cloud", "technology"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         },  
 
@@ -126,7 +126,7 @@
             "image": "../images/bookrow-colour.png",
             "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
-            "tags": ["usability"],
+            "tags": ["technology", "media"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         }, 
 
