@@ -279,7 +279,7 @@
   /* How Stuff Fits*/
 
   .global-header {
-    padding:  var(--spacing-2) var(--padding-x) var(--spacing-4);
+    padding:  var(--spacing-2) var(--padding-x) var(--spacing-16);
     background-color: var(--color-heading-black);
     margin: 0 var(--spacing-2);
   }
@@ -397,7 +397,7 @@
     font-size: var(--fontSize-7);
     margin: 0;
     margin-bottom: var(--spacing-5);
-    margin-top: var(--spacing-7);
+    margin-top: var(--spacing-20);
   }
   
   .post-list-item {
