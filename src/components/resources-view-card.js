@@ -1,11 +1,10 @@
 import * as React from 'react'
 import ResourceCards from './resource-cards'
-import ResourceLists from './resource-lists'
 import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 
-const ResourceSection = () => {
+const ResourceSectionCard = () => {
     const data = useStaticQuery(
       graphql`
         query OutlineImages {
@@ -64,11 +63,10 @@ const ResourceSection = () => {
       </div>
 
         <ResourceCards projectData={projects}/>
-        <ResourceLists projectData={projects}/>
 
       </React.Fragment>
  
     )
   }
   
-export default ResourceSection
+export default ResourceSectionCard

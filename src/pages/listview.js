@@ -1,17 +1,16 @@
 import * as React from 'react'
 import Layout from '../components/my-layout'
+import ResourceSectionList from '../components/resources-view-list'
 
-import ResourceSectionCard from '../components/resources-view-card'
 
-
-const IndexPage = () => {
+const ListPage = () => {
 
     return(
         <Layout pageTitle="Resources">
         <section> 
 
         <div className="bg-fixed md:bg-fixed bg-contain ...">
-        <ResourceSectionCard></ResourceSectionCard>
+        <ResourceSectionList></ResourceSectionList>
         </div>
 
       </section>
@@ -20,4 +19,4 @@ const IndexPage = () => {
   
 }
 
-export default IndexPage
+export default ListPage

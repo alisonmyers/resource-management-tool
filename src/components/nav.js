@@ -14,7 +14,12 @@ const NavBar = () => {
         <ul className="nav-links">
             <li className="nav-link-item">
                 <Link to="/" activeStyle={activeStyle}  className="nav-link-text">
-                <p class="hover:text-white">Home</p>
+                <p class="hover:text-white">Grid</p>
+                </Link>
+            </li>
+            <li className="nav-link-item">
+                <Link to="/listview" activeStyle={activeStyle}  className="nav-link-text">
+                <p class="hover:text-white">List</p>
                 </Link>
             </li>
         </ul>
