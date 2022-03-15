@@ -4,6 +4,7 @@ import ResourceLists from './resource-lists'
 import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
+
 const ResourceSection = () => {
     const data = useStaticQuery(
       graphql`
