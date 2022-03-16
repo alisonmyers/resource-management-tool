@@ -1,23 +1,21 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./resource-detail-modal";
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 import { FaBook } from "@react-icons/all-files/fa/FaBook";
 import { RiArticleLine } from "@react-icons/all-files/ri/RiArticleLine";
-import { GiSlicedBread } from "@react-icons/all-files/gi/GiSlicedBread";
-import { FiCoffee } from "@react-icons/all-files/fi/FiCoffee";
+import { RiComputerLine } from "@react-icons/all-files/ri/RiComputerLine";
+import { BsFillBookmarksFill } from "@react-icons/all-files/bs/BsFillBookmarksFill";
 import { FaVideo } from "@react-icons/all-files/fa/FaVideo";
-import { GoBug } from "@react-icons/all-files/go/GoBug";
 
 import { FiExternalLink } from  "@react-icons/all-files/fi/FiExternalLink";
 
 const resourcetypes = {
     1: FaBook,
     2: RiArticleLine,
-    3: GiSlicedBread,
-    4: FiCoffee,
+    3: RiComputerLine,
+    4: BsFillBookmarksFill,
     5: FaVideo,
-    6: GoBug
+    6: FaBook
 }
 
 const resourcetypes_desc = {
