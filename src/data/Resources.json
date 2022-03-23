@@ -28,7 +28,7 @@
             "image": "../images/our-love-cover.png",
             "links": ["https://techcrunch.com/2020/04/25/our-love-of-the-cloud-is-making-a-green-energy-future-impossible/"],
             "iframe": "https://techcrunch.com/2020/04/25/our-love-of-the-cloud-is-making-a-green-energy-future-impossible/",
-            "tags": ["cloud", "technology", "environment"],
+            "tags": ["cloud", "sustainability", "environment"],
             "apa_reference": "Mills, M. (2020, April 25). <em>Our love of the cloud is making a green energy future impossible.</em> TechCrunch. https://tcrn.ch/3eKG2oF "
         },
 
@@ -44,7 +44,7 @@
             "image": "../images/algorithms-of-oppression-cover.png",
             "links": ["https://docs.google.com/document/d/18SG2ZjVpfZg3KQf4IpCXdD4yaen85QnD0rQfIbwphks/"],
             "iframe": "https://docs.google.com/document/d/18SG2ZjVpfZg3KQf4IpCXdD4yaen85QnD0rQfIbwphks/",
-            "tags": ["algorithms", "technology"],
+            "tags": ["algorithms", "inequity"],
             "apa_reference": "Noble, S.U. (2018). <em>Algorithms of Oppression: How Search Engines Reinforce Racism.</em> NYU Press"
         }, 
 
@@ -61,7 +61,7 @@
             "image": "../images/resource2.jpeg",
             "links": ["https://www.jstor.org/stable/j.ctt1q31skt"],
             "iframe": "https://www.jstor.org/stable/j.ctt1q31skt",
-            "tags": ["gender", "media"],
+            "tags": ["labour", "inequality"],
             "apa_reference": "Duffy, B. E. (2017). <em>(Not) Getting Paid to Do What You Love: Gender, Social Media, and Aspirational Work.</em> Yale University Press. http://www.jstor.org/stable/j.ctt1q31skt"
         }, 
 
@@ -91,9 +91,9 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
             "image": "../images/bookrow-colour.png",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
-            "tags": ["learning", "biology"],
+            "links": [""],
+            "iframe": "",
+            "tags": ["learning", "gamification"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         }, 
 
@@ -107,9 +107,9 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
             "image": "../images/bookrow-colour.png",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
-            "tags": ["cloud", "technology"],
+            "links": [""],
+            "iframe": "",
+            "tags": ["cloud", "sustainability"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         },  
 
@@ -124,9 +124,9 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
             "image": "../images/bookrow-colour.png",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
-            "tags": ["technology", "media"],
+            "links": [""],
+            "iframe": "",
+            "tags": ["pedagogy", "media"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         }, 
 
@@ -141,9 +141,9 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
             "image": "../images/bookrow-colour.png",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
-            "tags": ["usability"],
+            "links": [""],
+            "iframe": "",
+            "tags": ["pedagogy"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         }, 
 
@@ -158,9 +158,9 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
             "image": "../images/bookrow-colour.png",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
-            "tags": ["usability"],
+            "links": [""],
+            "iframe": "",
+            "tags": ["ecology", "attention"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         }, 
 
@@ -175,9 +175,9 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
             "image": "../images/bookrow-colour.png",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
-            "tags": ["usability"],
+            "links": [""],
+            "iframe": "",
+            "tags": ["ecology", "attention"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         }, 
 
@@ -192,9 +192,9 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
             "image": "../images/bookrow-colour.png",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
-            "tags": ["usability"],
+            "links": [""],
+            "iframe": "",
+            "tags": ["health", "wellness"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         }, 
 
@@ -209,9 +209,9 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
             "image": "../images/bookrow-colour.png",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
-            "tags": ["usability"],
+            "links": [""],
+            "iframe": "",
+            "tags": ["labour"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         }, 
 
@@ -225,9 +225,9 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
             "image": "../images/bookrow-colour.png",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
-            "tags": ["usability"],
+            "links": [""],
+            "iframe": "",
+            "tags": ["inequaility"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         }, 
 
@@ -242,9 +242,9 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
             "image": "../images/bookrow-colour.png",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
-            "tags": ["usability"],
+            "links": [""],
+            "iframe": "",
+            "tags": ["inequality", "higher education"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         }, 
 
@@ -259,9 +259,9 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
             "image": "../images/bookrow-colour.png",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
-            "tags": ["usability"],
+            "links": [""],
+            "iframe": "",
+            "tags": ["health", "wellness"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         }, 
 
@@ -276,9 +276,9 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
             "image": "../images/bookrow-colour.png",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
-            "tags": ["usability"],
+            "links": [""],
+            "iframe": "",
+            "tags": ["culture", "media"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         }, 
 
@@ -293,9 +293,9 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
             "image": "../images/bookrow-colour.png",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
-            "tags": ["usability"],
+            "links": [""],
+            "iframe": "",
+            "tags": ["bias", "inequality"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         }, 
 
@@ -310,9 +310,9 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
             "image": "../images/bookrow-colour.png",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
-            "tags": ["usability"],
+            "links": [""],
+            "iframe": "",
+            "tags": ["higher education"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         }, 
 
@@ -327,9 +327,9 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
             "image": "../images/bookrow-colour.png",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
-            "tags": ["usability"],
+            "links": [""],
+            "iframe": "",
+            "tags": ["technology", "sustainability"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         }, 
 
@@ -344,9 +344,9 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
             "image": "../images/bookrow-colour.png",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
-            "tags": ["usability"],
+            "links": [""],
+            "iframe": "",
+            "tags": ["technology"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         }, 
 
@@ -361,9 +361,9 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
             "image": "../images/bookrow-colour.png",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
-            "tags": ["usability"],
+            "links": [""],
+            "iframe": "",
+            "tags": ["usability", "sustainability"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         },
 
@@ -378,9 +378,9 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
             "image": "../images/bookrow-colour.png",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSw3f1eclZS20xz_IpDycyYonTYrsn70fdlvdkvQaY5jX1nb48QYq_i1CwdHUNgQg/pub?embedded=true",
-            "tags": ["usability"],
+            "links": [""],
+            "iframe": "",
+            "tags": ["usability", "research design"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)"
         }
 
