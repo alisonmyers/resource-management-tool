@@ -53,12 +53,12 @@ class ResourceCards extends Component {
     if (this.props.projectData) {
  
 
-      var projects = this.props.projectData.map(function (projects) {
+      var resources = this.props.projectData.map(function (resources) {
 
-        if (projects.tags) {
-          var tags = projects.tags
+        if (resources.tags) {
+          var tags = resources.tags
 
-          var taglist = projects.tags.map((tag, i) => {
+          var taglist = resources.tags.map((tag, i) => {
             return (
               <li key={i}>
                   <p className="tag-border">
@@ -76,16 +76,17 @@ class ResourceCards extends Component {
 
               <div className="col-sm-12 col-md-6 col-lg-4">
 
-                <div className="project-post-container" key={projects.id} >
-                  <div className="project-post-header cursor-pointer" onClick={() => detailsModalShow(projects)}>
-                      <p className="text-center font-semibold">{projects.title}</p>
+                <div className="project-post-container" key={resources.id} >
+                  <div className="project-post-header cursor-pointer" onClick={() => detailsModalShow(resources)}>
+                      <p className="text-center font-semibold">{resources.title}</p>
+                      <p className="text-center italic text-base">Author(s): {resources.author}</p>
                   </div>
-                  <div className="project-post-image" onClick={() => detailsModalShow(projects)}>
-                    <GatsbyImage alt="" image={getImage(projects.image)}/>
+                  <div className="project-post-image" onClick={() => detailsModalShow(resources)}>
+                    <GatsbyImage alt="" image={getImage(resources.image)}/>
                   </div>
                   <div className="project-post-resourcetypes">
                     <ul class="icons">
-                    {projects.resourcetypes.map((goal, i) =>
+                    {resources.resourcetypes.map((goal, i) =>
                       <li className="icons" key={i}><ResourceIcon iconName={goal} size={10}/></li>
                     
                     )}
@@ -94,7 +95,7 @@ class ResourceCards extends Component {
                   </div>
                   <div className="project-post-links">
                   <ul class="links">
-                    {projects.links.map((link, i) =>
+                    {resources.links.map((link, i) =>
                       <li key={i}><a href={link} target="_blank" ><FiExternalLink/></a></li>
                     )}
                     </ul>
@@ -120,7 +121,7 @@ class ResourceCards extends Component {
       <section id="portfolio">
         <div className="col-md-12">
           <div className="col-md-12 mx-auto">
-            <div className="row mx-auto">{projects}</div>
+            <div className="row mx-auto">{resources}</div>
           </div>
           <ProjectDetailsModal
             show={this.state.detailsModalShow}

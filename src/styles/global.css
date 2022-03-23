@@ -703,7 +703,7 @@ ul.links > li {
 
 .project-post-container {
   background-color: var(--color-background-main);
-  max-height: 500px;
+  max-height: 600px;
   max-width: 500px;
   min-width: 250px;
   box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);

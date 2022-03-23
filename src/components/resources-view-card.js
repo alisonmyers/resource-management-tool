@@ -40,12 +40,12 @@ const ResourceSectionCard = () => {
       `
     );
 
-    const projects = data.allDataJson.nodes[0].resources;
+    const resources = data.allDataJson.nodes[0].resources;
     
     return (
       <React.Fragment>
 
-        <ResourceCards projectData={projects}/>
+        <ResourceCards projectData={resources}/>
 
       </React.Fragment>
  
