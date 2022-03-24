@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
 import Slider from "react-slick";
+import { StaticImage } from "gatsby-plugin-image"
+
 
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
-import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css"
 
 class ProjectDetailsModal extends Component {
   render() {
@@ -49,7 +49,7 @@ class ProjectDetailsModal extends Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      adaptiveHeight: false,
+      adaptiveHeight: true,
       scrollable: true
     };
 
@@ -104,26 +104,40 @@ class ProjectDetailsModal extends Component {
                   </div>}
 
                   <Slider {...settings}>
-                    <div className="modal-slide"> Slide 1</div>
-                    <div className="modal-slide"> Slide 2</div>
+                    <div className="modal-slide"> 
+                      {hasAlt &&
+                      <div>
+                      <h2>Related Resources</h2>
+                      <blockquote><ul class='arrow-list-style'>
+                      <div dangerouslySetInnerHTML={{ __html: alt_resource }} />
+                      </ul></blockquote></div>}
+
+                      <div>
+                        <h2>Reference</h2>
+                        <div dangerouslySetInnerHTML={{ __html: apa_reference }} />
+                      </div>
+
+                    </div>
+                    <div className="modal-slide">
+
+                      <div className="object-fill">
+
+                      Take Notes:
+                      <StaticImage 
+                        src="../images/create-notes.png"
+                        placeholder="blurred"
+                        height="200px"
+                      />
+
+                      </div>
+                      
+                    </div>
                   </Slider>
                   <div>
 
                   </div>
                   
-                  {hasAlt &&
-                  <div>
-                  <h2>Related Resources</h2>
-                  <blockquote><ul class='arrow-list-style'>
-                  <div dangerouslySetInnerHTML={{ __html: alt_resource }} />
-                  </ul></blockquote></div>}
-
-                  <div>
-                    <h2>Reference</h2>
-                    <div dangerouslySetInnerHTML={{ __html: apa_reference }} />
-
-                  </div>
-
+                 
                   
 
                   
