@@ -10,6 +10,7 @@ const IndexPage = () => {
         <Layout pageTitle="Resources">
         <section> 
 
+
         <div className="bg-fixed md:bg-fixed bg-contain ...">
         <ResourceSectionCard></ResourceSectionCard>
         </div>
