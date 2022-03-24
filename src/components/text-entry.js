@@ -7,9 +7,6 @@ function TextEntry() {
             <h2>Enter your notes here</h2>
             <CKEditor
                 initData={<p>Start entering your notes!</p>}
-                onInstanceReady={ () => {
-                    alert( 'Editor is ready!' );
-                } }
             />
         </div>
     );
