@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
-import { GatsbyImage, getImage} from "gatsby-plugin-image"
+import Slider from "react-slick";
 
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
@@ -100,6 +102,14 @@ class ProjectDetailsModal extends Component {
                   <p className="py-2 text-center">You can also view the embedded content <a href={iframeSrc}  target="_blank" alt="Open the document below in a new tab.">here</a></p>
                     
                   </div>}
+
+                  <Slider {...settings}>
+                    <div className="modal-slide"> Slide 1</div>
+                    <div className="modal-slide"> Slide 2</div>
+                  </Slider>
+                  <div>
+
+                  </div>
                   
                   {hasAlt &&
                   <div>
