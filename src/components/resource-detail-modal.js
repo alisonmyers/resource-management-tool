@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
 import Slider from "react-slick";
-import { StaticImage } from "gatsby-plugin-image"
-import TextEntry from "./text-entry";
+import { CKEditor } from "ckeditor4-react";
 
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
@@ -119,7 +118,13 @@ class ProjectDetailsModal extends Component {
 
                     </div>
                     <div className="modal-slide">
-                        <TextEntry></TextEntry>
+                      <div className="App">
+                            <h3>Enter your notes here</h3>
+                            <p className="text-sx">This is a prototype feature - it does not save.</p>
+                            <CKEditor
+                                initData= {apa_reference}
+                            />
+                        </div>
                       </div>
                       
                   </Slider>
