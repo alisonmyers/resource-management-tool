@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
-import { GatsbyImage, getImage} from "gatsby-plugin-image"
-
+import Slider from "react-slick";
+import { StaticImage } from "gatsby-plugin-image"
+import TextEntry from "./text-entry";
 
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
+
 
 class ProjectDetailsModal extends Component {
   render() {
@@ -47,7 +49,7 @@ class ProjectDetailsModal extends Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      adaptiveHeight: false,
+      adaptiveHeight: true,
       scrollable: true
     };
 
@@ -100,20 +102,32 @@ class ProjectDetailsModal extends Component {
                   <p className="py-2 text-center">You can also view the embedded content <a href={iframeSrc}  target="_blank" alt="Open the document below in a new tab.">here</a></p>
                     
                   </div>}
-                  
-                  {hasAlt &&
-                  <div>
-                  <h2>Related Resources</h2>
-                  <blockquote><ul class='arrow-list-style'>
-                  <div dangerouslySetInnerHTML={{ __html: alt_resource }} />
-                  </ul></blockquote></div>}
 
+                  <Slider {...settings}>
+                    <div className="modal-slide"> 
+                      {hasAlt &&
+                      <div>
+                      <h2>Related Resources</h2>
+                      <blockquote><ul class='arrow-list-style'>
+                      <div dangerouslySetInnerHTML={{ __html: alt_resource }} />
+                      </ul></blockquote></div>}
+
+                      <div>
+                        <h2>Reference</h2>
+                        <div dangerouslySetInnerHTML={{ __html: apa_reference }} />
+                      </div>
+
+                    </div>
+                    <div className="modal-slide">
+                        <TextEntry></TextEntry>
+                      </div>
+                      
+                  </Slider>
                   <div>
-                    <h2>Reference</h2>
-                    <div dangerouslySetInnerHTML={{ __html: apa_reference }} />
 
                   </div>
-
+                  
+                 
                   
 
                   

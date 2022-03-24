@@ -85,21 +85,15 @@ class ResourceCards extends Component {
                     <GatsbyImage alt="" image={getImage(resources.image)}/>
                   </div>
                   <div className="project-post-resourcetypes">
-                    <ul class="icons">
-                    {resources.resourcetypes.map((goal, i) =>
-                      <li className="icons" key={i}><ResourceIcon iconName={goal} size={10}/></li>
-                    
-                    )}
-                    </ul>
-
+                      <ul class="icons">
+                      {resources.resourcetypes.map((goal, i) =>
+                        <li className="icons" key={i}><ResourceIcon iconName={goal} size={10}/></li>
+                      )}
+                      </ul>
                   </div>
                   <div className="project-post-links">
-                  <ul class="links">
-                    {resources.links.map((link, i) =>
-                      <li key={i}><a href={link} target="_blank" ><FiExternalLink/></a></li>
-                    )}
-                    </ul>
-                    
+
+                     <input type="checkbox" id="cite" name="citation" value="Cite" /> Cite
                     </div>
 
                   <div className="project-post-tags">
