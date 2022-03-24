@@ -3,7 +3,6 @@ import Layout from '../components/my-layout'
 
 import ResourceSectionCard from '../components/resources-view-card'
 
-
 const IndexPage = () => {
 
     return(

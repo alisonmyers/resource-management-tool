@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
 import Slider from "react-slick";
 import { StaticImage } from "gatsby-plugin-image"
-
+import TextEntry from "./text-entry";
 
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
@@ -119,19 +119,9 @@ class ProjectDetailsModal extends Component {
 
                     </div>
                     <div className="modal-slide">
-
-                      <div className="object-fill">
-
-                      Take Notes:
-                      <StaticImage 
-                        src="../images/create-notes.png"
-                        placeholder="blurred"
-                        height="200px"
-                      />
-
+                        <TextEntry></TextEntry>
                       </div>
                       
-                    </div>
                   </Slider>
                   <div>
 
