@@ -23,6 +23,14 @@ module.exports = {
         name: `data`,
         path: `${__dirname}/src/data`,
       }
+    },
+    "gatsby-plugin-mdx",
+      {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `projects`,
+        path: `${__dirname}/src/projects`,
+      }
     }
   ],
 };
