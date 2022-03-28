@@ -2,26 +2,92 @@
 title: "Project Overview"
 ---
 
+## Review and Analysis
+
+Demand for accessible, technology-based, educational resources has grown significantly within academic and public library environments over the last decade. Carson & Alexander (2020) indicate “the amount of electronic content available through academic libraries has increased enormously, as has the portion of collections budgets used to pay for this content”(p. 2). Lieu & Zhao (2019) further indicate Canadian libraries have doubled their spending on digital content over the last ten years. Today, with our immediate access to web searches, social media platforms, and communication through smartphones, Isenberg (2006) suggests post secondary students expect efficient access to electronic educational course resources. Further, they indicate learner perspectives towards their accessibility to online educational resources can impact their overall educational experiences (Isenberg, 2006). Within educational technology, electronic multimodal course reserves have many advantages, including convenient portability, lack of risk to loss and damage, and they allow users to engage with literature without having to physically travel to a library (Lieu & Zhao, 2019). However, “in order for computer-based systems to be widely accepted and used effectively, they need to be well designed via a “user-centered” approach” (Issa & Isaias, 2015, p. 4). As we know, poorly designed virtual environments that do not consider user experience, risk losing the attention of those users, therefore, impacting the tool’s functionality (De Castell & Jenson, 2004).  
+
+## Purpose & Intention
+
+As active students enrolled in the Master of Educational Technology (MET) program and who work in the field of higher education, our group’s initial project discussions identified a meta issue within the very platform we were being asked to use. The Learning Online Course Reserve (LOCR) tool utilized within the University of British Columbia (UBC), is a centralized hub that maintains online course material for the institute. Educators at UBC can select literature and then use LOCR with the support of the library to embed them into a particular course as a required or recommended reading. As an educational tool, users of LOCR should be able to easily and efficiently access the provided literature with minimal barriers. 
+
+The intention of our project is twofold; the first objective is to evaluate the usability of LOCR from the user’s perspective (in this case, our group members). Our usability evaluation derived from concepts learned through course readings, assignments and peer discussions within ETEC 511. The collected usability findings have consequently informed the second objective of the project, which is the development of a working prototype of a new resource management tool. Our resource management tool has been developed via a proof of concept built as a custom website leveraging Javascript, HTML, and CSS. 
+
 # Reviewing LOCR
 
-To beging our usability review we conducted an analysis of the features and issues we found with LOCR. You can review the issues we found in the following walkthrough.
+To begin our usability review we conducted an analysis of the features and issues we found with LOCR. You can review the issues we found in the following walkthrough.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lDstdlboa-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Proposal
 
-<iframe width="1200" height="800" src="https://docs.google.com/document/d/e/2PACX-1vRkZLnuve6NPW_y_6WkPNmVpSi9TQGm0g-CGi6p8U2V508RJcEePqp5B9GtCZ70yuZqBCPddhEuo4jf/pub?embedded=true"></iframe>
+# Conclusions From a Usability Evaluation of LOCR
 
-# Brainstorm of Improvements and New Features
+## Poor Accessibility
 
-We brainstormed all of the improvements and new features, and then discussed and commented what woudl be feasible.
-<iframe width="1200" height="800" src="https://docs.google.com/document/d/e/2PACX-1vQefXAGGtKy-Jh3vrOF_eNUK6ZMGIYuVJvjdAVUdMz6Obp3bscW2kwKeqrzQeEItMTo74Vu5TwghIt-/pub?embedded=true"></iframe>
+Individually and collectively, our group conducted a usability evaluation of LOCR. A shared concern quickly identified was a lack of easy accessibility to our assigned readings for ETEC 511. Problems arise promptly when we access LOCR resources through our Canvas dashboard. Consistent examples of issues begin when we click on a reading link in the course-specific LOCR page. Often, when clicking on a link, the LOCR system requires the user to click through multiple pop-up boxes, webpages and browser tabs that transfer to various external publisher sites. Sometimes, this rerouting can include four - five individual clicks and multiple login pages. Following these steps, once a user reaches the intended resource location, it can remain inaccessible due to broken or missing links or requiring membership login. Consequently, our group debrief determined similar struggles with usability in terms of being able to quickly access course resources. 
 
+## Resource Format & Type in the Reading List
+
+Another feature we identified as problematic in our usability evaluation was the lack of clarity in determining which format the required resource was in. We found the course reading list to be unclear as to whether the resource was a full text article, an abstract, a chapter of a paper, etc. We determined the cause of this inefficiency to be due to the structure of the reading list. Resources are listed within a gray and white chart that is heavily text-based with a small font. Some resources have information available, such as Call Number and Pages, while others have that space blank. Further, while the Reading List incorporates symbols under the Format column, the symbols themselves are not intuitive or consistent. Moreover, when hovering over the symbols with a mouse, there is no alternative text available to clarify the type of resource it is. This poses risk for users who depend on screen readers to navigate resources. 
+
+Related to the format of resources, we identified a lack of multimodal and diverse mediums within LOCR. The majority are solely text-based with few alternative formats. In the push to make education more accessible to various types of learners, reserves should include additional methods of accessibility, such as podcasts, audiobooks, videos, etc. 
+## Related Resources
+
+As graduate students, we are continuously searching for similarly related articles to explore additional information on a topic to help support our research and broaden our knowledge and perspectives. Sometimes this can be challenging due to the high volume of material available. Our group identified the lack of opportunity within LOCR to search for and locate similarly related resources on a particular topic. This impacts usability by having the user spend additional time searching various databases for further relevant information.  
+
+## Addressing LOCR’s Inefficiencies   
+
+To address the above noted usability inefficiencies, our group decided to move forward and develop our own Resource Management Tool. To reduce the issue of being redirected and bounced to various web browsers within LOCR after selecting a resource, our group’s Resource Management Tool has designed an interface that links directly to the resource within one click. This approach supports the user's attention to the task, reduces frustration and enhances time efficiency. The instructor will also benefit from this interface by being able to readily identify broken resource links. 
+
+In terms of clearly defining the type of format the resource is presented in, we have incorporated intuitive symbols that represent the resource medium. Clear image icons will help users immediately identify what type of resources they are accessing. Further, we have added alternative text that clearly indicates the type, for example, “This is a video” or “This is an ebook chapter”. That said, the future of our Resource Management Tool will include multimodal resources. 
+
+In terms of accessibility and ability to organize items in a way that suits students' learning, we have provided two options for sorting the reading list: grid and list.  As Ambrose, et al note in How learning works: Seven research-based principles for smart teaching (2010) students perform 60 to 305 percent better when they are able to organize their learning items into their own personal hierarchy. 
+
+To address the concern in terms of accessing similarly related resources, we hope that future iterations of our Resource Management Tool will utilize machine learning to suggest similar readings. The algorithm will use specific keywords, dates and authors to suggest similar readings to the reading provided to allow users to broaden their knowledge base. We have also included appropriate tags to each of the resources that will direct the user to similar resources with the same tag. 
 
 # User Testing
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/08hRStlxKbs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Once our prototype was developed, we invited two colleagues to test our platform and provide feedback on its interface, intuitive functionality and overall level of usability. Positive feedback included an appreciation to view the resources in either a grid format or list view. The grid option allowed the evaluators to review details of the resource prior to having to click on it. The grid view also provides users with an image of the resource, clear symbols identifying the type of format the resource is in, as well as alternative text available when the user’s mouse hovers over those symbols. The evaluators also liked the tagging function of the resources which allows them to group similar items together.  
 
-# Review and Analysis
+In terms of suggestions from the evaluators, they indicated it could be beneficial if the individual grid resource boxes were smaller in size. This way, the user would be able to see more of the resources on the page at a glance. Similar to how the grid view presents a description of the resource, the evaluators would like to have that function available within the list view as well. Additionally, they mentioned being able to sort the resource by media type would also be an asset to the tool.
 
-We conducted a thorough review of literature to inform our project and guide the design of the Resource Management Tool.
-<iframe width="1200" height="800" src="https://docs.google.com/document/d/e/2PACX-1vRxCqBJPl1asTWQf-vQIReVdJ7cZjoYfuTOb2161VQIJibyK4icWnvi8MUAySPUGu8dI5BHzvMeNgPI/pub?embedded=true"></iframe>
+<iframe width="800" height="500" src="https://www.youtube.com/embed/08hRStlxKbs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Moving Forward
+
+## Limitations 
+A consideration we are aware of relates to issues of copyright and resource ownership. In our prototype, we provide users with access to resources within one click, however, we recognize this may not always be possible depending on the type of the resource and where it is located. To that point, however, perhaps there is opportunity to reconsider the types of resources being selected and explore alternatives, such as Open Educational Resources (OERs). Afterall, copyright issues are a major catalyst for requiring the many clicks and separate login pages users are forced to follow. 
+
+## Future Development
+If our group had the opportunity to develop the Resource Management Tool further, there are additional enhancements we would incorporate, such as a citation support generator. When referring to literature within academic work, the task of referencing the source requires several steps in order to accurately cite in the required format (APA 7, MLA). Students often utilize external website tools that can temporarily save the citations, list how they should be formatted, and provide the corresponding in-text citation. This approach involves the user to click away from the LOCR site to another browser or tool. In our system, we want to embed an application that cites a resource directly from the reading list and saves it directly within the Resource Management Tool. 
+Another feature we would like to explore pertains to the interface of the tool when reviewed on various mediums. We know that many user’s access their online course resources on devices such as their smartphone, tablet, laptop, etc. and we recognize how usability can be impacted if a tool is not designed for alternative forms of technology outside of a PC. 
+Additionally, we would like to explore ways in which we can design our interface based on Universal Design Learning concepts. By designing the interface with the perspective of the “curb cut effect” we can ensure the tool is accessible to diverse users with varying needs and preferences. 
+
+
+
+
+
+
+# References
+Ambrose, S. A., Bridges, M. W., DiPietro, M., Lovett, M. C., & Norman, M. K. (2010).How learning works: 
+	Seven research-based principles for smart teaching. John Wiley & Sons.
+Carson, P., & Alexander, K. L. (2020). Walk-in users and their access to online resources in Canadian
+	  academic libraries. Partnership: The Canadian Journal of Library and Information Practice and
+ 	 Research, 15(2), 1-25. https://doi.org/10.21083/partnership.v15i2.5793
+
+De Castell, S., & Jenson, J. (2004). Paying attention to attention: New economies for learning. Educational
+ 	 Theory, 54(4), 381-397. https://doi.org/10.1111/j.0013-2004.2004.00026.x
+
+Isenberg, L. (2006). Online course reserves and graduate student satisfaction. The Journal of Academic
+ 	Librarianship, 32(2), 166-172. https://doi.org/10.1016/j.acalib.2005.12.003
+
+Issa, T., & Isaias, P. (2015). Usability and human computer interaction (HCI). Sustainable Design, 19-36. 
+ 	 Usability and Human Computer Interaction (HCI) | SpringerLink
+
+Lieu, A., & Zhao, D. (2019). How much of library digital content is checked out but never used? The
+ 	Electronic Library, 37(2), 255-262. https://doi.org/10.1108/el-10-2018-0208
+
+The “Curb cut” effect: An accessible web benefits all – Introduction to web accessibility. (2019, August 1). 
+ 	Ryerson University Pressbooks – Open Educational Resources Publishing. 
+ 	The “Curb Cut” Effect: An Accessible Web Benefits All
+Wolbring, G. (2008). The politics of ableism. Development, 51(2), 252-258. 
+ 	The Politics of Ableism | SpringerLink
+
