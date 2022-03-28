@@ -24,13 +24,13 @@ module.exports = {
         path: `${__dirname}/src/data`,
       }
     },
-    "gatsby-plugin-mdx",
       {
       resolve: "gatsby-source-filesystem",
       options: {
         name: `summary`,
         path: `${__dirname}/src/summary`,
-      }
-    }
+      },
+    },
+    "gatsby-plugin-mdx"
   ],
 };
