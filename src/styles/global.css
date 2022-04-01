@@ -627,7 +627,7 @@ ul.links > li {
   min-width: 350px;
 }
 
-.project-post-card {
+.resource-post-card {
   /* Add shadows to create the "card" effect */
   box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
   transition: 0.3s;
@@ -637,12 +637,12 @@ ul.links > li {
 
 }
 
-.project-post-header {
+.resource-post-header {
   grid-area: header
 
 }
 
-.project-post-image {
+.resource-post-image {
   grid-area: image;
   display: fixed;  
   max-height: 100%;
@@ -656,21 +656,21 @@ ul.links > li {
   grid-template-columns: repeat(auto-fill, minmax(90px, 1fr))
 }
 
-.project-post-image:hover {
+.resource-post-image:hover {
   cursor: pointer;
 }
 
-.project-post-resourcetypes {
+.resource-post-resourcetypes {
   grid-area: resourcetypes;
   align-self: start;
 }
 
-.project-post-links {
+.resource-post-links {
   grid-area: links;
   align-self: start;
 }
 
-.project-post-tags {
+.resource-post-tags {
   grid-area: tags;
   justify-content: left;
 }
@@ -700,7 +700,7 @@ ul.links > li {
 }
 
 
-.project-post-container {
+.resource-post-container {
   background-color: var(--color-background-main);
   max-height: 600px;
   max-width: 500px;
@@ -721,7 +721,7 @@ ul.links > li {
 
 }
 
-.project-list-container {
+.resource-list-container {
   background-color: var(--color-background-main);
   max-height: 500px;
   max-width: 800px;

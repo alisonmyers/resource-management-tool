@@ -74,12 +74,12 @@ class ResourceLists extends Component {
 
               <div>
 
-                <div className="project-list-container" key={resources.id} >
-                  <div className="project-post-header cursor-pointer" onClick={() => detailsModalShow(resources)}>
+                <div className="resource-list-container" key={resources.id} >
+                  <div className="resource-post-header cursor-pointer" onClick={() => detailsModalShow(resources)}>
                       <p className="text-center font-semibold">{resources.title}</p>
                       <p className="text-center italic text-base">Author(s): {resources.author}</p>
                   </div>
-                  <div className="project-post-resourcetypes">
+                  <div className="resource-post-resourcetypes">
                     <ul class="icons">
                     {resources.resourcetypes.map((goal, i) =>
                       <li className="icons" key={i}><ResourceIcon iconName={goal} size={10}/></li>
@@ -89,7 +89,7 @@ class ResourceLists extends Component {
 
                   </div>
 
-                  <div className="project-post-tags">
+                  <div className="resource-post-tags">
                     <ul className="tags">
                       {taglist}
                     </ul>

@@ -76,27 +76,27 @@ class ResourceCards extends Component {
 
               <div className="col-sm-12 col-md-6 col-lg-4">
 
-                <div className="project-post-container" key={resources.id} >
-                  <div className="project-post-header cursor-pointer" onClick={() => detailsModalShow(resources)}>
+                <div className="resource-post-container" key={resources.id} >
+                  <div className="resource-post-header cursor-pointer" onClick={() => detailsModalShow(resources)}>
                       <p className="text-center font-semibold">{resources.title}</p>
                       <p className="text-center italic text-base">Author(s): {resources.author}</p>
                   </div>
-                  <div className="project-post-image" onClick={() => detailsModalShow(resources)}>
+                  <div className="resource-post-image" onClick={() => detailsModalShow(resources)}>
                     <GatsbyImage alt="" image={getImage(resources.image)}/>
                   </div>
-                  <div className="project-post-resourcetypes">
+                  <div className="resource-post-resourcetypes">
                       <ul class="icons">
                       {resources.resourcetypes.map((goal, i) =>
                         <li className="icons" key={i}><ResourceIcon iconName={goal} size={10}/></li>
                       )}
                       </ul>
                   </div>
-                  <div className="project-post-links">
+                  <div className="resource-post-links">
 
                      <input type="checkbox" id="cite" name="citation" value="Cite" /> Cite
                     </div>
 
-                  <div className="project-post-tags">
+                  <div className="resource-post-tags">
                     <ul className="tags">
                       {taglist}
                     </ul>
