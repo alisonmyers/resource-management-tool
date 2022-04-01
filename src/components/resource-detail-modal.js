@@ -17,14 +17,21 @@ class ProjectDetailsModal extends Component {
       var alt_resource = this.props.data.alt_resource;
       var apa_reference = this.props.data.apa_reference;
 
+
       if (this.props.data.iframe) {
         var hasIframe = true
         var iframeSrc = this.props.data.iframe
-        console.log(iframeSrc)
       } else {
         var hasIframe = false
       }
 
+      if (this.props.data.cc) {
+        var hasCC = true
+        var embedLink = this.props.data.cc
+      } else {
+        var hasCC = false
+        embedLink = this.props.data.iframe
+      }
 
 
       if (this.props.data.readby) {
@@ -98,7 +105,7 @@ class ProjectDetailsModal extends Component {
 
                     </div>
 
-                  <p className="py-2 text-center">You can also view the embedded content <a href={iframeSrc}  target="_blank" alt="Open the document below in a new tab.">here</a></p>
+                  <p className="py-2 text-center">You can also view the embedded content <a href={embedLink}  target="_blank" alt="Open the document below in a new tab.">here</a></p>
                     
                   </div>}
 

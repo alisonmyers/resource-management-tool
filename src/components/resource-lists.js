@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./resource-detail-modal";
+import CC from "./cc"
 
 import { FaBook } from "@react-icons/all-files/fa/FaBook";
 import { RiArticleLine } from "@react-icons/all-files/ri/RiArticleLine";
@@ -7,7 +8,7 @@ import { RiComputerLine } from "@react-icons/all-files/ri/RiComputerLine";
 import { BsFillBookmarksFill } from "@react-icons/all-files/bs/BsFillBookmarksFill";
 import { FaVideo } from "@react-icons/all-files/fa/FaVideo";
 
-import { FiExternalLink } from  "@react-icons/all-files/fi/FiExternalLink";
+
 
 const resourcetypes = {
     1: FaBook,
@@ -68,6 +69,10 @@ class ResourceLists extends Component {
           console.log(taglist)
         }
 
+        if (resources.cc) {
+          var cc = CC()
+        }
+
        
         return (
           <React.Fragment>
@@ -93,6 +98,10 @@ class ResourceLists extends Component {
                     <ul className="tags">
                       {taglist}
                     </ul>
+                  </div>
+
+                  <div className="resource-cc">
+                    {cc}
                   </div>
                 </div>
               </div>
