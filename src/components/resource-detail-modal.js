@@ -21,6 +21,7 @@ class ProjectDetailsModal extends Component {
       if (this.props.data.iframe) {
         var hasIframe = true
         var iframeSrc = this.props.data.iframe
+        var embedText = "The content can also be found: "
       } else {
         var hasIframe = false
       }
@@ -28,6 +29,7 @@ class ProjectDetailsModal extends Component {
       if (this.props.data.cc) {
         var hasCC = true
         var embedLink = this.props.data.cc
+        var embedText = "The original content can be found: "
       } else {
         var hasCC = false
         embedLink = this.props.data.iframe
@@ -105,7 +107,7 @@ class ProjectDetailsModal extends Component {
 
                     </div>
 
-                  <p className="py-2 text-center">You can also view the embedded content <a href={embedLink}  target="_blank" alt="Open the document below in a new tab.">here</a></p>
+                  <p className="py-2 text-center">{embedText} <a href={embedLink}  target="_blank" alt="Open the document below in a new tab.">here</a></p>
                     
                   </div>}
 
