@@ -45,7 +45,7 @@ const ResourceSectionList= () => {
     return (
       <React.Fragment>
 
-        <ResourceList projectData={resources}/>
+        <ResourceList resourceData={resources}/>
 
       </React.Fragment>
  

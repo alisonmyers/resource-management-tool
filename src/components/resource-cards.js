@@ -50,10 +50,10 @@ class ResourceCards extends Component {
 
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
     
-    if (this.props.projectData) {
+    if (this.props.resourceData) {
  
 
-      var resources = this.props.projectData.map(function (resources) {
+      var resources = this.props.resourceData.map(function (resources) {
 
         if (resources.tags) {
           var tags = resources.tags

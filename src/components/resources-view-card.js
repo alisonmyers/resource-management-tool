@@ -45,7 +45,7 @@ const ResourceSectionCard = () => {
     return (
       <React.Fragment>
 
-        <ResourceCards projectData={resources}/>
+        <ResourceCards resourceData={resources}/>
 
       </React.Fragment>
  
