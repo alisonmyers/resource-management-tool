@@ -98,7 +98,14 @@ class ResourceLists extends Component {
                     <ul className="tags">
                       {taglist}
                     </ul>
+                    
                   </div>
+
+                  <div className="resource-list-cite">
+
+                  <input type="checkbox" id="cite" name="citation" value="Cite" /> Cite
+                  </div>
+
 
                   <div className="resource-cc">
                     {cc}

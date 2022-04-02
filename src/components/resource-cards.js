@@ -95,7 +95,7 @@ class ResourceCards extends Component {
                       )}
                       </ul>
                   </div>
-                  <div className="resource-post-links">
+                  <div className="resource-post-cite">
 
                      <input type="checkbox" id="cite" name="citation" value="Cite" /> Cite
                     </div>

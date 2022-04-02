@@ -665,7 +665,7 @@ ul.links > li {
   align-self: start;
 }
 
-.resource-post-links {
+.resource-post-cite {
   grid-area: links;
   align-self: start;
 }
@@ -735,8 +735,20 @@ ul.links > li {
   grid-template-columns: 10% 75% 10%;
   grid-template-rows: auto;
   grid-template-areas: 
-    "resourcetypes header tags";
+    "resourcetypes header tags"
+    "cc cc cite";
+}
 
+.resource-list-cite {
+  grid-area: cite;
+  display: fixed;  
+  justify-self: center;
+}
+
+.resource-list-cc {
+  grid-area: cc;
+  display: fixed;  
+  justify-self: center;
 }
 
 .center-this {
