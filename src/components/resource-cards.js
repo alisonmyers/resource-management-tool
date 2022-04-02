@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./resource-detail-modal";
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-
+import CC from "./cc";
 
 import { FaBook } from "@react-icons/all-files/fa/FaBook";
 import { RiArticleLine } from "@react-icons/all-files/ri/RiArticleLine";
@@ -70,6 +70,10 @@ class ResourceCards extends Component {
           console.log(taglist)
         }
 
+        if (resources.cc) {
+          var cc = CC()
+        }
+
        
         return (
           <React.Fragment>
@@ -100,6 +104,10 @@ class ResourceCards extends Component {
                     <ul className="tags">
                       {taglist}
                     </ul>
+                  </div>
+
+                  <div className ="resource-post-cc">
+                    {cc}
                   </div>
                 </div>
               </div>

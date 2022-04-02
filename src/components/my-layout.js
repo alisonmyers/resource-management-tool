@@ -17,8 +17,11 @@ const Layout = ({ pageTitle, children }) => {
   `)
 
   return (
+
+    
     
     <React.Fragment>
+            
 
       <div className ="global-header">   
         <div className="global-header-div">    
@@ -61,6 +64,9 @@ const Layout = ({ pageTitle, children }) => {
 
       </div>
 
+
+
+
       
       {ScrollToTop()}
       
@@ -69,6 +75,8 @@ const Layout = ({ pageTitle, children }) => {
 
     
   )
+
+    
 }
 
 export default Layout

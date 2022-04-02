@@ -24,6 +24,7 @@ const ResourceSectionList= () => {
                 iframe
                 alt_resource
                 apa_reference
+                cc
                 image {
                   childImageSharp {
                     gatsbyImageData(
