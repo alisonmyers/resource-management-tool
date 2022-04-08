@@ -24,7 +24,8 @@ const ResourceSectionCard = () => {
                 iframe
                 alt_resource
                 apa_reference
-                cc
+                cc4
+                cc3
                 image {
                   childImageSharp {
                     gatsbyImageData(

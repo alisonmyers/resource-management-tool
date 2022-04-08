@@ -26,9 +26,9 @@ class ProjectDetailsModal extends Component {
         var hasIframe = false
       }
 
-      if (this.props.data.cc) {
+      if (this.props.data.cc4) {
         var hasCC = true
-        var embedLink = this.props.data.cc
+        var embedLink = this.props.data.cc4
         var embedText = "The original content can be found: "
       } else {
         var hasCC = false

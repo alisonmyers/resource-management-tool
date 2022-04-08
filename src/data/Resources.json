@@ -15,7 +15,8 @@
             "links": ["https://www.youtube.com/watch?v=dQw4w9WgXcQ"],
             "tags": ["watching", "rickrolling"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)",
-            "cc": ""
+            "cc4": "",
+            "cc3": ""
         }, 
 
         {
@@ -32,8 +33,29 @@
             "iframe": "https://techcrunch.com/2020/04/25/our-love-of-the-cloud-is-making-a-green-energy-future-impossible/",
             "tags": ["cloud", "sustainability", "environment"],
             "apa_reference": "Mills, M. (2020, April 25). <em>Our love of the cloud is making a green energy future impossible.</em> TechCrunch. https://tcrn.ch/3eKG2oF ", 
-            "cc": ""
+            "cc4": "",
+            "cc3": ""
         },
+
+        {
+            "id": "100",
+            "title": "Artificial Intelligence, Machine Learning, and Deep Learning",
+            "course": "ETEC 511",
+            "author": "Gensler, G.",
+            "resourcetypes": ["3"],
+            "readby": "2022-06-03",
+            "description": "This course material from MIT reviews artificial intelligence and machine learning. It is part of a series of courses related to FinTech (finance technology). This course demonstrates how deeply embedded artificial intelligence and machine learning are becoming in all of our systems - including financial systems.",
+            "alt_resource": "",
+            "image": "../images/mit-open.png",
+            "links": ["https://ocw.mit.edu/courses/15-s08-fintech-shaping-the-financial-world-spring-2020/pages/ai-machine-learning"],
+            "iframe": "https://ocw.mit.edu/courses/15-s08-fintech-shaping-the-financial-world-spring-2020/pages/ai-machine-learning",
+            "tags": ["AI", "learning"],
+            "apa_reference": "Gensler, G. (2020). <em>Artificial Intelligence, Machine Learning, and Deep Learning.</em> MIT OpenCourseWare.", 
+            "cc4": "",
+            "cc3": ""
+        },
+
+
 
         {
             "id": "13",
@@ -49,7 +71,8 @@
             "iframe": "https://docs.google.com/document/d/18SG2ZjVpfZg3KQf4IpCXdD4yaen85QnD0rQfIbwphks/",
             "tags": ["algorithms", "inequity"],
             "apa_reference": "Noble, S.U. (2018). <em>Algorithms of Oppression: How Search Engines Reinforce Racism.</em> NYU Press",
-            "cc": ""
+            "cc4": "",
+            "cc3": ""
             
         }, 
 
@@ -62,12 +85,13 @@
             "readby": "2022-06-03",
             "description": "<p>A review and agenda for the sociology of artificial intelligence. Asks for sociologists to 'play a leading role in the imagining and shaping of AI futures.'</p>",
             "alt_resource": "",
-            "image": "",
+            "image": "../images/pexels-tara-winstead-8386440.jpeg",
             "links": [""],
             "iframe": "https://drive.google.com/file/d/1VZS6nTiLBd2-qxh0lu3PQsaMDbq-hOC4/preview",
             "tags": ["algorithms", "inequity"],
             "apa_reference": "Joyce, K., Smith-Doerr, L., Alegria, S., Bell, S., Cruz, T., Hoffman, S. G., Noble, S. U., & Shestakofsky, B. (2021). <em>Toward a Sociology of Artificial Intelligence: A Call for Research on Inequalities and Structural Change.</em> Socius. https://doi.org/10.1177/2378023121999581", 
-            "cc": "https://journals.sagepub.com/doi/10.1177/2378023121999581"
+            "cc4": "https://journals.sagepub.com/doi/10.1177/2378023121999581",
+            "cc3": ""
         }, 
 
 
@@ -85,7 +109,8 @@
             "iframe": "https://www.jstor.org/stable/j.ctt1q31skt",
             "tags": ["labour", "inequality"],
             "apa_reference": "Duffy, B. E. (2017). <em>(Not) Getting Paid to Do What You Love: Gender, Social Media, and Aspirational Work.</em> Yale University Press. http://www.jstor.org/stable/j.ctt1q31skt", 
-            "cc": ""
+            "cc4": "",
+            "cc3": ""
         }, 
 
         {
@@ -97,12 +122,13 @@
             "readby": "2022-01-02",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "alt_resource": "",
-            "image": "../images/resource2.jpeg",
+            "image": "../images/pexels-tracy-le-blanc-607812.jpeg",
             "links": ["https://www.jstor.org/stable/j.ctt1q31skt"],
             "iframe": "https://drive.google.com/file/d/1eXau9FzZ3D7UnyBOhoaW0dgcMycViNUX/preview",
             "tags": ["labour", "inequality"],
             "apa_reference": "", 
-            "cc": "https://www.cogitatiopress.com/mediaandcommunication/article/view/4460/4460"
+            "cc4": "https://www.cogitatiopress.com/mediaandcommunication/article/view/4460/4460",
+            "cc3": ""
         }, 
 
         {
@@ -117,9 +143,29 @@
             "image": "../images/resource3.jpeg",
             "links": ["https://web.s.ebscohost.com/ehost/detail/detail?vid=0&sid=adc7c926-5c96-47a9-baff-e17417178530%40redis&bdata=JkF1dGhUeXBlPXNoaWImc2l0ZT1laG9zdC1saXZlJnNjb3BlPXNpdGU%3d#AN=1453389&db=nlebk"],
             "iframe": "https://web.s.ebscohost.com/ehost/detail/detail?vid=0&sid=adc7c926-5c96-47a9-baff-e17417178530%40redis&bdata=JkF1dGhUeXBlPXNoaWImc2l0ZT1laG9zdC1saXZlJnNjb3BlPXNpdGU%3d#AN=1453389&db=nlebk",
-            "tags": ["ecology", "technology"],
+            "tags": ["attention", "technology"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
-            "cc": ""
+            "cc4": "",
+            "cc3": ""
+        }, 
+
+
+        {
+            "id": "3-2",
+            "title": "Failures of Awareness: The Case of Inattentional Blindness",
+            "course": "ETEC 511",
+            "author": "Simons, D",
+            "resourcetypes": ["3"],
+            "readby": "2022-06-03",
+            "description": "<p>This module describes the history and status of research on inattentional blindness, discusses the reasons why we find these results to be counterintuitive, and the implications of failures of awareness for how we see and act in our world.</p><p>Cover Image Credit: Mike Licht, https://goo.gl/z7rkve, cc4 BY 2.0, https://goo.gl/v4Y0Zv</p>",
+            "alt_resource": "",
+            "image": "../images/resource4.png",
+            "links": ["https://nobaproject.com/modules/failures-of-awareness-the-case-of-inattentional-blindness"],
+            "iframe": "https://drive.google.com/file/d/1x9_WRwelgTpb72_XAhziehLoSmaKq1O9/preview",
+            "tags": ["attention", "technology"],
+            "apa_reference": "Original: Simons, D. (2022). <em>Failures of awareness: The case of Inattentional blindness.</em> Noba. https://noba.to/cemagjuw", 
+            "cc4": "https://nobaproject.com/modules/failures-of-awareness-the-case-of-inattentional-blindness",
+            "cc3": ""
         }, 
 
         {
@@ -136,7 +182,62 @@
             "iframe": "https://pubmed.ncbi.nlm.nih.gov/22440805/",
             "tags": ["learning", "gamification"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
-            "cc": ""
+            "cc4": "",
+            "cc3": ""
+        }, 
+
+        {
+            "id": "12",
+            "title": "Digital labour: an empty signifier?  Media, culture & society  Volume: 43  Issue: 2",
+            "course": "ETEC 511",
+            "author": "",
+            "resourcetypes": ["2"],
+            "readby": "2022-06-03",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "alt_resource": "",
+            "image": "../images/pexels-vlada-karpovich-4050312.jpeg",
+            "links": ["https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true"],
+            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
+            "tags": ["labour"],
+            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
+            "cc4": "",
+            "cc3": ""
+        }, 
+
+        {
+            "id": "12-2",
+            "title": "Digital Labour",
+            "course": "ETEC 511",
+            "author": "P2P Foundation",
+            "resourcetypes": ["3"],
+            "readby": "2022-06-03",
+            "description": "This P2P Wiki article shares definitions, descriptions, general concepts, and related resources about digital labour.",
+            "alt_resource": "",
+            "image": "../images/pexels-pixabay-99576.jpeg",
+            "links": ["https://wiki.p2pfoundation.net/Digital_Labor"],
+            "iframe": "https://wiki.p2pfoundation.net/Digital_Labor",
+            "tags": ["labour"],
+            "apa_reference": "P2P Foundation (2017). <em>Digital labour.</em>. https://wiki.p2pfoundation.net/Digital_Labor", 
+            "cc4": "",
+            "cc3": "https://wiki.p2pfoundation.net/Digital_Labor"
+        }, 
+
+        {
+            "id": "12-3",
+            "title": "Reconsidering digital labour: Bringing tech workers into the debate",
+            "course": "ETEC 511",
+            "author": "Dorschel, R.",
+            "resourcetypes": ["3"],
+            "readby": "2022-06-03",
+            "description": "",
+            "alt_resource": "",
+            "image": "../images/pexels-andrea-piacquadio-3760811.jpeg",
+            "links": ["https://onlinelibrary.wiley.com/doi/10.1111/ntwe.12225"],
+            "iframe": "https://drive.google.com/file/d/1xYH98Tx_etupn4xtR2gl9VPYPcoOXO7L/preview",
+            "tags": ["labour"],
+            "apa_reference": "Dorschel, R. (2022). <em>Reconsidering digital labour: Bringing tech workers into the debate.</em> New Technology, Work and Employment. Retrieved from: https://onlinelibrary.wiley.com/doi/epdf/10.1111/ntwe.12225", 
+            "cc4": "https://onlinelibrary.wiley.com/doi/10.1111/ntwe.12225",
+            "cc3": ""
         }, 
 
         {
@@ -153,7 +254,8 @@
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["cloud", "sustainability"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
-            "cc": ""
+            "cc4": "",
+            "cc3": ""
         },  
 
 
@@ -171,7 +273,8 @@
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["pedagogy", "media"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
-            "cc": ""
+            "cc4": "",
+            "cc3": ""
         }, 
 
 
@@ -189,7 +292,8 @@
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["pedagogy"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
-            "cc": ""
+            "cc4": "",
+            "cc3": ""
         }, 
 
 
@@ -207,7 +311,8 @@
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["ecology", "attention"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
-            "cc": ""
+            "cc4": "",
+            "cc3": ""
         }, 
 
 
@@ -225,7 +330,8 @@
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["ecology", "attention"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
-            "cc": ""
+            "cc4": "",
+            "cc3": ""
         }, 
 
 
@@ -243,26 +349,12 @@
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["health", "wellness"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
-            "cc": ""
+            "cc4": "",
+            "cc3": ""
         }, 
 
 
-        {
-            "id": "12",
-            "title": "Digital labour: an empty signifier?  Media, culture & society  Volume: 43  Issue: 2`",
-            "course": "ETEC 511",
-            "author": "",
-            "resourcetypes": ["2"],
-            "readby": "2022-06-03",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "alt_resource": "",
-            "image": "../images/bookrow-colour.png",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
-            "tags": ["labour"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
-            "cc": ""
-        }, 
+
 
         {
             "id": "14",
@@ -278,7 +370,8 @@
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["inequaility"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
-            "cc": ""
+            "cc4": "",
+            "cc3": ""
         }, 
 
 
@@ -296,7 +389,8 @@
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["inequality", "highered"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
-            "cc": ""
+            "cc4": "",
+            "cc3": ""
         }, 
 
 
@@ -314,7 +408,8 @@
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["health", "wellness"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
-            "cc": ""
+            "cc4": "",
+            "cc3": ""
         }, 
 
 
@@ -332,7 +427,8 @@
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["culture", "media"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
-            "cc": ""
+            "cc4": "",
+            "cc3": ""
         }, 
 
 
@@ -350,7 +446,8 @@
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["bias", "inequality"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
-            "cc": ""
+            "cc4": "",
+            "cc3": ""
         }, 
 
 
@@ -368,7 +465,8 @@
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["higher education"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
-            "cc": ""
+            "cc4": "",
+            "cc3": ""
         }, 
 
 
@@ -386,7 +484,8 @@
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["technology", "sustainability"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
-            "cc": ""
+            "cc4": "",
+            "cc3": ""
         }, 
 
 
@@ -404,7 +503,8 @@
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["technology"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
-            "cc": ""
+            "cc4": "",
+            "cc3": ""
         }, 
 
 
@@ -422,7 +522,8 @@
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["usability", "sustainability"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
-            "cc": ""
+            "cc4": "",
+            "cc3": ""
         },
 
 
@@ -440,7 +541,8 @@
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["usability", "research design"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
-            "cc": ""
+            "cc4": "",
+            "cc3": ""
         }
 
     ]
