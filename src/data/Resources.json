@@ -132,6 +132,60 @@
         }, 
 
         {
+            "id": "12",
+            "title": "Digital labour: an empty signifier?  Media, culture & society  Volume: 43  Issue: 2",
+            "course": "ETEC 511",
+            "author": "",
+            "resourcetypes": ["2"],
+            "readby": "2022-06-03",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "alt_resource": "",
+            "image": "../images/pexels-vlada-karpovich-4050312.jpeg",
+            "links": ["https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true"],
+            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
+            "tags": ["labour"],
+            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
+            "cc4": "",
+            "cc3": ""
+        }, 
+
+        {
+            "id": "12-2",
+            "title": "Digital Labour",
+            "course": "ETEC 511",
+            "author": "P2P Foundation",
+            "resourcetypes": ["3"],
+            "readby": "2022-06-03",
+            "description": "This P2P Wiki article shares definitions, descriptions, general concepts, and related resources about digital labour.",
+            "alt_resource": "",
+            "image": "../images/pexels-pixabay-99576.jpeg",
+            "links": ["https://wiki.p2pfoundation.net/Digital_Labor"],
+            "iframe": "https://wiki.p2pfoundation.net/Digital_Labor",
+            "tags": ["labour"],
+            "apa_reference": "P2P Foundation (2017). <em>Digital labour.</em>. https://wiki.p2pfoundation.net/Digital_Labor", 
+            "cc4": "",
+            "cc3": "https://wiki.p2pfoundation.net/Digital_Labor"
+        }, 
+
+        {
+            "id": "12-3",
+            "title": "Reconsidering digital labour: Bringing tech workers into the debate",
+            "course": "ETEC 511",
+            "author": "Dorschel, R.",
+            "resourcetypes": ["3"],
+            "readby": "2022-06-03",
+            "description": "",
+            "alt_resource": "",
+            "image": "../images/pexels-andrea-piacquadio-3760811.jpeg",
+            "links": ["https://onlinelibrary.wiley.com/doi/10.1111/ntwe.12225"],
+            "iframe": "https://drive.google.com/file/d/1xYH98Tx_etupn4xtR2gl9VPYPcoOXO7L/preview",
+            "tags": ["labour"],
+            "apa_reference": "Dorschel, R. (2022). <em>Reconsidering digital labour: Bringing tech workers into the debate.</em> New Technology, Work and Employment. Retrieved from: https://onlinelibrary.wiley.com/doi/epdf/10.1111/ntwe.12225", 
+            "cc4": "https://onlinelibrary.wiley.com/doi/10.1111/ntwe.12225",
+            "cc3": ""
+        }, 
+
+        {
             "id": "3",
             "title": "Conclusion, The Ecology of Attention",
             "course": "ETEC 511",
@@ -183,60 +237,6 @@
             "tags": ["learning", "gamification"],
             "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
             "cc4": "",
-            "cc3": ""
-        }, 
-
-        {
-            "id": "12",
-            "title": "Digital labour: an empty signifier?  Media, culture & society  Volume: 43  Issue: 2",
-            "course": "ETEC 511",
-            "author": "",
-            "resourcetypes": ["2"],
-            "readby": "2022-06-03",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "alt_resource": "",
-            "image": "../images/pexels-vlada-karpovich-4050312.jpeg",
-            "links": ["https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true"],
-            "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
-            "tags": ["labour"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
-            "cc4": "",
-            "cc3": ""
-        }, 
-
-        {
-            "id": "12-2",
-            "title": "Digital Labour",
-            "course": "ETEC 511",
-            "author": "P2P Foundation",
-            "resourcetypes": ["3"],
-            "readby": "2022-06-03",
-            "description": "This P2P Wiki article shares definitions, descriptions, general concepts, and related resources about digital labour.",
-            "alt_resource": "",
-            "image": "../images/pexels-pixabay-99576.jpeg",
-            "links": ["https://wiki.p2pfoundation.net/Digital_Labor"],
-            "iframe": "https://wiki.p2pfoundation.net/Digital_Labor",
-            "tags": ["labour"],
-            "apa_reference": "P2P Foundation (2017). <em>Digital labour.</em>. https://wiki.p2pfoundation.net/Digital_Labor", 
-            "cc4": "",
-            "cc3": "https://wiki.p2pfoundation.net/Digital_Labor"
-        }, 
-
-        {
-            "id": "12-3",
-            "title": "Reconsidering digital labour: Bringing tech workers into the debate",
-            "course": "ETEC 511",
-            "author": "Dorschel, R.",
-            "resourcetypes": ["3"],
-            "readby": "2022-06-03",
-            "description": "",
-            "alt_resource": "",
-            "image": "../images/pexels-andrea-piacquadio-3760811.jpeg",
-            "links": ["https://onlinelibrary.wiley.com/doi/10.1111/ntwe.12225"],
-            "iframe": "https://drive.google.com/file/d/1xYH98Tx_etupn4xtR2gl9VPYPcoOXO7L/preview",
-            "tags": ["labour"],
-            "apa_reference": "Dorschel, R. (2022). <em>Reconsidering digital labour: Bringing tech workers into the debate.</em> New Technology, Work and Employment. Retrieved from: https://onlinelibrary.wiley.com/doi/epdf/10.1111/ntwe.12225", 
-            "cc4": "https://onlinelibrary.wiley.com/doi/10.1111/ntwe.12225",
             "cc3": ""
         }, 
 
