@@ -42,7 +42,7 @@ const ResourceSectionCard = () => {
       `
     );
 
-    const [allDate, setAllData] = useState([]);
+    const [allData, setAllData] = useState([]);
     const [filteredData, setFilteredDate] = useState(allData);
     
     const handleSearch = (event) => {
@@ -50,6 +50,14 @@ const ResourceSectionCard = () => {
     }
 
     const resources = data.allDataJson.nodes[0].resources;
+
+    useEffect(() => {
+      console.log(resources)
+      setAllData(resources)
+      setFilteredDate(resources)
+    }, []);
+
+
     
     return (
       <React.Fragment>

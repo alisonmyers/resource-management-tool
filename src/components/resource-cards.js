@@ -67,7 +67,6 @@ class ResourceCards extends Component {
               </li>
             );
           });
-          console.log(taglist)
         }
 
         if (resources.cc4) {
