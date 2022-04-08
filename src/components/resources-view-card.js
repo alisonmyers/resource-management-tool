@@ -42,6 +42,9 @@ const ResourceSectionCard = () => {
       `
     );
 
+    const [allDate, setAllData] = useState([]);
+    const [filteredData, setFilteredDate] = useState(allData);
+
     const resources = data.allDataJson.nodes[0].resources;
     
     return (
