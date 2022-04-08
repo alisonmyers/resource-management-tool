@@ -64,6 +64,15 @@ const ResourceSectionCard = () => {
           }
 
           })
+      } else if (type =="tags") {
+
+        result = resources.filter((data) => {
+
+          if (data.tags) {
+            return data.tags.toString().toLowerCase().search(value) != -1;
+          }
+
+          })
       }
       
 ;
@@ -87,17 +96,25 @@ const ResourceSectionCard = () => {
     return (
       <React.Fragment>
 
-        <div class="pt-2 relative mx-auto">
+        <div class="grid grid-flow-col auto-cols-max gap-4">
+          <div class="pt-2">
 
 
-        <input class="border-3 border-gray bg-white h-10 px-5 pr-16 rounded-lg text-lg focus:outline-none" placeholder="Search titles" type="text" onChange={(event) =>handleSearch(event, "title")} />
+            <input class="border-3 border-gray bg-white h-10 px-5 pr-16 rounded-lg text-lg focus:outline-none" placeholder="Search titles" type="text" onChange={(event) =>handleSearch(event, "title")} />
 
-        </div>
+            </div>
 
-        <div class="pt-2 relative mx-auto">
+            <div class="pt-2">
 
 
-        <input cla  ss="border-3 border-gray bg-white h-10 px-5 pr-16 rounded-lg text-lg focus:outline-none" placeholder="Search authors" type="text" onChange={(event) =>handleSearch(event, "author")} />
+            <input class="border-3 border-gray bg-white h-10 px-5 pr-16 rounded-lg text-lg focus:outline-none" placeholder="Search authors" type="text" onChange={(event) =>handleSearch(event, "author")} />
+
+            </div>
+
+            <div class="pt-2">
+            <input class="border-3 border-gray bg-white h-10 px-5 pr-16 rounded-lg text-lg focus:outline-none" placeholder="Search tags" type="text" onChange={(event) =>handleSearch(event, "tags")} />
+
+            </div>
 
         </div>
 
