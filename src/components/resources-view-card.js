@@ -43,18 +43,29 @@ const ResourceSectionCard = () => {
     );
 
     const [allData, setAllData] = useState([]);
-    const [filteredData, setFilteredDate] = useState(allData);
+    const [filteredData, setFilteredData] = useState(allData);
     
     const handleSearch = (event) => {
+      let value = event.target.value.toLowerCase();
+      let result = [];
+      console.log(value);
+      
+      result = resources.filter((data) => {
+      return data.title.search(value) != -1;
+      });
 
+      console.log(result)
+      
+      setFilteredData(result);
     }
+      
 
     const resources = data.allDataJson.nodes[0].resources;
 
     useEffect(() => {
       console.log(resources)
       setAllData(resources)
-      setFilteredDate(resources)
+      setFilteredData(resources)
     }, []);
 
 
@@ -62,7 +73,10 @@ const ResourceSectionCard = () => {
     return (
       <React.Fragment>
 
-        <ResourceCards resourceData={resources}/>
+        <label>Search:</label>
+        <input type="text" onChange={(event) =>handleSearch(event)} />
+
+        <ResourceCards resourceData={filteredData}/>
 
       </React.Fragment>
  
