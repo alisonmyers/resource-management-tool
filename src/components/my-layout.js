@@ -39,26 +39,15 @@ const Layout = ({ pageTitle, children }) => {
           <h1 className="main-heading">{pageTitle}</h1>
 
          
-          <div className="grid grid-cols-2">
+         
 
             <div>
-                <StaticImage src="../images/search.png" alt="SearchBar"/>
-            </div>
-
-            <div>
-                <StaticImage src="../images/sort_by.png" alt="SortBy"/>
-            </div>
-
-            <div>
-              <h2>View as:</h2>
+              <h3>View as:</h3>
               <span><NavBar></NavBar></span>
             </div>
   
 
-        </div>
-          <div className="bg-white py-2">
-                <h2>ETEC 511</h2>
-          </div>
+
           {children}
         </main>
 
