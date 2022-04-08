@@ -69,8 +69,13 @@ class ResourceLists extends Component {
           console.log(taglist)
         }
 
-        if (resources.cc) {
-          var cc = CC()
+        if (resources.cc4) {
+          var cc = CC(4)
+        }
+
+
+        if (resources.cc3) {
+          var cc = CC(3)
         }
 
        
