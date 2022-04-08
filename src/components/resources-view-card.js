@@ -51,7 +51,7 @@ const ResourceSectionCard = () => {
       console.log(value);
       
       result = resources.filter((data) => {
-      return data.title.search(value) != -1;
+      return data.title.toLowerCase().search(value) != -1;
       });
 
       console.log(result)
