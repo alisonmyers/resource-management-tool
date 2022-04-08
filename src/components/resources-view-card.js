@@ -96,6 +96,8 @@ const ResourceSectionCard = () => {
     return (
       <React.Fragment>
 
+        <h3>Search:</h3>
+
         <div class="grid grid-flow-col auto-cols-max gap-4">
           <div class="pt-2">
 
