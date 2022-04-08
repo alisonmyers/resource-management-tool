@@ -45,14 +45,28 @@ const ResourceSectionCard = () => {
     const [allData, setAllData] = useState([]);
     const [filteredData, setFilteredData] = useState(allData);
     
-    const handleSearch = (event) => {
+    const handleSearch = (event, type) => {
       let value = event.target.value.toLowerCase();
       let result = [];
       console.log(value);
+
+      if (type=="title") {
+        result = resources.filter((data) => {
+          return data.title.toLowerCase().search(value) != -1;
+          })
+
+      } else if (type =="author") {
+
+        result = resources.filter((data) => {
+
+          if (data.author) {
+            return data.author.toLowerCase().search(value) != -1;
+          }
+
+          })
+      }
       
-      result = resources.filter((data) => {
-      return data.title.toLowerCase().search(value) != -1;
-      });
+;
 
       console.log(result)
       
@@ -73,8 +87,20 @@ const ResourceSectionCard = () => {
     return (
       <React.Fragment>
 
-        <label>Search:</label>
-        <input type="text" onChange={(event) =>handleSearch(event)} />
+        <div class="pt-2 relative mx-auto">
+
+
+        <input class="border-3 border-gray bg-white h-10 px-5 pr-16 rounded-lg text-lg focus:outline-none" placeholder="Search titles" type="text" onChange={(event) =>handleSearch(event, "title")} />
+
+        </div>
+
+        <div class="pt-2 relative mx-auto">
+
+
+        <input cla  ss="border-3 border-gray bg-white h-10 px-5 pr-16 rounded-lg text-lg focus:outline-none" placeholder="Search authors" type="text" onChange={(event) =>handleSearch(event, "author")} />
+
+        </div>
+
 
         <ResourceCards resourceData={filteredData}/>
 
