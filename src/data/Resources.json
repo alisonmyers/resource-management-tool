@@ -14,7 +14,7 @@
             "image": "../images/rick.png",
             "links": ["https://www.youtube.com/watch?v=dQw4w9WgXcQ"],
             "tags": ["watching", "rickrolling"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)",
+            "apa_reference": "Author, A. A. (Year of publication). Title of work: Capital letter also for subtitle.<em>Publisher Name</em>. DOI (if available)",
             "cc4": "",
             "cc3": ""
         }, 
@@ -123,7 +123,7 @@
             "description": "This article goes in-depth into interviews with 'social media professionals. The authors propose a <em>visibility paradox</em>: hidden behind a brand and/or social media platform of some prominence may be personal identity and labour performed to attain any media status.",
             "alt_resource": "",
             "image": "../images/pexels-tracy-le-blanc-607812.jpeg",
-            "links": ["https://www.jstor.org/stable/j.ctt1q31skt"],
+            "links": ["https://www.cogitatiopress.com/mediaandcommunication/article/view/4460"],
             "iframe": "https://drive.google.com/file/d/1eXau9FzZ3D7UnyBOhoaW0dgcMycViNUX/preview",
             "tags": ["labour", "inequality"],
             "apa_reference": "", 
@@ -138,13 +138,13 @@
             "author": "",
             "resourcetypes": ["2"],
             "readby": "2022-06-03",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "Appears in Module 7: Digital Labour. Rather than thinking about digital labour as just a category of work, it is more productive to evaluate how the “digital” has influenced and transformed the capital-labour relationship.",
             "alt_resource": "",
             "image": "../images/pexels-vlada-karpovich-4050312.jpeg",
             "links": ["https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true"],
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["labour"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
+            "apa_reference": "Author, A. A. (Year of publication). Title of work: Capital letter also for subtitle.<em>Publisher Name</em>. DOI (if available)", 
             "cc4": "",
             "cc3": ""
         }, 
@@ -162,7 +162,7 @@
             "links": ["https://wiki.p2pfoundation.net/Digital_Labor"],
             "iframe": "https://wiki.p2pfoundation.net/Digital_Labor",
             "tags": ["labour"],
-            "apa_reference": "P2P Foundation (2017). <em>Digital labour.</em>. https://wiki.p2pfoundation.net/Digital_Labor", 
+            "apa_reference": "P2P Foundation (2017). Digital labour. https://wiki.p2pfoundation.net/Digital_Labor", 
             "cc4": "",
             "cc3": "https://wiki.p2pfoundation.net/Digital_Labor"
         }, 
@@ -198,7 +198,7 @@
             "links": ["https://web.s.ebscohost.com/ehost/detail/detail?vid=0&sid=adc7c926-5c96-47a9-baff-e17417178530%40redis&bdata=JkF1dGhUeXBlPXNoaWImc2l0ZT1laG9zdC1saXZlJnNjb3BlPXNpdGU%3d#AN=1453389&db=nlebk"],
             "iframe": "https://web.s.ebscohost.com/ehost/detail/detail?vid=0&sid=adc7c926-5c96-47a9-baff-e17417178530%40redis&bdata=JkF1dGhUeXBlPXNoaWImc2l0ZT1laG9zdC1saXZlJnNjb3BlPXNpdGU%3d#AN=1453389&db=nlebk",
             "tags": ["attention", "technology"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
+            "apa_reference": "Author, A. A. (Year of publication). Title of work: Capital letter also for subtitle.<em>Publisher Name</em>. DOI (if available)", 
             "cc4": "",
             "cc3": ""
         }, 
@@ -217,7 +217,7 @@
             "links": ["https://nobaproject.com/modules/failures-of-awareness-the-case-of-inattentional-blindness"],
             "iframe": "https://drive.google.com/file/d/1x9_WRwelgTpb72_XAhziehLoSmaKq1O9/preview",
             "tags": ["attention", "technology"],
-            "apa_reference": "Original: Simons, D. (2022). <em>Failures of awareness: The case of Inattentional blindness.</em> Noba. https://noba.to/cemagjuw", 
+            "apa_reference": "Original: Simons, D. (2022). Failures of awareness: The case of Inattentional blindness.<em>Noba</em>. https://noba.to/cemagjuw", 
             "cc4": "https://nobaproject.com/modules/failures-of-awareness-the-case-of-inattentional-blindness",
             "cc3": ""
         }, 
@@ -235,7 +235,7 @@
             "links": ["https://pubmed.ncbi.nlm.nih.gov/22440805/"],
             "iframe": "https://pubmed.ncbi.nlm.nih.gov/22440805/",
             "tags": ["learning", "gamification"],
-            "apa_reference": "Green, C. S., & Bavelier, D. (2012). <em>Learning, attentional control, and action video games.</em> Current biology : CB, 22(6), R197–R206. https://doi.org/10.1016/j.cub.2012.02.012", 
+            "apa_reference": "Green, C. S., & Bavelier, D. (2012). Learning, attentional control, and action video games.<em>Current biology : CB, 22(6), R197–R206</em>. https://doi.org/10.1016/j.cub.2012.02.012", 
             "cc4": "",
             "cc3": ""
         }, 
@@ -253,7 +253,7 @@
             "links": ["https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true"],
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["cloud", "sustainability"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
+            "apa_reference": "Author, A. A. (Year of publication). Title of work: Capital letter also for subtitle.<em>Publisher Name</em>. DOI (if available)", 
             "cc4": "",
             "cc3": ""
         },  
@@ -272,7 +272,7 @@
             "links": ["https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true"],
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["pedagogy", "media"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
+            "apa_reference": "Author, A. A. (Year of publication). Title of work: Capital letter also for subtitle.<em>Publisher Name</em>. DOI (if available)", 
             "cc4": "",
             "cc3": ""
         }, 
@@ -291,7 +291,7 @@
             "links": ["https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true"],
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["pedagogy"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
+            "apa_reference": "Author, A. A. (Year of publication). Title of work: Capital letter also for subtitle.<em>Publisher Name</em>. DOI (if available)", 
             "cc4": "",
             "cc3": ""
         }, 
@@ -310,7 +310,7 @@
             "links": ["https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true"],
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["ecology", "attention"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
+            "apa_reference": "Author, A. A. (Year of publication). Title of work: Capital letter also for subtitle.<em>Publisher Name</em>. DOI (if available)", 
             "cc4": "",
             "cc3": ""
         }, 
@@ -329,7 +329,7 @@
             "links": ["https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true"],
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["ecology", "attention"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
+            "apa_reference": "Author, A. A. (Year of publication). Title of work: Capital letter also for subtitle.<em>Publisher Name</em>. DOI (if available)", 
             "cc4": "",
             "cc3": ""
         }, 
@@ -348,7 +348,7 @@
             "links": ["https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true"],
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["health", "wellness"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
+            "apa_reference": "Author, A. A. (Year of publication). Title of work: Capital letter also for subtitle.<em>Publisher Name</em>. DOI (if available)", 
             "cc4": "",
             "cc3": ""
         }, 
@@ -369,7 +369,7 @@
             "links": ["https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true"],
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["inequaility"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
+            "apa_reference": "Author, A. A. (Year of publication). Title of work: Capital letter also for subtitle.<em>Publisher Name</em>. DOI (if available)", 
             "cc4": "",
             "cc3": ""
         }, 
@@ -388,7 +388,7 @@
             "links": ["https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true"],
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["inequality", "highered"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
+            "apa_reference": "Author, A. A. (Year of publication). Title of work: Capital letter also for subtitle.<em>Publisher Name</em>. DOI (if available)", 
             "cc4": "",
             "cc3": ""
         }, 
@@ -407,7 +407,7 @@
             "links": ["https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true"],
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["health", "wellness"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
+            "apa_reference": "Author, A. A. (Year of publication). Title of work: Capital letter also for subtitle.<em>Publisher Name</em>. DOI (if available)", 
             "cc4": "",
             "cc3": ""
         }, 
@@ -426,7 +426,7 @@
             "links": ["https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true"],
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["culture", "media"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
+            "apa_reference": "Author, A. A. (Year of publication). Title of work: Capital letter also for subtitle.<em>Publisher Name</em>. DOI (if available)", 
             "cc4": "",
             "cc3": ""
         }, 
@@ -445,7 +445,7 @@
             "links": ["https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true"],
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["bias", "inequality"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
+            "apa_reference": "Author, A. A. (Year of publication). Title of work: Capital letter also for subtitle.<em>Publisher Name</em>. DOI (if available)", 
             "cc4": "",
             "cc3": ""
         }, 
@@ -464,7 +464,7 @@
             "links": ["https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true"],
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["higher education"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
+            "apa_reference": "Author, A. A. (Year of publication). Title of work: Capital letter also for subtitle.<em>Publisher Name</em>. DOI (if available)", 
             "cc4": "",
             "cc3": ""
         }, 
@@ -483,7 +483,7 @@
             "links": ["https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true"],
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["technology", "sustainability"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
+            "apa_reference": "Author, A. A. (Year of publication). Title of work: Capital letter also for subtitle.<em>Publisher Name</em>. DOI (if available)", 
             "cc4": "",
             "cc3": ""
         }, 
@@ -502,7 +502,7 @@
             "links": ["https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true"],
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["technology"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
+            "apa_reference": "Author, A. A. (Year of publication). Title of work: Capital letter also for subtitle.<em>Publisher Name</em>. DOI (if available)", 
             "cc4": "",
             "cc3": ""
         }, 
@@ -521,7 +521,7 @@
             "links": ["https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true"],
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["usability", "sustainability"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
+            "apa_reference": "Author, A. A. (Year of publication). Title of work: Capital letter also for subtitle.<em>Publisher Name</em>. DOI (if available)", 
             "cc4": "",
             "cc3": ""
         },
@@ -540,7 +540,7 @@
             "links": ["https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true"],
             "iframe": "https://docs.google.com/document/d/e/2PACX-1vSWXT1tuDhXmd618QqCwlIW7xhUqooROf4R2ve83y8tQ6oMX8_h_UDEls1tr6AS9txr_3NSq1lnF-Iv/pub?embedded=true",
             "tags": ["usability", "research design"],
-            "apa_reference": "Author, A. A. (Year of publication). <em>Title of work: Capital letter also for subtitle.</em> Publisher Name. DOI (if available)", 
+            "apa_reference": "Author, A. A. (Year of publication). Title of work: Capital letter also for subtitle.<em>Publisher Name</em>. DOI (if available)", 
             "cc4": "",
             "cc3": ""
         }
